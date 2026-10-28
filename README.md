@@ -4,9 +4,19 @@ Mở `index.html` bằng trình duyệt là chạy (không cần build, không c
 
 ## Cấu trúc
 - `index.html`      khung giao diện
-- `css/style.css`   giao diện iPhone
+- `css/style.css`   giao diện toàn màn hình (co giãn theo điện thoại / iPad / desktop)
 - `js/data.js`      **PORTAL_DATA** – toàn bộ ứng dụng / thư mục / bố cục (sửa ở đây)
 - `js/app.js`       logic (vuốt trang, thư mục, tìm kiếm, tải icon)
+- `manifest.webmanifest`, `icon.svg`  cài như app để chạy fullscreen
+
+## Toàn màn hình kiểu iPad
+Giao diện phủ kín cửa sổ trình duyệt, không còn khung điện thoại giả:
+
+- Điện thoại: 4 cột · iPad dọc: 6 cột · iPad ngang / desktop: 7–8 cột.
+- Icon, dock, chữ tự co giãn theo kích thước màn hình.
+- Hỗ trợ `safe-area-inset` cho tai thỏ và thanh home.
+- Trên iPad/iPhone: mở bằng Safari → **Chia sẻ → Thêm vào MH chính** để chạy
+  toàn màn hình không có thanh địa chỉ (manifest đặt `display: fullscreen`).
 
 ## Thêm một ứng dụng
 1. Trong `apps`: `myapp: ["Tên", "https://myapp.com"],`
