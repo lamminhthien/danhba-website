@@ -122,7 +122,7 @@
      Số ô mỗi trang được tính theo màn hình thật (đo chiều cao 1 hàng icon × số
      cột đang dùng) nên lưới lấp đầy chiều cao, không dừng ở 2 hàng như trước. */
   const pager = $("#pager"), dots = $("#dots"), host = $("#screen");
-    const MODE_IDS = [APP_MODES.ALL, APP_MODES.WORK, APP_MODES.SHOPPING, APP_MODES.ENTERTAINMENT];
+    const MODE_IDS = [APP_MODES.ALL, APP_MODES.WORK, APP_MODES.SHOPPING, APP_MODES.ENTERTAINMENT, APP_MODES.GAMES];
   function appIdsForMode(mode) {
       if (mode === APP_MODES.ALL) return Object.keys(D.apps);
     return Object.keys(D.apps).filter(id => D.apps[id][2]?.mode === mode);

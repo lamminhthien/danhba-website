@@ -1,6 +1,10 @@
-# WebPhone – cổng ứng dụng web kiểu iPhone
+# Web Directory – cổng ứng dụng web kiểu iPhone
 
 Mở `index.html` bằng trình duyệt là chạy (không cần build, không cần server).
+Mở `index.html` bằng trình duyệt là chạy (không cần build, không cần server). Để
+cài PWA và dùng ngoại tuyến, cần mở qua HTTPS hoặc `localhost`.
+- `manifest.webmanifest`, các kích thước `icon-*`, `apple-touch-icon.png`,
+  `service-worker.js`  cài như app, chạy fullscreen và lưu giao diện ngoại tuyến
 
 ## Cấu trúc
 - `index.html`      khung giao diện
@@ -20,6 +24,8 @@ Giao diện phủ kín cửa sổ trình duyệt, không còn khung điện tho�
 - Hỗ trợ `safe-area-inset` cho tai thỏ và thanh home.
 - Trên iPad/iPhone: mở bằng Safari → **Chia sẻ → Thêm vào MH chính** để chạy
   toàn màn hình không có thanh địa chỉ (manifest đặt `display: fullscreen`).
+  Khi phát triển trên máy tính, chạy `python3 -m http.server 8000` rồi mở
+  `http://localhost:8000`; khi triển khai, dùng HTTPS để service worker hoạt động.
 
 ## Thêm một ứng dụng
 1. Trong `apps`: `myapp: ["Tên", "https://myapp.com"],`

@@ -6,7 +6,7 @@
                       slug  = tên icon trên simpleicons.org (dự phòng)
                       bg    = màu nền ô icon (mặc định trắng)
                fit   = "cover" để ảnh lấp đầy ô icon
-               mode  = "work", "shopping" hoặc "entertainment"
+               mode  = "work", "shopping", "entertainment" hoặc "games"
    folders: id -> { name, apps: [id, ...] }
    layout:  dock + pages. Mỗi mục là "app:<id>" hoặc "folder:<id>"
    iconProviders: thứ tự thử lấy icon thật. {url} {domain} {slug}
@@ -15,7 +15,8 @@ const APP_MODES = Object.freeze({
   ALL: "all",
   WORK: "work",
   SHOPPING: "shopping",
-  ENTERTAINMENT: "entertainment"
+  ENTERTAINMENT: "entertainment",
+  GAMES: "games"
 });
 
 const PORTAL_DATA = {
@@ -76,7 +77,7 @@ const PORTAL_DATA = {
     bing: ["Bing", "https://www.bing.com", { mode: APP_MODES.WORK }],
     copilot: ["Copilot", "https://copilot.microsoft.com", { mode: APP_MODES.WORK }],
     azure: ["Azure", "https://portal.azure.com", { mode: APP_MODES.WORK }],
-    xboxcloud: ["Xbox Cloud", "https://www.xbox.com/play", { mode: APP_MODES.ENTERTAINMENT }],
+    xboxcloud: ["Xbox Cloud", "https://www.xbox.com/play", { mode: APP_MODES.GAMES }],
 
     /* ---------- Meta ---------- */
     facebook: ["Facebook", "https://www.facebook.com", { mode: APP_MODES.ENTERTAINMENT }],
@@ -118,17 +119,17 @@ const PORTAL_DATA = {
 
     /* ---------- Ứng dụng phổ biến tại Việt Nam ---------- */
     capcut: ["CapCut", "https://www.capcut.com", { mode: APP_MODES.WORK }],
-    meitu: ["Meitu", "https://www.meitu.com", { mode: APP_MODES.WORK }],
+    meitu: ["Meitu", "https://www.meituxiuxiu.com", { mode: APP_MODES.WORK }],
     locket: ["Locket Widget", "https://locket.camera", { mode: APP_MODES.ENTERTAINMENT }],
-    weplay: ["WePlay", "https://weplayapp.com", { mode: APP_MODES.ENTERTAINMENT }],
+    weplay: ["WePlay", "https://weplayapp.com", { mode: APP_MODES.GAMES }],
     tinder: ["Tinder", "https://tinder.com", { mode: APP_MODES.ENTERTAINMENT }],
     vieon: ["VieON", "https://vieon.vn", { mode: APP_MODES.ENTERTAINMENT }],
     fptplay: ["FPT Play", "https://fptplay.vn", { mode: APP_MODES.ENTERTAINMENT }],
     tv360: ["TV360", "https://tv360.vn", { mode: APP_MODES.ENTERTAINMENT }],
     vtvgo: ["VTVgo", "https://vtvgo.vn", { mode: APP_MODES.ENTERTAINMENT }],
-    hypic: ["Hypic", "https://hypic.com", { mode: APP_MODES.WORK }],
+    hypic: ["Hypic", "https://hypic.capcut.com", { mode: APP_MODES.WORK }],
     bandlab: ["BandLab", "https://www.bandlab.com", { mode: APP_MODES.WORK }],
-    wink: ["Wink", "https://wink.video", { mode: APP_MODES.WORK }],
+    wink: ["Wink", "https://wink.ai", { mode: APP_MODES.WORK }],
     picsart: ["Picsart", "https://picsart.com", { mode: APP_MODES.WORK }],
     camscanner: ["CamScanner", "https://www.camscanner.com", { mode: APP_MODES.WORK }],
     duolingo: ["Duolingo", "https://www.duolingo.com", { mode: APP_MODES.WORK }],
@@ -136,7 +137,7 @@ const PORTAL_DATA = {
     dazz: ["Dazz Cam", "https://dazz.cam", { mode: APP_MODES.WORK }],
     b612: ["B612", "https://b612.snow.me", { mode: APP_MODES.WORK }],
     snapedit: ["SnapEdit", "https://snapedit.app", { mode: APP_MODES.WORK }],
-    epik: ["EPIK", "https://epik.com", { mode: APP_MODES.WORK }],
+    epik: ["EPIK", "https://epik.snow.me", { mode: APP_MODES.WORK }],
 
     /* ---------- Tin tức ---------- */
     vnexpress: ["VnExpress", "https://vnexpress.net", { mode: APP_MODES.ENTERTAINMENT }],
@@ -194,44 +195,44 @@ const PORTAL_DATA = {
     postman: ["Postman", "https://web.postman.co", { mode: APP_MODES.WORK }],
 
     /* ---------- Game: trò chơi web ---------- */
-    minecraft: ["Minecraft Classic", "https://classic.minecraft.net", { mode: APP_MODES.ENTERTAINMENT }],
-    krunker: ["Krunker", "https://krunker.io", { mode: APP_MODES.ENTERTAINMENT }],
-    slither: ["Slither.io", "https://slither.io", { mode: APP_MODES.ENTERTAINMENT }],
-    agar: ["Agar.io", "https://agar.io", { mode: APP_MODES.ENTERTAINMENT }],
-    shellshock: ["Shell Shockers", "https://shellshock.io", { mode: APP_MODES.ENTERTAINMENT }],
-    skribbl: ["Skribbl", "https://skribbl.io", { mode: APP_MODES.ENTERTAINMENT }],
-    game2048: ["2048", "https://play2048.co", { mode: APP_MODES.ENTERTAINMENT }],
-    wordle: ["Wordle", "https://www.nytimes.com/games/wordle/index.html", { mode: APP_MODES.ENTERTAINMENT }],
-    cookie: ["Cookie Clicker", "https://orteil.dashnet.org/cookieclicker/", { mode: APP_MODES.ENTERTAINMENT }],
-    tetris: ["Tetris", "https://tetris.com/play-tetris", { mode: APP_MODES.ENTERTAINMENT }],
-    alchemy: ["Little Alchemy 2", "https://littlealchemy2.com", { mode: APP_MODES.ENTERTAINMENT }],
-    geoguessr: ["GeoGuessr", "https://www.geoguessr.com", { mode: APP_MODES.ENTERTAINMENT }],
-    lichess: ["Lichess", "https://lichess.org", { mode: APP_MODES.ENTERTAINMENT }],
-    chesscom: ["Chess.com", "https://www.chess.com", { mode: APP_MODES.ENTERTAINMENT }],
-    dino: ["Chrome Dino", "https://chromedino.com", { mode: APP_MODES.ENTERTAINMENT }],
-    geforce: ["GeForce NOW", "https://play.geforcenow.com", { mode: APP_MODES.ENTERTAINMENT }],
+    minecraft: ["Minecraft Classic", "https://classic.minecraft.net", { mode: APP_MODES.GAMES }],
+    krunker: ["Krunker", "https://krunker.io", { mode: APP_MODES.GAMES }],
+    slither: ["Slither.io", "https://slither.io", { mode: APP_MODES.GAMES }],
+    agar: ["Agar.io", "https://agar.io", { mode: APP_MODES.GAMES }],
+    shellshock: ["Shell Shockers", "https://shellshock.io", { mode: APP_MODES.GAMES }],
+    skribbl: ["Skribbl", "https://skribbl.io", { mode: APP_MODES.GAMES }],
+    game2048: ["2048", "https://play2048.co", { mode: APP_MODES.GAMES }],
+    wordle: ["Wordle", "https://www.nytimes.com/games/wordle/index.html", { mode: APP_MODES.GAMES }],
+    cookie: ["Cookie Clicker", "https://orteil.dashnet.org/cookieclicker/", { mode: APP_MODES.GAMES }],
+    tetris: ["Tetris", "https://tetris.com/play-tetris", { mode: APP_MODES.GAMES }],
+    alchemy: ["Little Alchemy 2", "https://littlealchemy2.com", { mode: APP_MODES.GAMES }],
+    geoguessr: ["GeoGuessr", "https://www.geoguessr.com", { mode: APP_MODES.GAMES }],
+    lichess: ["Lichess", "https://lichess.org", { mode: APP_MODES.GAMES }],
+    chesscom: ["Chess.com", "https://www.chess.com", { mode: APP_MODES.GAMES }],
+    dino: ["Chrome Dino", "https://chromedino.com", { mode: APP_MODES.GAMES }],
+    geforce: ["GeForce NOW", "https://play.geforcenow.com", { mode: APP_MODES.GAMES }],
 
     /* ---------- Game: cổng game (nhiều trò) ---------- */
-    poki: ["Poki", "https://poki.com", { mode: APP_MODES.ENTERTAINMENT }],
-    crazygames: ["CrazyGames", "https://www.crazygames.com", { mode: APP_MODES.ENTERTAINMENT }],
-    y8: ["Y8", "https://www.y8.com", { mode: APP_MODES.ENTERTAINMENT }],
-    miniclip: ["Miniclip", "https://www.miniclip.com/games/en/", { mode: APP_MODES.ENTERTAINMENT }],
-    coolmath: ["Coolmath Games", "https://www.coolmathgames.com", { mode: APP_MODES.ENTERTAINMENT }],
-    newgrounds: ["Newgrounds", "https://www.newgrounds.com/games", { mode: APP_MODES.ENTERTAINMENT }],
-    kongregate: ["Kongregate", "https://www.kongregate.com", { mode: APP_MODES.ENTERTAINMENT }],
-    armorgames: ["Armor Games", "https://armorgames.com", { mode: APP_MODES.ENTERTAINMENT }],
-    itch: ["itch.io Web", "https://itch.io/games/html5", { mode: APP_MODES.ENTERTAINMENT }],
-    gamedistribution: ["GameDistribution", "https://gamedistribution.com", { mode: APP_MODES.ENTERTAINMENT }],
+    poki: ["Poki", "https://poki.com", { mode: APP_MODES.GAMES }],
+    crazygames: ["CrazyGames", "https://www.crazygames.com", { mode: APP_MODES.GAMES }],
+    y8: ["Y8", "https://www.y8.com", { mode: APP_MODES.GAMES }],
+    miniclip: ["Miniclip", "https://www.miniclip.com/games/en/", { mode: APP_MODES.GAMES }],
+    coolmath: ["Coolmath Games", "https://www.coolmathgames.com", { mode: APP_MODES.GAMES }],
+    newgrounds: ["Newgrounds", "https://www.newgrounds.com/games", { mode: APP_MODES.GAMES }],
+    kongregate: ["Kongregate", "https://www.kongregate.com", { mode: APP_MODES.GAMES }],
+    armorgames: ["Armor Games", "https://armorgames.com", { mode: APP_MODES.GAMES }],
+    itch: ["itch.io Web", "https://itch.io/games/html5", { mode: APP_MODES.GAMES }],
+    gamedistribution: ["GameDistribution", "https://gamedistribution.com", { mode: APP_MODES.GAMES }],
 
     /* ---------- Game: Flash (chạy bằng Ruffle) & WebGL ---------- */
-    ruffle: ["Ruffle (Flash)", "https://ruffle.rs/demo/", { mode: APP_MODES.ENTERTAINMENT }],
-    flashpoint: ["Flashpoint", "https://flashpointproject.github.io/", { mode: APP_MODES.ENTERTAINMENT }],
-    hexgl: ["HexGL", "https://hexgl.bkcore.com/play/", { mode: APP_MODES.ENTERTAINMENT }],
-    aquarium: ["WebGL Aquarium", "https://webglsamples.org/aquarium/aquarium.html", { mode: APP_MODES.ENTERTAINMENT }],
-    threejs: ["Three.js", "https://threejs.org/examples/", { mode: APP_MODES.ENTERTAINMENT }],
-    chromeexp: ["Chrome Experiments", "https://experiments.withgoogle.com", { mode: APP_MODES.ENTERTAINMENT }],
-    voxiom: ["Voxiom", "https://voxiom.io", { mode: APP_MODES.ENTERTAINMENT }],
-    zombs: ["ZOMBS.io", "https://zombs.io", { mode: APP_MODES.ENTERTAINMENT }]
+    ruffle: ["Ruffle (Flash)", "https://ruffle.rs/demo/", { mode: APP_MODES.GAMES }],
+    flashpoint: ["Flashpoint", "https://flashpointproject.github.io/", { mode: APP_MODES.GAMES }],
+    hexgl: ["HexGL", "https://hexgl.bkcore.com/play/", { mode: APP_MODES.GAMES }],
+    aquarium: ["WebGL Aquarium", "https://webglsamples.org/aquarium/aquarium.html", { mode: APP_MODES.GAMES }],
+    threejs: ["Three.js", "https://threejs.org/examples/", { mode: APP_MODES.GAMES }],
+    chromeexp: ["Chrome Experiments", "https://experiments.withgoogle.com", { mode: APP_MODES.GAMES }],
+    voxiom: ["Voxiom", "https://voxiom.io", { mode: APP_MODES.GAMES }],
+    zombs: ["ZOMBS.io", "https://zombs.io", { mode: APP_MODES.GAMES }]
   },
 
   folders: {
