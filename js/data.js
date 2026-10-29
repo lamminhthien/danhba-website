@@ -6,7 +6,7 @@
                       slug  = tên icon trên simpleicons.org (dự phòng)
                       bg    = màu nền ô icon (mặc định trắng)
                fit   = "cover" để ảnh lấp đầy ô icon
-               mode  = "work" hoặc "entertainment"
+               mode  = "work", "shopping" hoặc "entertainment"
    folders: id -> { name, apps: [id, ...] }
    layout:  dock + pages. Mỗi mục là "app:<id>" hoặc "folder:<id>"
    iconProviders: thứ tự thử lấy icon thật. {url} {domain} {slug}
@@ -14,6 +14,7 @@
 const APP_MODES = Object.freeze({
   ALL: "all",
   WORK: "work",
+  SHOPPING: "shopping",
   ENTERTAINMENT: "entertainment"
 });
 
@@ -80,11 +81,11 @@ const PORTAL_DATA = {
     /* ---------- Meta ---------- */
     facebook: ["Facebook", "https://www.facebook.com", { mode: APP_MODES.ENTERTAINMENT }],
     fbwatch: ["FB Watch", "https://www.facebook.com/watch", { mode: APP_MODES.ENTERTAINMENT }],
-    fbmarket: ["Marketplace", "https://www.facebook.com/marketplace", { mode: APP_MODES.WORK }],
+    fbmarket: ["Marketplace", "https://www.facebook.com/marketplace", { mode: APP_MODES.SHOPPING }],
     fbnews: ["FB Tin tức", "https://www.facebook.com/news", { mode: APP_MODES.ENTERTAINMENT }],
-    messenger: ["Messenger", "https://www.messenger.com", { mode: APP_MODES.ENTERTAINMENT }],
+    messenger: ["Messenger", "https://www.messenger.com", { mode: APP_MODES.WORK }],
     instagram: ["Instagram", "https://www.instagram.com", { mode: APP_MODES.ENTERTAINMENT }],
-    whatsapp: ["WhatsApp", "https://web.whatsapp.com", { mode: APP_MODES.ENTERTAINMENT }],
+    whatsapp: ["WhatsApp", "https://web.whatsapp.com", { mode: APP_MODES.WORK }],
     threads: ["Threads", "https://www.threads.com", { mode: APP_MODES.ENTERTAINMENT }],
     metaai: ["Meta AI", "https://www.meta.ai", { mode: APP_MODES.WORK }],
 
@@ -93,11 +94,11 @@ const PORTAL_DATA = {
     x: ["X", "https://x.com", { mode: APP_MODES.ENTERTAINMENT }],
     reddit: ["Reddit", "https://www.reddit.com", { mode: APP_MODES.ENTERTAINMENT }],
     pinterest: ["Pinterest", "https://www.pinterest.com", { mode: APP_MODES.ENTERTAINMENT }],
-    linkedin: ["LinkedIn", "https://www.linkedin.com", { mode: APP_MODES.ENTERTAINMENT }],
+    linkedin: ["LinkedIn", "https://www.linkedin.com", { mode: APP_MODES.WORK }],
     snapchat: ["Snapchat", "https://www.snapchat.com", { mode: APP_MODES.ENTERTAINMENT }],
-    telegram: ["Telegram", "https://web.telegram.org", { mode: APP_MODES.ENTERTAINMENT }],
-    discord: ["Discord", "https://discord.com/app", { mode: APP_MODES.ENTERTAINMENT }],
-    zalo: ["Zalo", "https://chat.zalo.me", { mode: APP_MODES.ENTERTAINMENT }],
+    telegram: ["Telegram", "https://web.telegram.org", { mode: APP_MODES.WORK }],
+    discord: ["Discord", "https://discord.com/app", { mode: APP_MODES.WORK }],
+    zalo: ["Zalo", "https://chat.zalo.me", { mode: APP_MODES.WORK }],
     tumblr: ["Tumblr", "https://www.tumblr.com", { mode: APP_MODES.ENTERTAINMENT }],
 
     /* ---------- Giải trí ---------- */
@@ -120,10 +121,10 @@ const PORTAL_DATA = {
     medium: ["Medium", "https://medium.com", { mode: APP_MODES.ENTERTAINMENT }],
 
     /* ---------- Mua sắm ---------- */
-    shopee: ["Shopee", "https://shopee.vn", { mode: APP_MODES.WORK }],
-    lazada: ["Lazada", "https://www.lazada.vn", { mode: APP_MODES.WORK }],
-    tiki: ["Tiki", "https://tiki.vn", { mode: APP_MODES.WORK }],
-    amazon: ["Amazon", "https://www.amazon.com", { mode: APP_MODES.WORK }],
+    shopee: ["Shopee", "https://shopee.vn", { mode: APP_MODES.SHOPPING }],
+    lazada: ["Lazada", "https://www.lazada.vn", { mode: APP_MODES.SHOPPING }],
+    tiki: ["Tiki", "https://tiki.vn", { mode: APP_MODES.SHOPPING }],
+    amazon: ["Amazon", "https://www.amazon.com", { mode: APP_MODES.SHOPPING }],
 
     /* ---------- AI ---------- */
     chatgpt: ["ChatGPT", "https://chatgpt.com", { mode: APP_MODES.WORK }],
