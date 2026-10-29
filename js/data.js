@@ -110,6 +110,11 @@ const PORTAL_DATA = {
     soundcloud: ["SoundCloud", "https://soundcloud.com", { mode: APP_MODES.ENTERTAINMENT }],
     zingmp3: ["Zing MP3", "https://zingmp3.vn", { mode: APP_MODES.ENTERTAINMENT }],
     bilibili: ["Bilibili", "https://www.bilibili.com", { mode: APP_MODES.ENTERTAINMENT }],
+    sctv: ["SCTV", "https://sctvonline.vn", { mode: APP_MODES.ENTERTAINMENT }],
+    kplus: ["K+", "https://www.kplus.vn", { mode: APP_MODES.ENTERTAINMENT }],
+    hbo: ["HBO Max", "https://play.max.com", { mode: APP_MODES.ENTERTAINMENT }],
+    appletv: ["Apple TV", "https://tv.apple.com", { mode: APP_MODES.ENTERTAINMENT }],
+    youtubekids: ["YouTube Kids", "https://www.youtube.com/kids", { mode: APP_MODES.ENTERTAINMENT }],
 
     /* ---------- Ứng dụng phổ biến tại Việt Nam ---------- */
     capcut: ["CapCut", "https://www.capcut.com", { mode: APP_MODES.WORK }],
@@ -234,7 +239,7 @@ const PORTAL_DATA = {
     microsoft: { name: "Microsoft",  apps: ["m365","outlook","word","excel","powerpoint","onenote","onedrive","teams","todo","bing","copilot","azure","xboxcloud"] },
     meta:      { name: "Meta",       apps: ["facebook","fbwatch","fbmarket","fbnews","messenger","instagram","whatsapp","threads","metaai"] },
     social:    { name: "Mạng xã hội",apps: ["tiktok","x","reddit","pinterest","linkedin","snapchat","telegram","discord","zalo","tumblr"] },
-    media:     { name: "Giải trí",   apps: ["youtube","tiktok","netflix","spotify","twitch","disney","prime","soundcloud","zingmp3","ytmusic","bilibili"] },
+    media:     { name: "Giải trí",   apps: ["youtube","tiktok","netflix","spotify","twitch","disney","prime","soundcloud","zingmp3","ytmusic","bilibili","sctv","kplus","hbo","appletv","youtubekids"] },
     popularvn: { name: "Yêu thích VN", apps: ["tiktok","zalo","youtube","capcut","chatgpt","claude","gemini","gmail","canva","meitu","locket","weplay","tinder","vieon","fptplay","tv360","vtvgo","hypic","bandlab","zingmp3","wink","zoom","picsart","discord","camscanner","duolingo","remini","dazz","b612","snapedit","epik"] },
     news:      { name: "Tin tức",    apps: ["fbnews","vnexpress","tuoitre","dantri","thanhnien","gnews","bbc","cnn","medium"] },
     shopping:  { name: "Mua sắm",    apps: ["shopee","lazada","tiki","amazon","fbmarket"] },
