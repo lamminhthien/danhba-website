@@ -122,7 +122,21 @@
      Số ô mỗi trang được tính theo màn hình thật (đo chiều cao 1 hàng icon × số
      cột đang dùng) nên lưới lấp đầy chiều cao, không dừng ở 2 hàng như trước. */
   const pager = $("#pager"), dots = $("#dots"), host = $("#screen");
-  const ITEMS = D.layout.pages.flat();
+  const MODE_IDS = ["all", "work", "entertainment"];
+  const ENTERTAINMENT_FOLDERS = ["media", "news", "social", "meta", "games", "portals", "flashwebgl"];
+  function appIdsForMode(mode) {
+    if (mode === "all") return Object.keys(D.apps);
+    const folders = mode === "work" ? ["work"] : ENTERTAINMENT_FOLDERS;
+    return [...new Set(folders.flatMap(id => D.folders[id].apps))].filter(id => D.apps[id]);
+  }
+  let activeMode = "all";
+  try {
+    const storedMode = localStorage.getItem("portal.mode");
+    if (MODE_IDS.includes(storedMode)) activeMode = storedMode;
+  } catch (e) {}
+  let visibleAppIds = appIdsForMode(activeMode);
+  let ITEMS = D.layout.pages.flat();
+  const modeButtons = [...document.querySelectorAll(".mode-switcher button")];
   let cur = 0, pageCount = 1, dragged = false, pageKey = "", lastSize = "", pageRefs = [];
 
   const colsNow = () => Math.max(1, parseInt(getComputedStyle(root).getPropertyValue("--cols"), 10) || 4);
@@ -173,8 +187,6 @@
     go(cur);
   }
 
-  D.layout.dock.forEach(r => $("#dock").append(make(r, true)));
-
   function go(n) {
     cur = Math.max(0, Math.min(pageCount - 1, n));
     pager.style.transform = `translateX(${-cur * 100}%)`;
@@ -199,7 +211,22 @@
     warmed = true;
   }
 
-  build();
+  function setMode(mode) {
+    if (!MODE_IDS.includes(mode)) return;
+    activeMode = mode;
+    visibleAppIds = appIdsForMode(mode);
+    ITEMS = mode === "all" ? D.layout.pages.flat() : visibleAppIds.map(id => `app:${id}`);
+    const dockRefs = mode === "all" ? D.layout.dock : visibleAppIds.slice(0, 4).map(id => `app:${id}`);
+    $("#dock").replaceChildren(...dockRefs.map(ref => make(ref, true)));
+    modeButtons.forEach(button => button.setAttribute("aria-pressed", String(button.dataset.mode === mode)));
+    pageKey = "";
+    cur = 0;
+    try { localStorage.setItem("portal.mode", mode); } catch (e) {}
+    build(true);
+  }
+
+  modeButtons.forEach(button => button.addEventListener("click", () => setMode(button.dataset.mode)));
+  setMode(activeMode);
   let rafBuild = 0;
   addEventListener("resize", () => {
     if (rafBuild) return;
@@ -265,7 +292,7 @@
   function render(v) {
     const n = norm(v.trim());
     const ids = [];
-    for (const id in SEARCH) if (!n || SEARCH[id].includes(n)) ids.push(id);
+    for (const id of visibleAppIds) if (!n || SEARCH[id].includes(n)) ids.push(id);
     res.replaceChildren(...(ids.length ? ids.map(id => appItem(id)) : [el("p", "hint", "Không tìm thấy ứng dụng nào.")]));
     sweep();
   }
