@@ -123,20 +123,19 @@
      cột đang dùng) nên lưới lấp đầy chiều cao, không dừng ở 2 hàng như trước. */
   const pager = $("#pager"), dots = $("#dots"), host = $("#screen");
   const MODE_IDS = ["all", "work", "entertainment"];
-  const ENTERTAINMENT_FOLDERS = ["media", "news", "social", "meta", "games", "portals", "flashwebgl"];
   function appIdsForMode(mode) {
     if (mode === "all") return Object.keys(D.apps);
-    const folders = mode === "work" ? ["work"] : ENTERTAINMENT_FOLDERS;
-    return [...new Set(folders.flatMap(id => D.folders[id].apps))].filter(id => D.apps[id]);
+    return Object.keys(D.apps).filter(id => D.apps[id][2]?.mode === mode);
   }
-  let activeMode = "all";
+  let activeMode = null;
   try {
     const storedMode = localStorage.getItem("portal.mode");
     if (MODE_IDS.includes(storedMode)) activeMode = storedMode;
   } catch (e) {}
-  let visibleAppIds = appIdsForMode(activeMode);
+  let visibleAppIds = appIdsForMode(activeMode || "all");
   let ITEMS = D.layout.pages.flat();
-  const modeButtons = [...document.querySelectorAll(".mode-switcher button")];
+  const modePicker = $("#modePicker"), modeLabel = $("#modeLabel");
+  const modeButtons = [...modePicker.querySelectorAll(".mode-option")];
   let cur = 0, pageCount = 1, dragged = false, pageKey = "", lastSize = "", pageRefs = [];
 
   const colsNow = () => Math.max(1, parseInt(getComputedStyle(root).getPropertyValue("--cols"), 10) || 4);
@@ -211,7 +210,7 @@
     warmed = true;
   }
 
-  function setMode(mode) {
+  function setMode(mode, persist = true, closePicker = true) {
     if (!MODE_IDS.includes(mode)) return;
     activeMode = mode;
     visibleAppIds = appIdsForMode(mode);
@@ -219,14 +218,24 @@
     const dockRefs = mode === "all" ? D.layout.dock : visibleAppIds.slice(0, 4).map(id => `app:${id}`);
     $("#dock").replaceChildren(...dockRefs.map(ref => make(ref, true)));
     modeButtons.forEach(button => button.setAttribute("aria-pressed", String(button.dataset.mode === mode)));
+    modeLabel.textContent = modeButtons.find(button => button.dataset.mode === mode).querySelector(".mode-name").textContent;
     pageKey = "";
     cur = 0;
-    try { localStorage.setItem("portal.mode", mode); } catch (e) {}
+    if (persist) {
+      try { localStorage.setItem("portal.mode", mode); } catch (e) {}
+    }
+    if (closePicker) modePicker.classList.remove("open");
     build(true);
   }
 
   modeButtons.forEach(button => button.addEventListener("click", () => setMode(button.dataset.mode)));
-  setMode(activeMode);
+  $("#modeChange").addEventListener("click", () => {
+    closeAll();
+    modePicker.classList.add("open");
+    modeButtons[0].focus();
+  });
+  if (activeMode) setMode(activeMode, false);
+  else setMode("all", false, false);
   let rafBuild = 0;
   addEventListener("resize", () => {
     if (rafBuild) return;
@@ -314,6 +323,7 @@
   function closeAll() { fv.classList.remove("open"); spot.classList.remove("open"); q.blur(); }
   $("#homeBar").onclick = () => { closeAll(); go(0); };
   document.addEventListener("keydown", e => {
+    if (modePicker.classList.contains("open")) return;
     if (e.key === "Escape") closeAll();
     if (spot.classList.contains("open")) return;
     if (e.key === "ArrowRight") go(cur + 1);

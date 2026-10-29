@@ -29,11 +29,33 @@
       </span>
     </header>
 
-    <nav class="mode-switcher" aria-label="Chế độ hiển thị">
-      <button type="button" data-mode="all" aria-pressed="true">Tất cả</button>
-      <button type="button" data-mode="work" aria-pressed="false">Công việc</button>
-      <button type="button" data-mode="entertainment" aria-pressed="false">Giải trí</button>
-    </nav>
+    <button class="mode-change" id="modeChange" type="button" aria-haspopup="dialog" aria-controls="modePicker">
+      <span id="modeLabel">Tất cả</span><span>Đổi chế độ</span>
+    </button>
+
+    <section class="mode-picker open" id="modePicker" role="dialog" aria-modal="true" aria-labelledby="modeTitle">
+      <div class="mode-picker-content">
+        <div class="mode-heading">
+          <p>WEBPHONE</p>
+          <h1 id="modeTitle">Chọn chế độ</h1>
+          <span>Chọn danh sách bạn muốn mở</span>
+        </div>
+        <div class="mode-options">
+          <button class="mode-option" type="button" data-mode="all" aria-pressed="false">
+            <span class="mode-mark">01</span><span class="mode-name">Tất cả</span>
+            <span class="mode-description">Toàn bộ trang web và ứng dụng</span>
+          </button>
+          <button class="mode-option" type="button" data-mode="work" aria-pressed="false">
+            <span class="mode-mark">02</span><span class="mode-name">Công việc</span>
+            <span class="mode-description">Công cụ và ứng dụng làm việc</span>
+          </button>
+          <button class="mode-option" type="button" data-mode="entertainment" aria-pressed="false">
+            <span class="mode-mark">03</span><span class="mode-name">Giải trí</span>
+            <span class="mode-description">Tin tức, mạng xã hội, phim và game</span>
+          </button>
+        </div>
+      </div>
+    </section>
 
     <div class="pager" id="pager"></div>
     <div class="dots" id="dots"></div>
