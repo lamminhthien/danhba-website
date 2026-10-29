@@ -122,9 +122,9 @@
      Số ô mỗi trang được tính theo màn hình thật (đo chiều cao 1 hàng icon × số
      cột đang dùng) nên lưới lấp đầy chiều cao, không dừng ở 2 hàng như trước. */
   const pager = $("#pager"), dots = $("#dots"), host = $("#screen");
-  const MODE_IDS = ["all", "work", "entertainment"];
+    const MODE_IDS = [APP_MODES.ALL, APP_MODES.WORK, APP_MODES.ENTERTAINMENT];
   function appIdsForMode(mode) {
-    if (mode === "all") return Object.keys(D.apps);
+      if (mode === APP_MODES.ALL) return Object.keys(D.apps);
     return Object.keys(D.apps).filter(id => D.apps[id][2]?.mode === mode);
   }
   let activeMode = null;
@@ -214,8 +214,8 @@
     if (!MODE_IDS.includes(mode)) return;
     activeMode = mode;
     visibleAppIds = appIdsForMode(mode);
-    ITEMS = mode === "all" ? D.layout.pages.flat() : visibleAppIds.map(id => `app:${id}`);
-    const dockRefs = mode === "all" ? D.layout.dock : visibleAppIds.slice(0, 4).map(id => `app:${id}`);
+    ITEMS = mode === APP_MODES.ALL ? D.layout.pages.flat() : visibleAppIds.map(id => `app:${id}`);
+    const dockRefs = mode === APP_MODES.ALL ? D.layout.dock : visibleAppIds.slice(0, 4).map(id => `app:${id}`);
     $("#dock").replaceChildren(...dockRefs.map(ref => make(ref, true)));
     modeButtons.forEach(button => button.setAttribute("aria-pressed", String(button.dataset.mode === mode)));
     modeLabel.textContent = modeButtons.find(button => button.dataset.mode === mode).querySelector(".mode-name").textContent;
@@ -235,7 +235,7 @@
     modeButtons[0].focus();
   });
   if (activeMode) setMode(activeMode, false);
-  else setMode("all", false, false);
+  else setMode(APP_MODES.ALL, false, false);
   let rafBuild = 0;
   addEventListener("resize", () => {
     if (rafBuild) return;
