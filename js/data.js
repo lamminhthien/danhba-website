@@ -111,6 +111,28 @@ const PORTAL_DATA = {
     zingmp3: ["Zing MP3", "https://zingmp3.vn", { mode: APP_MODES.ENTERTAINMENT }],
     bilibili: ["Bilibili", "https://www.bilibili.com", { mode: APP_MODES.ENTERTAINMENT }],
 
+    /* ---------- Ứng dụng phổ biến tại Việt Nam ---------- */
+    capcut: ["CapCut", "https://www.capcut.com", { mode: APP_MODES.WORK }],
+    meitu: ["Meitu", "https://www.meitu.com", { mode: APP_MODES.WORK }],
+    locket: ["Locket Widget", "https://locket.camera", { mode: APP_MODES.ENTERTAINMENT }],
+    weplay: ["WePlay", "https://weplayapp.com", { mode: APP_MODES.ENTERTAINMENT }],
+    tinder: ["Tinder", "https://tinder.com", { mode: APP_MODES.ENTERTAINMENT }],
+    vieon: ["VieON", "https://vieon.vn", { mode: APP_MODES.ENTERTAINMENT }],
+    fptplay: ["FPT Play", "https://fptplay.vn", { mode: APP_MODES.ENTERTAINMENT }],
+    tv360: ["TV360", "https://tv360.vn", { mode: APP_MODES.ENTERTAINMENT }],
+    vtvgo: ["VTVgo", "https://vtvgo.vn", { mode: APP_MODES.ENTERTAINMENT }],
+    hypic: ["Hypic", "https://hypic.com", { mode: APP_MODES.WORK }],
+    bandlab: ["BandLab", "https://www.bandlab.com", { mode: APP_MODES.WORK }],
+    wink: ["Wink", "https://wink.video", { mode: APP_MODES.WORK }],
+    picsart: ["Picsart", "https://picsart.com", { mode: APP_MODES.WORK }],
+    camscanner: ["CamScanner", "https://www.camscanner.com", { mode: APP_MODES.WORK }],
+    duolingo: ["Duolingo", "https://www.duolingo.com", { mode: APP_MODES.WORK }],
+    remini: ["Remini", "https://remini.ai", { mode: APP_MODES.WORK }],
+    dazz: ["Dazz Cam", "https://dazz.cam", { mode: APP_MODES.WORK }],
+    b612: ["B612", "https://b612.snow.me", { mode: APP_MODES.WORK }],
+    snapedit: ["SnapEdit", "https://snapedit.app", { mode: APP_MODES.WORK }],
+    epik: ["EPIK", "https://epik.com", { mode: APP_MODES.WORK }],
+
     /* ---------- Tin tức ---------- */
     vnexpress: ["VnExpress", "https://vnexpress.net", { mode: APP_MODES.ENTERTAINMENT }],
     tuoitre: ["Tuổi Trẻ", "https://tuoitre.vn", { mode: APP_MODES.ENTERTAINMENT }],
@@ -213,6 +235,7 @@ const PORTAL_DATA = {
     meta:      { name: "Meta",       apps: ["facebook","fbwatch","fbmarket","fbnews","messenger","instagram","whatsapp","threads","metaai"] },
     social:    { name: "Mạng xã hội",apps: ["tiktok","x","reddit","pinterest","linkedin","snapchat","telegram","discord","zalo","tumblr"] },
     media:     { name: "Giải trí",   apps: ["youtube","tiktok","netflix","spotify","twitch","disney","prime","soundcloud","zingmp3","ytmusic","bilibili"] },
+    popularvn: { name: "Yêu thích VN", apps: ["tiktok","zalo","youtube","capcut","chatgpt","claude","gemini","gmail","canva","meitu","locket","weplay","tinder","vieon","fptplay","tv360","vtvgo","hypic","bandlab","zingmp3","wink","zoom","picsart","discord","camscanner","duolingo","remini","dazz","b612","snapedit","epik"] },
     news:      { name: "Tin tức",    apps: ["fbnews","vnexpress","tuoitre","dantri","thanhnien","gnews","bbc","cnn","medium"] },
     shopping:  { name: "Mua sắm",    apps: ["shopee","lazada","tiki","amazon","fbmarket"] },
     ai:        { name: "AI",         apps: ["chatgpt","claude","gemini","copilot","perplexity","grok","deepseek","metaai","mistral","midjourney","huggingface","notebooklm","suno"] },
@@ -226,7 +249,7 @@ const PORTAL_DATA = {
   layout: {
     dock: ["app:google", "app:gmail", "app:youtube", "app:chatgpt"],
     pages: [
-      ["folder:google","folder:microsoft","folder:meta","folder:work",
+      ["folder:popularvn","folder:google","folder:microsoft","folder:meta","folder:work",
        "app:youtube","app:tiktok","app:instagram","app:facebook",
        "app:chatgpt","app:gemini","app:claude","app:github",
        "app:slack","app:notion","app:whatsapp","app:spotify"],
