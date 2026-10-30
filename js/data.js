@@ -180,7 +180,7 @@ const PORTAL_DATA = {
     bbc: ["BBC News", "https://www.bbc.com/news", { mode: APP_MODES.ENTERTAINMENT }],
     bbcvietnamese: ["BBC Tiếng Việt", "https://www.bbc.com/vietnamese", { mode: APP_MODES.ENTERTAINMENT }],
     cnn: ["CNN", "https://edition.cnn.com", { mode: APP_MODES.ENTERTAINMENT }],
-    theguardian: ["The Guardian", "https://www.theguardian.com", { mode: APP_MODES.ENTERTAINMENT }],
+    guardian: ["The Guardian", "https://www.theguardian.com", { mode: APP_MODES.ENTERTAINMENT }],
     medium: ["Medium", "https://medium.com", { mode: APP_MODES.ENTERTAINMENT }],
 
     /* ---------- Mua sắm ---------- */
@@ -262,6 +262,28 @@ const PORTAL_DATA = {
     huggingface: ["Hugging Face", "https://huggingface.co", { mode: APP_MODES.WORK }],
     suno: ["Suno", "https://suno.com", { mode: APP_MODES.WORK }],
 
+    /* ---------- AI: Mỹ ---------- */
+    poe: ["Poe", "https://poe.com", { mode: APP_MODES.WORK }],
+    duckai: ["Duck.ai", "https://duck.ai", { mode: APP_MODES.WORK }],
+    characterai: ["Character.AI", "https://character.ai", { mode: APP_MODES.WORK }],
+    gamma: ["Gamma", "https://gamma.app", { mode: APP_MODES.WORK }],
+    leonardo: ["Leonardo AI", "https://leonardo.ai", { mode: APP_MODES.WORK }],
+    elevenlabs: ["ElevenLabs", "https://elevenlabs.io", { mode: APP_MODES.WORK }],
+
+    /* ---------- AI: Trung Quốc ---------- */
+    qwen: ["Qwen", "https://chat.qwen.ai", { mode: APP_MODES.WORK }],
+    kimi: ["Kimi", "https://www.kimi.com", { mode: APP_MODES.WORK }],
+    doubao: ["Doubao", "https://www.doubao.com", { mode: APP_MODES.WORK }],
+    yuanbao: ["Yuanbao", "https://yuanbao.tencent.com", { mode: APP_MODES.WORK }],
+    zai: ["Z.ai", "https://chat.z.ai", { mode: APP_MODES.WORK }],
+    hailuo: ["Hailuo AI", "https://hailuoai.video", { mode: APP_MODES.WORK }],
+    kling: ["Kling AI", "https://kling.ai", { mode: APP_MODES.WORK }],
+
+    /* ---------- AI: Việt Nam ---------- */
+    aihay: ["AI Hay", "https://ai-hay.vn", { mode: APP_MODES.WORK }],
+    zaloai: ["Zalo AI", "https://ai.zalo.solutions", { mode: APP_MODES.WORK }],
+    viettelai: ["Viettel AI", "https://viettelai.vn", { mode: APP_MODES.WORK }],
+
     /* ---------- Làm việc ---------- */
     slack: ["Slack", "https://app.slack.com", { mode: APP_MODES.WORK }],
     notion: ["Notion", "https://www.notion.so", { mode: APP_MODES.WORK }],
@@ -342,9 +364,9 @@ const PORTAL_DATA = {
     music:     { name: "Âm nhạc",    apps: ["spotify","ytmusic","zingmp3","soundcloud","nhaccuatui","applemusic","deezer","bandcamp","tidal","vietnammusicnews","kworb","genius","lastfm","weverse","pops"] },
     youth:     { name: "Giới trẻ",   apps: ["kenh14","tiin","yeah1","genzviet","weverse","tiktok","instagram","lemon8","bereal","locket"] },
     popularvn: { name: "Yêu thích VN", apps: ["tiktok","zalo","youtube","capcut","chatgpt","claude","gemini","gmail","canva","meitu","locket","weplay","tinder","vieon","fptplay","tv360","vtvgo","hypic","bandlab","zingmp3","wink","zoom","picsart","discord","camscanner","duolingo","remini","dazz","b612","snapedit","epik"] },
-    news:      { name: "Tin tức",    apps: ["fbnews","vnexpress","tuoitre","dantri","thanhnien","kenh14","tiin","znews","vtv","vietnamnet","gnews","bbc","bbcvietnamese","cnn","theguardian","medium"] },
+    news:      { name: "Tin tức",    apps: ["fbnews","vnexpress","tuoitre","dantri","thanhnien","kenh14","tiin","znews","vtv","vietnamnet","gnews","bbc","bbcvietnamese","cnn","guardian","medium"] },
     shopping:  { name: "Mua sắm",    apps: ["shopee","lazada","tiki","amazon","fbmarket","sendo","aliexpress","ebay","etsy","temu","taobao","dienmayxanh","thegioididong","fptshop","cellphones","hoanghamobile","nguyenkim","mediamart","phongvu","gearvn","anphatpc","applestore","samsungshop","xiaomishop","uniqlo","hm","zara","decathlon","canifa","coolmate","ikea","jysk","locknlock","hasaki","guardian","watsons","concung","longchau","pharmacity","ankhang","bachhoaxanh","winmart","cooponline","aeoneshop","lottemart","grabfood","shopeefood","befood","fahasa","vinabook","chotot","booking","agoda","traveloka","klook","vietnamairlines","vietjet"] },
-    ai:        { name: "AI",         apps: ["chatgpt","claude","gemini","copilot","perplexity","grok","deepseek","metaai","mistral","midjourney","huggingface","notebooklm","suno"] },
+    ai:        { name: "AI",         apps: ["chatgpt","claude","gemini","copilot","perplexity","grok","deepseek","metaai","mistral","midjourney","huggingface","notebooklm","aistudio","suno","poe","duckai","characterai","gamma","leonardo","elevenlabs","qwen","kimi","doubao","yuanbao","zai","hailuo","kling","aihay","zaloai","viettelai"] },
     work:      { name: "Làm việc",   apps: ["slack","notion","trello","asana","jira","figma","canva","zoom","teams","dropbox","linear","miro","airtable","calendly","grammarly"] },
     dev:       { name: "Lập trình",  apps: ["github","gitlab","vscode","codepen","replit","stackblitz","vercel","cloudflare","stackoverflow","mdn","postman","huggingface"] },
     games:     { name: "Game Web",   apps: ["minecraft","krunker","slither","agar","shellshock","skribbl","game2048","wordle","cookie","tetris","alchemy","geoguessr","lichess","chesscom","dino","geforce","xboxcloud"] },
