@@ -1,0 +1,372 @@
+{
+  "youtube": {
+    "name": "YouTube",
+    "url": "https://www.youtube.com",
+    "mode": "entertainment"
+  },
+  "ytmusic": {
+    "name": "YT Music",
+    "url": "https://music.youtube.com",
+    "mode": "entertainment"
+  },
+  "gnews": {
+    "name": "Google News",
+    "url": "https://news.google.com",
+    "mode": "entertainment"
+  },
+  "facebook": {
+    "name": "Facebook",
+    "url": "https://www.facebook.com",
+    "mode": "entertainment"
+  },
+  "fbwatch": {
+    "name": "FB Watch",
+    "url": "https://www.facebook.com/watch",
+    "mode": "entertainment"
+  },
+  "fbnews": {
+    "name": "FB Tin tức",
+    "url": "https://www.facebook.com/news",
+    "mode": "entertainment"
+  },
+  "instagram": {
+    "name": "Instagram",
+    "url": "https://www.instagram.com",
+    "mode": "entertainment"
+  },
+  "threads": {
+    "name": "Threads",
+    "url": "https://www.threads.com",
+    "mode": "entertainment"
+  },
+  "tiktok": {
+    "name": "TikTok",
+    "url": "https://www.tiktok.com",
+    "mode": "entertainment"
+  },
+  "x": {
+    "name": "X",
+    "url": "https://x.com",
+    "mode": "entertainment"
+  },
+  "reddit": {
+    "name": "Reddit",
+    "url": "https://www.reddit.com",
+    "mode": "entertainment"
+  },
+  "pinterest": {
+    "name": "Pinterest",
+    "url": "https://www.pinterest.com",
+    "mode": "entertainment"
+  },
+  "snapchat": {
+    "name": "Snapchat",
+    "url": "https://www.snapchat.com",
+    "mode": "entertainment"
+  },
+  "tumblr": {
+    "name": "Tumblr",
+    "url": "https://www.tumblr.com",
+    "mode": "entertainment"
+  },
+  "bluesky": {
+    "name": "Bluesky",
+    "url": "https://bsky.app",
+    "mode": "entertainment"
+  },
+  "bereal": {
+    "name": "BeReal",
+    "url": "https://bereal.com",
+    "mode": "entertainment"
+  },
+  "lemon8": {
+    "name": "Lemon8",
+    "url": "https://www.lemon8-app.com",
+    "mode": "entertainment"
+  },
+  "mastodon": {
+    "name": "Mastodon",
+    "url": "https://joinmastodon.org",
+    "mode": "entertainment"
+  },
+  "netflix": {
+    "name": "Netflix",
+    "url": "https://www.netflix.com",
+    "mode": "entertainment"
+  },
+  "spotify": {
+    "name": "Spotify",
+    "url": "https://open.spotify.com",
+    "mode": "entertainment"
+  },
+  "twitch": {
+    "name": "Twitch",
+    "url": "https://www.twitch.tv",
+    "mode": "entertainment"
+  },
+  "disney": {
+    "name": "Disney+",
+    "url": "https://www.disneyplus.com",
+    "mode": "entertainment"
+  },
+  "prime": {
+    "name": "Prime Video",
+    "url": "https://www.primevideo.com",
+    "mode": "entertainment"
+  },
+  "soundcloud": {
+    "name": "SoundCloud",
+    "url": "https://soundcloud.com",
+    "mode": "entertainment"
+  },
+  "zingmp3": {
+    "name": "Zing MP3",
+    "url": "https://zingmp3.vn",
+    "mode": "entertainment"
+  },
+  "bilibili": {
+    "name": "Bilibili",
+    "url": "https://www.bilibili.com",
+    "mode": "entertainment"
+  },
+  "sctv": {
+    "name": "SCTV",
+    "url": "https://sctvonline.vn",
+    "mode": "entertainment"
+  },
+  "kplus": {
+    "name": "K+",
+    "url": "https://www.kplus.vn",
+    "mode": "entertainment"
+  },
+  "hbo": {
+    "name": "HBO Max",
+    "url": "https://play.max.com",
+    "mode": "entertainment"
+  },
+  "appletv": {
+    "name": "Apple TV",
+    "url": "https://tv.apple.com",
+    "mode": "entertainment"
+  },
+  "youtubekids": {
+    "name": "YouTube Kids",
+    "url": "https://www.youtube.com/kids",
+    "mode": "entertainment"
+  },
+  "crunchyroll": {
+    "name": "Crunchyroll",
+    "url": "https://www.crunchyroll.com",
+    "mode": "entertainment"
+  },
+  "retrocrush": {
+    "name": "RetroCrush",
+    "url": "https://www.retrocrush.tv",
+    "mode": "entertainment"
+  },
+  "pops": {
+    "name": "POPS",
+    "url": "https://pops.vn",
+    "mode": "entertainment"
+  },
+  "anilist": {
+    "name": "AniList",
+    "url": "https://anilist.co",
+    "mode": "entertainment"
+  },
+  "myanimelist": {
+    "name": "MyAnimeList",
+    "url": "https://myanimelist.net",
+    "mode": "entertainment"
+  },
+  "animenewsnetwork": {
+    "name": "Anime News Network",
+    "url": "https://www.animenewsnetwork.com",
+    "mode": "entertainment"
+  },
+  "tramanime": {
+    "name": "Trạm Anime",
+    "url": "https://tramanime.com",
+    "mode": "entertainment"
+  },
+  "mangaplus": {
+    "name": "MANGA Plus",
+    "url": "https://mangaplus.shueisha.co.jp",
+    "mode": "entertainment"
+  },
+  "viz": {
+    "name": "VIZ Manga",
+    "url": "https://www.viz.com",
+    "mode": "entertainment"
+  },
+  "webtoon": {
+    "name": "WEBTOON",
+    "url": "https://www.webtoons.com",
+    "mode": "entertainment"
+  },
+  "tapas": {
+    "name": "Tapas",
+    "url": "https://tapas.io",
+    "mode": "entertainment"
+  },
+  "comicwalker": {
+    "name": "ComicWalker",
+    "url": "https://comic-walker.com",
+    "mode": "entertainment"
+  },
+  "locket": {
+    "name": "Locket Widget",
+    "url": "https://locket.camera",
+    "mode": "entertainment"
+  },
+  "tinder": {
+    "name": "Tinder",
+    "url": "https://tinder.com",
+    "mode": "entertainment"
+  },
+  "vieon": {
+    "name": "VieON",
+    "url": "https://vieon.vn",
+    "mode": "entertainment"
+  },
+  "fptplay": {
+    "name": "FPT Play",
+    "url": "https://fptplay.vn",
+    "mode": "entertainment"
+  },
+  "tv360": {
+    "name": "TV360",
+    "url": "https://tv360.vn",
+    "mode": "entertainment"
+  },
+  "vtvgo": {
+    "name": "VTVgo",
+    "url": "https://vtvgo.vn",
+    "mode": "entertainment"
+  },
+  "applemusic": {
+    "name": "Apple Music",
+    "url": "https://music.apple.com",
+    "mode": "entertainment"
+  },
+  "deezer": {
+    "name": "Deezer",
+    "url": "https://www.deezer.com",
+    "mode": "entertainment"
+  },
+  "bandcamp": {
+    "name": "Bandcamp",
+    "url": "https://bandcamp.com",
+    "mode": "entertainment"
+  },
+  "tidal": {
+    "name": "TIDAL",
+    "url": "https://tidal.com",
+    "mode": "entertainment"
+  },
+  "nhaccuatui": {
+    "name": "NhacCuaTui",
+    "url": "https://www.nhaccuatui.com",
+    "mode": "entertainment"
+  },
+  "vietnammusicnews": {
+    "name": "Vietnam Music News",
+    "url": "https://vietnammusicnews.com",
+    "mode": "entertainment"
+  },
+  "kworb": {
+    "name": "Kworb Charts",
+    "url": "https://kworb.net/youtube/trending/vn.html",
+    "mode": "entertainment"
+  },
+  "genius": {
+    "name": "Genius",
+    "url": "https://genius.com",
+    "mode": "entertainment"
+  },
+  "lastfm": {
+    "name": "Last.fm",
+    "url": "https://www.last.fm",
+    "mode": "entertainment"
+  },
+  "weverse": {
+    "name": "Weverse",
+    "url": "https://weverse.io",
+    "mode": "entertainment"
+  },
+  "vnexpress": {
+    "name": "VnExpress",
+    "url": "https://vnexpress.net",
+    "mode": "entertainment"
+  },
+  "tuoitre": {
+    "name": "Tuổi Trẻ",
+    "url": "https://tuoitre.vn",
+    "mode": "entertainment"
+  },
+  "dantri": {
+    "name": "Dân trí",
+    "url": "https://dantri.com.vn",
+    "mode": "entertainment"
+  },
+  "thanhnien": {
+    "name": "Thanh Niên",
+    "url": "https://thanhnien.vn",
+    "mode": "entertainment"
+  },
+  "kenh14": {
+    "name": "Kênh 14",
+    "url": "https://kenh14.vn",
+    "mode": "entertainment"
+  },
+  "tiin": {
+    "name": "Tiin",
+    "url": "https://tiin.vn",
+    "mode": "entertainment"
+  },
+  "yeah1": {
+    "name": "Yeah1",
+    "url": "https://yeah1.com",
+    "mode": "entertainment"
+  },
+  "genzviet": {
+    "name": "GenZ Việt",
+    "url": "https://genz.com.vn",
+    "mode": "entertainment"
+  },
+  "znews": {
+    "name": "Znews",
+    "url": "https://znews.vn",
+    "mode": "entertainment"
+  },
+  "vtv": {
+    "name": "VTV",
+    "url": "https://vtv.vn",
+    "mode": "entertainment"
+  },
+  "vietnamnet": {
+    "name": "VietnamNet",
+    "url": "https://vietnamnet.vn",
+    "mode": "entertainment"
+  },
+  "bbc": {
+    "name": "BBC News",
+    "url": "https://www.bbc.com/news",
+    "mode": "entertainment"
+  },
+  "bbcvietnamese": {
+    "name": "BBC Tiếng Việt",
+    "url": "https://www.bbc.com/vietnamese",
+    "mode": "entertainment"
+  },
+  "cnn": {
+    "name": "CNN",
+    "url": "https://edition.cnn.com",
+    "mode": "entertainment"
+  },
+  "medium": {
+    "name": "Medium",
+    "url": "https://medium.com",
+    "mode": "entertainment"
+  }
+}

@@ -1,0 +1,519 @@
+{
+  "google": {
+    "name": "Google",
+    "url": "https://www.google.com",
+    "mode": "work"
+  },
+  "gmail": {
+    "name": "Gmail",
+    "url": "https://mail.google.com",
+    "mode": "work"
+  },
+  "drive": {
+    "name": "Drive",
+    "url": "https://drive.google.com",
+    "mode": "work"
+  },
+  "docs": {
+    "name": "Docs",
+    "url": "https://docs.google.com/document/u/0/",
+    "mode": "work"
+  },
+  "sheets": {
+    "name": "Sheets",
+    "url": "https://docs.google.com/spreadsheets/u/0/",
+    "mode": "work"
+  },
+  "slides": {
+    "name": "Slides",
+    "url": "https://docs.google.com/presentation/u/0/",
+    "mode": "work"
+  },
+  "forms": {
+    "name": "Forms",
+    "url": "https://docs.google.com/forms/u/0/",
+    "mode": "work"
+  },
+  "calendar": {
+    "name": "Lịch",
+    "url": "https://calendar.google.com",
+    "mode": "work"
+  },
+  "meet": {
+    "name": "Meet",
+    "url": "https://meet.google.com",
+    "mode": "work"
+  },
+  "maps": {
+    "name": "Maps",
+    "url": "https://maps.google.com",
+    "mode": "work"
+  },
+  "photos": {
+    "name": "Ảnh",
+    "url": "https://photos.google.com",
+    "mode": "work"
+  },
+  "translate": {
+    "name": "Dịch",
+    "url": "https://translate.google.com",
+    "mode": "work"
+  },
+  "keep": {
+    "name": "Keep",
+    "url": "https://keep.google.com",
+    "mode": "work"
+  },
+  "gchat": {
+    "name": "Chat",
+    "url": "https://chat.google.com",
+    "mode": "work"
+  },
+  "gemini": {
+    "name": "Gemini",
+    "url": "https://gemini.google.com",
+    "mode": "work"
+  },
+  "notebooklm": {
+    "name": "NotebookLM",
+    "url": "https://notebooklm.google.com",
+    "mode": "work"
+  },
+  "aistudio": {
+    "name": "AI Studio",
+    "url": "https://aistudio.google.com",
+    "mode": "work"
+  },
+  "earth": {
+    "name": "Earth",
+    "url": "https://earth.google.com/web/",
+    "mode": "work"
+  },
+  "scholar": {
+    "name": "Scholar",
+    "url": "https://scholar.google.com",
+    "mode": "work"
+  },
+  "playstore": {
+    "name": "Play",
+    "url": "https://play.google.com",
+    "mode": "work"
+  },
+  "analytics": {
+    "name": "Analytics",
+    "url": "https://analytics.google.com",
+    "mode": "work"
+  },
+  "m365": {
+    "name": "Microsoft 365",
+    "url": "https://www.office.com",
+    "mode": "work"
+  },
+  "outlook": {
+    "name": "Outlook",
+    "url": "https://outlook.live.com/mail/",
+    "mode": "work"
+  },
+  "word": {
+    "name": "Word",
+    "url": "https://www.office.com/launch/word",
+    "mode": "work"
+  },
+  "excel": {
+    "name": "Excel",
+    "url": "https://www.office.com/launch/excel",
+    "mode": "work"
+  },
+  "powerpoint": {
+    "name": "PowerPoint",
+    "url": "https://www.office.com/launch/powerpoint",
+    "mode": "work"
+  },
+  "onenote": {
+    "name": "OneNote",
+    "url": "https://www.onenote.com",
+    "mode": "work"
+  },
+  "onedrive": {
+    "name": "OneDrive",
+    "url": "https://onedrive.live.com",
+    "mode": "work"
+  },
+  "teams": {
+    "name": "Teams",
+    "url": "https://teams.microsoft.com",
+    "mode": "work"
+  },
+  "todo": {
+    "name": "To Do",
+    "url": "https://to-do.live.com",
+    "mode": "work"
+  },
+  "bing": {
+    "name": "Bing",
+    "url": "https://www.bing.com",
+    "mode": "work"
+  },
+  "copilot": {
+    "name": "Copilot",
+    "url": "https://copilot.microsoft.com",
+    "mode": "work"
+  },
+  "azure": {
+    "name": "Azure",
+    "url": "https://portal.azure.com",
+    "mode": "work"
+  },
+  "messenger": {
+    "name": "Messenger",
+    "url": "https://www.messenger.com",
+    "mode": "work"
+  },
+  "whatsapp": {
+    "name": "WhatsApp",
+    "url": "https://web.whatsapp.com",
+    "mode": "work"
+  },
+  "metaai": {
+    "name": "Meta AI",
+    "url": "https://www.meta.ai",
+    "mode": "work"
+  },
+  "linkedin": {
+    "name": "LinkedIn",
+    "url": "https://www.linkedin.com",
+    "mode": "work"
+  },
+  "telegram": {
+    "name": "Telegram",
+    "url": "https://web.telegram.org",
+    "mode": "work"
+  },
+  "discord": {
+    "name": "Discord",
+    "url": "https://discord.com/app",
+    "mode": "work"
+  },
+  "zalo": {
+    "name": "Zalo",
+    "url": "https://chat.zalo.me",
+    "mode": "work"
+  },
+  "capcut": {
+    "name": "CapCut",
+    "url": "https://www.capcut.com",
+    "mode": "work"
+  },
+  "meitu": {
+    "name": "Meitu",
+    "url": "https://www.meituxiuxiu.com",
+    "mode": "work"
+  },
+  "hypic": {
+    "name": "Hypic",
+    "url": "https://hypic.capcut.com",
+    "mode": "work"
+  },
+  "bandlab": {
+    "name": "BandLab",
+    "url": "https://www.bandlab.com",
+    "mode": "work"
+  },
+  "wink": {
+    "name": "Wink",
+    "url": "https://wink.ai",
+    "mode": "work"
+  },
+  "picsart": {
+    "name": "Picsart",
+    "url": "https://picsart.com",
+    "mode": "work"
+  },
+  "camscanner": {
+    "name": "CamScanner",
+    "url": "https://www.camscanner.com",
+    "mode": "work"
+  },
+  "duolingo": {
+    "name": "Duolingo",
+    "url": "https://www.duolingo.com",
+    "mode": "work"
+  },
+  "remini": {
+    "name": "Remini",
+    "url": "https://remini.ai",
+    "mode": "work"
+  },
+  "dazz": {
+    "name": "Dazz Cam",
+    "url": "https://dazz.cam",
+    "mode": "work"
+  },
+  "b612": {
+    "name": "B612",
+    "url": "https://b612.snow.me",
+    "mode": "work"
+  },
+  "snapedit": {
+    "name": "SnapEdit",
+    "url": "https://snapedit.app",
+    "mode": "work"
+  },
+  "epik": {
+    "name": "EPIK",
+    "url": "https://epik.snow.me",
+    "mode": "work"
+  },
+  "chatgpt": {
+    "name": "ChatGPT",
+    "url": "https://chatgpt.com",
+    "mode": "work"
+  },
+  "claude": {
+    "name": "Claude",
+    "url": "https://claude.ai",
+    "mode": "work"
+  },
+  "perplexity": {
+    "name": "Perplexity",
+    "url": "https://www.perplexity.ai",
+    "mode": "work"
+  },
+  "grok": {
+    "name": "Grok",
+    "url": "https://grok.com",
+    "mode": "work"
+  },
+  "deepseek": {
+    "name": "DeepSeek",
+    "url": "https://chat.deepseek.com",
+    "mode": "work"
+  },
+  "mistral": {
+    "name": "Le Chat",
+    "url": "https://chat.mistral.ai",
+    "mode": "work"
+  },
+  "midjourney": {
+    "name": "Midjourney",
+    "url": "https://www.midjourney.com",
+    "mode": "work"
+  },
+  "huggingface": {
+    "name": "Hugging Face",
+    "url": "https://huggingface.co",
+    "mode": "work"
+  },
+  "suno": {
+    "name": "Suno",
+    "url": "https://suno.com",
+    "mode": "work"
+  },
+  "poe": {
+    "name": "Poe",
+    "url": "https://poe.com",
+    "mode": "work"
+  },
+  "duckai": {
+    "name": "Duck.ai",
+    "url": "https://duck.ai",
+    "mode": "work"
+  },
+  "characterai": {
+    "name": "Character.AI",
+    "url": "https://character.ai",
+    "mode": "work"
+  },
+  "gamma": {
+    "name": "Gamma",
+    "url": "https://gamma.app",
+    "mode": "work"
+  },
+  "leonardo": {
+    "name": "Leonardo AI",
+    "url": "https://leonardo.ai",
+    "mode": "work"
+  },
+  "elevenlabs": {
+    "name": "ElevenLabs",
+    "url": "https://elevenlabs.io",
+    "mode": "work"
+  },
+  "qwen": {
+    "name": "Qwen",
+    "url": "https://chat.qwen.ai",
+    "mode": "work"
+  },
+  "kimi": {
+    "name": "Kimi",
+    "url": "https://www.kimi.com",
+    "mode": "work"
+  },
+  "doubao": {
+    "name": "Doubao",
+    "url": "https://www.doubao.com",
+    "mode": "work"
+  },
+  "yuanbao": {
+    "name": "Yuanbao",
+    "url": "https://yuanbao.tencent.com",
+    "mode": "work"
+  },
+  "zai": {
+    "name": "Z.ai",
+    "url": "https://chat.z.ai",
+    "mode": "work"
+  },
+  "hailuo": {
+    "name": "Hailuo AI",
+    "url": "https://hailuoai.video",
+    "mode": "work"
+  },
+  "kling": {
+    "name": "Kling AI",
+    "url": "https://kling.ai",
+    "mode": "work"
+  },
+  "aihay": {
+    "name": "AI Hay",
+    "url": "https://ai-hay.vn",
+    "mode": "work"
+  },
+  "zaloai": {
+    "name": "Zalo AI",
+    "url": "https://ai.zalo.solutions",
+    "mode": "work"
+  },
+  "viettelai": {
+    "name": "Viettel AI",
+    "url": "https://viettelai.vn",
+    "mode": "work"
+  },
+  "slack": {
+    "name": "Slack",
+    "url": "https://app.slack.com",
+    "mode": "work"
+  },
+  "notion": {
+    "name": "Notion",
+    "url": "https://www.notion.so",
+    "mode": "work"
+  },
+  "trello": {
+    "name": "Trello",
+    "url": "https://trello.com",
+    "mode": "work"
+  },
+  "asana": {
+    "name": "Asana",
+    "url": "https://app.asana.com",
+    "mode": "work"
+  },
+  "jira": {
+    "name": "Jira",
+    "url": "https://www.atlassian.com/software/jira",
+    "mode": "work"
+  },
+  "figma": {
+    "name": "Figma",
+    "url": "https://www.figma.com",
+    "mode": "work"
+  },
+  "canva": {
+    "name": "Canva",
+    "url": "https://www.canva.com",
+    "mode": "work"
+  },
+  "zoom": {
+    "name": "Zoom",
+    "url": "https://app.zoom.us",
+    "mode": "work"
+  },
+  "dropbox": {
+    "name": "Dropbox",
+    "url": "https://www.dropbox.com",
+    "mode": "work"
+  },
+  "linear": {
+    "name": "Linear",
+    "url": "https://linear.app",
+    "mode": "work"
+  },
+  "miro": {
+    "name": "Miro",
+    "url": "https://miro.com",
+    "mode": "work"
+  },
+  "airtable": {
+    "name": "Airtable",
+    "url": "https://airtable.com",
+    "mode": "work"
+  },
+  "calendly": {
+    "name": "Calendly",
+    "url": "https://calendly.com",
+    "mode": "work"
+  },
+  "grammarly": {
+    "name": "Grammarly",
+    "url": "https://app.grammarly.com",
+    "mode": "work"
+  },
+  "github": {
+    "name": "GitHub",
+    "url": "https://github.com",
+    "mode": "work",
+    "slug": "github",
+    "bg": "#fff"
+  },
+  "gitlab": {
+    "name": "GitLab",
+    "url": "https://gitlab.com",
+    "mode": "work"
+  },
+  "vscode": {
+    "name": "VS Code",
+    "url": "https://vscode.dev",
+    "mode": "work"
+  },
+  "codepen": {
+    "name": "CodePen",
+    "url": "https://codepen.io",
+    "mode": "work"
+  },
+  "replit": {
+    "name": "Replit",
+    "url": "https://replit.com",
+    "mode": "work"
+  },
+  "stackblitz": {
+    "name": "StackBlitz",
+    "url": "https://stackblitz.com",
+    "mode": "work"
+  },
+  "vercel": {
+    "name": "Vercel",
+    "url": "https://vercel.com",
+    "mode": "work"
+  },
+  "cloudflare": {
+    "name": "Cloudflare",
+    "url": "https://dash.cloudflare.com",
+    "mode": "work"
+  },
+  "stackoverflow": {
+    "name": "Stack Overflow",
+    "url": "https://stackoverflow.com",
+    "mode": "work"
+  },
+  "mdn": {
+    "name": "MDN",
+    "url": "https://developer.mozilla.org",
+    "mode": "work"
+  },
+  "postman": {
+    "name": "Postman",
+    "url": "https://web.postman.co",
+    "mode": "work"
+  }
+}

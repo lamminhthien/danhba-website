@@ -1,4 +1,4 @@
-const CACHE_NAME = 'web-directory-shell-v2';
+const CACHE_NAME = 'web-directory-shell-v6';
 const SHELL_FILES = [
   './',
   './index.html',
@@ -8,11 +8,13 @@ const SHELL_FILES = [
   './icon-512.png',
   './apple-touch-icon.png',
   './css/style.css',
-  './js/data-work.js',
-  './js/data-shopping.js',
-  './js/data-entertainment.js',
-  './js/data-games.js',
-  './js/data.js',
+  './js/data-loader.js',
+  './data/portal.json',
+  './data/work.json',
+  './data/shopping.json',
+  './data/entertainment.json',
+  './data/games.json',
+  './data/custom-links.json',
   './js/app.js'
 ];
 
@@ -40,7 +42,17 @@ self.addEventListener('fetch', event => {
     return;
   }
 
-  event.respondWith(
-    caches.match(request).then(cached => cached || fetch(request))
-  );
+  if (new URL(request.url).pathname.includes('/data/')) {
+    event.respondWith(
+      fetch(request).then(response => {
+        if (!response.ok) return response;
+        return caches.open(CACHE_NAME)
+          .then(cache => cache.put(request, response.clone()))
+          .then(() => response);
+      }).catch(() => caches.match(request))
+    );
+    return;
+  }
+
+  event.respondWith(caches.match(request).then(cached => cached || fetch(request)));
 });

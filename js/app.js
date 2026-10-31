@@ -17,12 +17,12 @@
   /* ================= 2. Icon ================= */
   const hue = s => [...s].reduce((a, c) => a + c.charCodeAt(0), 0) % 360;
   function candidates(id) {
-    const [, url, o = {}] = D.apps[id];
+    const app = D.apps[id], url = app.url;
     const domain = new URL(url).hostname.replace(/^www\./, "");
     const list = [];
-    if (o.icon) list.push({ src: o.icon, free: true });
+    if (app.icon) list.push({ src: app.icon, free: true });
     S.iconProviders.forEach(t => list.push({
-      src: t.replace("{url}", encodeURIComponent(url)).replace("{domain}", domain).replace("{slug}", o.slug || id),
+      src: t.replace("{url}", encodeURIComponent(url)).replace("{domain}", domain).replace("{slug}", app.slug || id),
       free: t.includes("simpleicons")
     }));
     return list;
@@ -45,13 +45,13 @@
   }, { rootMargin: "200px 0px" }) : null;
 
   function paintLetter(box, id) {
-    const name = D.apps[id][0];
+    const name = D.apps[id].name;
     box.classList.remove("cover");
     box.style.background = `hsl(${hue(name)} 55% 45%)`;
     box.innerHTML = `<span class="letter">${name[0].toUpperCase()}</span>`;
   }
   function paintImage(box, id, src) {
-    const o = D.apps[id][2] || {};
+    const o = D.apps[id];
     const img = new Image();
     img.alt = ""; img.draggable = false; img.decoding = "async";
     img.src = src;
@@ -98,12 +98,13 @@
   }
 
   /* ================= 3. Thành phần ================= */
-  function open(id) { window.open(D.apps[id][1], S.openTarget, "noopener,noreferrer"); }
+  function open(id) { window.open(D.apps[id].url, S.openTarget, "noopener,noreferrer"); }
 
   function appItem(id, eager) {
-    const b = el("button", "item"); b.title = D.apps[id][1];
+    const b = el("button", "item"); b.title = D.apps[id].url;
     const t = el("div", "tile"); fillIcon(t, id, eager);
-    b.append(t, el("span", "label", D.apps[id][0]));
+    const label = el("span", "label"); label.textContent = D.apps[id].name;
+    b.append(t, label);
     b.onclick = () => { if (!dragged) open(id); };
     return b;
   }
@@ -125,7 +126,7 @@
     const MODE_IDS = [APP_MODES.ALL, APP_MODES.WORK, APP_MODES.SHOPPING, APP_MODES.ENTERTAINMENT, APP_MODES.GAMES];
   function appIdsForMode(mode) {
       if (mode === APP_MODES.ALL) return Object.keys(D.apps);
-    return Object.keys(D.apps).filter(id => D.apps[id][2]?.mode === mode);
+    return Object.keys(D.apps).filter(id => D.apps[id].mode === mode);
   }
   let activeMode = null;
   try {
@@ -294,7 +295,7 @@
 
   // Chuẩn hoá tên + URL một lần lúc khởi động, thay vì mỗi lần gõ phím
   const SEARCH = {};
-  for (const id in D.apps) SEARCH[id] = norm(D.apps[id][0]) + " " + norm(D.apps[id][1]);
+  for (const id in D.apps) SEARCH[id] = norm(D.apps[id].name) + " " + norm(D.apps[id].url);
 
   function openSpot() { spot.classList.add("open"); q.value = ""; render(""); q.focus(); }
 

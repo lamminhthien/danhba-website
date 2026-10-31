@@ -1,17 +1,20 @@
 # Web Directory – cổng ứng dụng web kiểu iPhone
 
-Mở `index.html` bằng trình duyệt là chạy (không cần build, không cần server).
-Mở `index.html` bằng trình duyệt là chạy (không cần build, không cần server). Để
-cài PWA và dùng ngoại tuyến, cần mở qua HTTPS hoặc `localhost`.
+Chạy ứng dụng qua `localhost` (không cần build). Do dữ liệu được nạp bằng
+`fetch()` từ JSON, không mở trực tiếp bằng `file://`. Để cài PWA và dùng ngoại
+tuyến, cần mở qua HTTPS hoặc `localhost`.
 - `manifest.webmanifest`, các kích thước `icon-*`, `apple-touch-icon.png`,
   `service-worker.js`  cài như app, chạy fullscreen và lưu giao diện ngoại tuyến
 
 ## Cấu trúc
 - `index.html`      khung giao diện
 - `css/style.css`   giao diện toàn màn hình (co giãn theo điện thoại / iPad / desktop)
-- `js/data.js`      chế độ, cài đặt, thư mục, thứ tự và bố cục chung
-- `js/data-work.js`, `js/data-shopping.js`, `js/data-entertainment.js`,
-  `js/data-games.js`  danh sách ứng dụng theo chế độ
+- `data/portal.json` cấu hình chung, thư mục và bố cục
+- `data/work.json`, `data/shopping.json`, `data/entertainment.json`,
+  `data/games.json` danh sách ứng dụng theo chế độ
+- `data/custom-links.json` các website tự thêm bằng `linkmaker.js`
+- `js/data-loader.js` nạp và ghép dữ liệu JSON trước khi mở ứng dụng
+- `linkmaker.js` tạo entry JSON cho website mới
 - `js/app.js`       logic (vuốt trang, thư mục, tìm kiếm, tải icon)
 - `manifest.webmanifest`, `icon.svg`  cài như app để chạy fullscreen
 
@@ -29,14 +32,37 @@ Giao diện phủ kín cửa sổ trình duyệt, không còn khung điện tho�
   Khi phát triển trên máy tính, chạy `python3 -m http.server 8000` rồi mở
   `http://localhost:8000`; khi triển khai, dùng HTTPS để service worker hoạt động.
 
-## Thêm một ứng dụng
-1. Thêm ứng dụng vào file `js/data-<mode>.js` tương ứng, ví dụ:
-  `myapp: ["Tên", "https://myapp.com", { mode: "work" }],`
-2. Thêm id vào một thư mục (`folders.<x>.apps`) và/hoặc vào `layout.pages` / `layout.dock` dưới dạng `"app:myapp"`.
+## Thêm một website
+Chạy lệnh từ thư mục dự án, thay giá trị theo website muốn thêm:
+
+```sh
+node linkmaker.js --id myapp --name "Tên website" --url https://myapp.com --mode work
+```
+
+`--mode` nhận `work`, `shopping`, `entertainment` hoặc `games`. Lệnh ghi website
+vào `data/custom-links.json`; ứng dụng sẽ tự hiển thị trong chế độ tương ứng và
+trong chế độ “Tất cả”. Có thể thêm `--icon https://...` hoặc `--slug ten-icon`
+để chỉ định icon. Các file nhóm JSON gốc không bị thay đổi.
+
+Mỗi app trong file nhóm là một object với thuộc tính có tên:
+
+```json
+{
+  "myapp": {
+    "name": "Tên website",
+    "url": "https://myapp.com",
+    "mode": "work"
+  }
+}
+```
+
+`icon`, `slug`, `bg` và `fit` là các thuộc tính tùy chọn cùng cấp với `name`,
+`url` và `mode`.
 
 ## Icon
 Icon thật lấy tự động theo thứ tự `settings.iconProviders` (favicon của Google → DuckDuckGo → Simple Icons).
-Cần Internet. Muốn icon riêng/offline: `{ icon: "assets/myapp.png" }` ở tuỳ chọn thứ 3 của app.
+Cần Internet. Muốn icon riêng: đặt thuộc tính `icon` trên app, ví dụ
+`"icon": "assets/myapp.png"`.
 Nếu mọi nguồn lỗi, app hiện ô chữ cái đầu.
 
 ## Thao tác

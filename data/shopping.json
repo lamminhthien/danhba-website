@@ -1,0 +1,287 @@
+{
+  "fbmarket": {
+    "name": "Marketplace",
+    "url": "https://www.facebook.com/marketplace",
+    "mode": "shopping"
+  },
+  "guardian": {
+    "name": "Guardian",
+    "url": "https://www.guardian.com.vn",
+    "mode": "shopping"
+  },
+  "shopee": {
+    "name": "Shopee",
+    "url": "https://shopee.vn",
+    "mode": "shopping"
+  },
+  "lazada": {
+    "name": "Lazada",
+    "url": "https://www.lazada.vn",
+    "mode": "shopping"
+  },
+  "tiki": {
+    "name": "Tiki",
+    "url": "https://tiki.vn",
+    "mode": "shopping"
+  },
+  "amazon": {
+    "name": "Amazon",
+    "url": "https://www.amazon.com",
+    "mode": "shopping"
+  },
+  "sendo": {
+    "name": "Sendo",
+    "url": "https://www.sendo.vn",
+    "mode": "shopping"
+  },
+  "aliexpress": {
+    "name": "AliExpress",
+    "url": "https://www.aliexpress.com",
+    "mode": "shopping"
+  },
+  "ebay": {
+    "name": "eBay",
+    "url": "https://www.ebay.com",
+    "mode": "shopping"
+  },
+  "etsy": {
+    "name": "Etsy",
+    "url": "https://www.etsy.com",
+    "mode": "shopping"
+  },
+  "temu": {
+    "name": "Temu",
+    "url": "https://www.temu.com",
+    "mode": "shopping"
+  },
+  "taobao": {
+    "name": "Taobao",
+    "url": "https://www.taobao.com",
+    "mode": "shopping"
+  },
+  "dienmayxanh": {
+    "name": "Điện máy Xanh",
+    "url": "https://www.dienmayxanh.com",
+    "mode": "shopping"
+  },
+  "thegioididong": {
+    "name": "Thế Giới Di Động",
+    "url": "https://www.thegioididong.com",
+    "mode": "shopping"
+  },
+  "fptshop": {
+    "name": "FPT Shop",
+    "url": "https://fptshop.com.vn",
+    "mode": "shopping"
+  },
+  "cellphones": {
+    "name": "CellphoneS",
+    "url": "https://cellphones.com.vn",
+    "mode": "shopping"
+  },
+  "hoanghamobile": {
+    "name": "Hoàng Hà Mobile",
+    "url": "https://hoanghamobile.com",
+    "mode": "shopping"
+  },
+  "nguyenkim": {
+    "name": "Nguyễn Kim",
+    "url": "https://www.nguyenkim.com",
+    "mode": "shopping"
+  },
+  "mediamart": {
+    "name": "MediaMart",
+    "url": "https://mediamart.vn",
+    "mode": "shopping"
+  },
+  "phongvu": {
+    "name": "Phong Vũ",
+    "url": "https://phongvu.vn",
+    "mode": "shopping"
+  },
+  "gearvn": {
+    "name": "GearVN",
+    "url": "https://gearvn.com",
+    "mode": "shopping"
+  },
+  "anphatpc": {
+    "name": "An Phát PC",
+    "url": "https://www.anphatpc.com.vn",
+    "mode": "shopping"
+  },
+  "applestore": {
+    "name": "Apple Store",
+    "url": "https://www.apple.com/vn/shop",
+    "mode": "shopping"
+  },
+  "samsungshop": {
+    "name": "Samsung Shop",
+    "url": "https://www.samsung.com/vn",
+    "mode": "shopping"
+  },
+  "xiaomishop": {
+    "name": "Xiaomi Store",
+    "url": "https://www.mi.com/vn",
+    "mode": "shopping"
+  },
+  "uniqlo": {
+    "name": "UNIQLO",
+    "url": "https://www.uniqlo.com/vn/vi/",
+    "mode": "shopping"
+  },
+  "hm": {
+    "name": "H&M",
+    "url": "https://www2.hm.com/vi_vn/index.html",
+    "mode": "shopping"
+  },
+  "zara": {
+    "name": "Zara",
+    "url": "https://www.zara.com/vn/",
+    "mode": "shopping"
+  },
+  "decathlon": {
+    "name": "Decathlon",
+    "url": "https://www.decathlon.vn",
+    "mode": "shopping"
+  },
+  "canifa": {
+    "name": "Canifa",
+    "url": "https://canifa.com",
+    "mode": "shopping"
+  },
+  "coolmate": {
+    "name": "Coolmate",
+    "url": "https://www.coolmate.me",
+    "mode": "shopping"
+  },
+  "ikea": {
+    "name": "IKEA",
+    "url": "https://www.ikea.com",
+    "mode": "shopping"
+  },
+  "jysk": {
+    "name": "JYSK",
+    "url": "https://jysk.vn",
+    "mode": "shopping"
+  },
+  "locknlock": {
+    "name": "LocknLock",
+    "url": "https://www.locknlock.vn",
+    "mode": "shopping"
+  },
+  "hasaki": {
+    "name": "Hasaki",
+    "url": "https://hasaki.vn",
+    "mode": "shopping"
+  },
+  "watsons": {
+    "name": "Watsons",
+    "url": "https://www.watsons.vn",
+    "mode": "shopping"
+  },
+  "concung": {
+    "name": "Con Cưng",
+    "url": "https://concung.com",
+    "mode": "shopping"
+  },
+  "longchau": {
+    "name": "Nhà thuốc Long Châu",
+    "url": "https://nhathuoclongchau.com.vn",
+    "mode": "shopping"
+  },
+  "pharmacity": {
+    "name": "Pharmacity",
+    "url": "https://www.pharmacity.vn",
+    "mode": "shopping"
+  },
+  "ankhang": {
+    "name": "Nhà thuốc An Khang",
+    "url": "https://www.nhathuocankhang.com",
+    "mode": "shopping"
+  },
+  "bachhoaxanh": {
+    "name": "Bách Hóa Xanh",
+    "url": "https://www.bachhoaxanh.com",
+    "mode": "shopping"
+  },
+  "winmart": {
+    "name": "WinMart",
+    "url": "https://winmart.vn",
+    "mode": "shopping"
+  },
+  "cooponline": {
+    "name": "Co.op Online",
+    "url": "https://cooponline.vn",
+    "mode": "shopping"
+  },
+  "aeoneshop": {
+    "name": "AEONESHOP",
+    "url": "https://aeoneshop.com",
+    "mode": "shopping"
+  },
+  "lottemart": {
+    "name": "LOTTE Mart",
+    "url": "https://www.lottemart.vn",
+    "mode": "shopping"
+  },
+  "grabfood": {
+    "name": "GrabFood",
+    "url": "https://www.grab.com/vn/food/",
+    "mode": "shopping"
+  },
+  "shopeefood": {
+    "name": "ShopeeFood",
+    "url": "https://shopeefood.vn",
+    "mode": "shopping"
+  },
+  "befood": {
+    "name": "beFood",
+    "url": "https://be.com.vn/food/",
+    "mode": "shopping"
+  },
+  "fahasa": {
+    "name": "Fahasa",
+    "url": "https://www.fahasa.com",
+    "mode": "shopping"
+  },
+  "vinabook": {
+    "name": "Vinabook",
+    "url": "https://www.vinabook.com",
+    "mode": "shopping"
+  },
+  "chotot": {
+    "name": "Chợ Tốt",
+    "url": "https://www.chotot.com",
+    "mode": "shopping"
+  },
+  "booking": {
+    "name": "Booking.com",
+    "url": "https://www.booking.com",
+    "mode": "shopping"
+  },
+  "agoda": {
+    "name": "Agoda",
+    "url": "https://www.agoda.com",
+    "mode": "shopping"
+  },
+  "traveloka": {
+    "name": "Traveloka",
+    "url": "https://www.traveloka.com/vi-vn",
+    "mode": "shopping"
+  },
+  "klook": {
+    "name": "Klook",
+    "url": "https://www.klook.com/vi/",
+    "mode": "shopping"
+  },
+  "vietnamairlines": {
+    "name": "Vietnam Airlines",
+    "url": "https://www.vietnamairlines.com",
+    "mode": "shopping"
+  },
+  "vietjet": {
+    "name": "Vietjet Air",
+    "url": "https://www.vietjetair.com",
+    "mode": "shopping"
+  }
+}
