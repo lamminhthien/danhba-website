@@ -330,6 +330,20 @@ const PORTAL_DATA = {
     chesscom: ["Chess.com", "https://www.chess.com", { mode: APP_MODES.GAMES }],
     dino: ["Chrome Dino", "https://chromedino.com", { mode: APP_MODES.GAMES }],
     geforce: ["GeForce NOW", "https://play.geforcenow.com", { mode: APP_MODES.GAMES }],
+    boosteroid: ["Boosteroid Cloud", "https://boosteroid.com/games", { mode: APP_MODES.GAMES }],
+    gta5: ["GTA V (trang chính thức)", "https://www.rockstargames.com/gta-v", { mode: APP_MODES.GAMES }],
+
+    /* ---------- Game retro & port chạy trên web ---------- */
+    tic80: ["TIC-80 Play", "https://tic80.com/play", { mode: APP_MODES.GAMES }],
+    pico8bbs: ["PICO-8 BBS", "https://www.lexaloffle.com/bbs/", { mode: APP_MODES.GAMES }],
+    itchretro: ["itch.io Retro HTML5", "https://itch.io/games/html5/tag-retro", { mode: APP_MODES.GAMES }],
+    itchgameboy: ["Game Boy trên itch.io", "https://itch.io/games/html5/tag-gameboy", { mode: APP_MODES.GAMES }],
+    classicube: ["ClassiCube Web", "https://classicube.net/server/play/", { mode: APP_MODES.GAMES }],
+
+    /* ---------- Trình giả lập chạy trên web (tự nạp game hợp pháp) ---------- */
+    emulatorjs: ["EmulatorJS (nạp game)", "https://demo.emulatorjs.org/", { mode: APP_MODES.GAMES }],
+    retroarchweb: ["RetroArch Web (nạp game)", "https://web.libretro.com/", { mode: APP_MODES.GAMES }],
+    jsdos: ["js-dos (DOS trên web)", "https://js-dos.com/overview.html", { mode: APP_MODES.GAMES }],
 
     /* ---------- Game: cổng game (nhiều trò) ---------- */
     poki: ["Poki", "https://poki.com", { mode: APP_MODES.GAMES }],
@@ -370,6 +384,10 @@ const PORTAL_DATA = {
     work:      { name: "Làm việc",   apps: ["slack","notion","trello","asana","jira","figma","canva","zoom","teams","dropbox","linear","miro","airtable","calendly","grammarly"] },
     dev:       { name: "Lập trình",  apps: ["github","gitlab","vscode","codepen","replit","stackblitz","vercel","cloudflare","stackoverflow","mdn","postman","huggingface"] },
     games:     { name: "Game Web",   apps: ["minecraft","krunker","slither","agar","shellshock","skribbl","game2048","wordle","cookie","tetris","alchemy","geoguessr","lichess","chesscom","dino","geforce","xboxcloud"] },
+    retro:     { name: "Game Retro", apps: ["tic80","pico8bbs","itchretro","itchgameboy","classicube","minecraft"] },
+    emulators: { name: "Giả lập Web", apps: ["emulatorjs","retroarchweb","jsdos"] },
+    webports:  { name: "Game port Web", apps: ["minecraft","classicube","tic80","pico8bbs","itchretro","itchgameboy"] },
+    cloudgames:{ name: "Cloud & GTA V", apps: ["gta5","geforce","xboxcloud","boosteroid"] },
     portals:   { name: "Cổng game",  apps: ["poki","crazygames","y8","miniclip","coolmath","newgrounds","kongregate","armorgames","itch","gamedistribution"] },
     flashwebgl:{ name: "Flash & WebGL", apps: ["ruffle","flashpoint","newgrounds","hexgl","aquarium","threejs","chromeexp","voxiom","zombs","earth"] }
   },
@@ -385,7 +403,7 @@ const PORTAL_DATA = {
        "folder:ai","folder:dev","app:netflix","app:zalo",
        "app:messenger","app:threads","app:x","app:reddit",
        "app:vnexpress","app:shopee","app:zoom","app:figma"],
-      ["folder:games","folder:portals","folder:flashwebgl","app:minecraft",
+      ["folder:games","folder:retro","folder:emulators","folder:webports","folder:cloudgames","folder:portals","folder:flashwebgl","app:minecraft",
        "app:poki","app:crazygames","app:krunker","app:slither",
        "app:agar","app:wordle","app:game2048","app:ruffle"]
     ]
