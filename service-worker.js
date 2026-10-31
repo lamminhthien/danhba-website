@@ -1,4 +1,4 @@
-const CACHE_NAME = 'web-directory-shell-v1';
+const CACHE_NAME = 'web-directory-shell-v2';
 const SHELL_FILES = [
   './',
   './index.html',
@@ -8,6 +8,10 @@ const SHELL_FILES = [
   './icon-512.png',
   './apple-touch-icon.png',
   './css/style.css',
+  './js/data-work.js',
+  './js/data-shopping.js',
+  './js/data-entertainment.js',
+  './js/data-games.js',
   './js/data.js',
   './js/app.js'
 ];

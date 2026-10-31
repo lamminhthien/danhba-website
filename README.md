@@ -9,7 +9,9 @@ cài PWA và dùng ngoại tuyến, cần mở qua HTTPS hoặc `localhost`.
 ## Cấu trúc
 - `index.html`      khung giao diện
 - `css/style.css`   giao diện toàn màn hình (co giãn theo điện thoại / iPad / desktop)
-- `js/data.js`      **PORTAL_DATA** – toàn bộ ứng dụng / thư mục / bố cục (sửa ở đây)
+- `js/data.js`      chế độ, cài đặt, thư mục, thứ tự và bố cục chung
+- `js/data-work.js`, `js/data-shopping.js`, `js/data-entertainment.js`,
+  `js/data-games.js`  danh sách ứng dụng theo chế độ
 - `js/app.js`       logic (vuốt trang, thư mục, tìm kiếm, tải icon)
 - `manifest.webmanifest`, `icon.svg`  cài như app để chạy fullscreen
 
@@ -28,7 +30,8 @@ Giao diện phủ kín cửa sổ trình duyệt, không còn khung điện tho�
   `http://localhost:8000`; khi triển khai, dùng HTTPS để service worker hoạt động.
 
 ## Thêm một ứng dụng
-1. Trong `apps`: `myapp: ["Tên", "https://myapp.com"],`
+1. Thêm ứng dụng vào file `js/data-<mode>.js` tương ứng, ví dụ:
+  `myapp: ["Tên", "https://myapp.com", { mode: "work" }],`
 2. Thêm id vào một thư mục (`folders.<x>.apps`) và/hoặc vào `layout.pages` / `layout.dock` dưới dạng `"app:myapp"`.
 
 ## Icon
