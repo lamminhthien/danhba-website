@@ -1,11 +1,11 @@
 (() => {
-  const files = ["portal", "work", "shopping", "entertainment", "games", "custom-links"];
+  const files = ["portal", "work", "ai", "shopping", "entertainment", "games", "custom-links"];
   const load = name => fetch(`./data/${name}.json`).then(response => {
     if (!response.ok) throw new Error(`Could not load data/${name}.json (${response.status})`);
     return response.json();
   });
 
-  Promise.all(files.map(load)).then(([portal, work, shopping, entertainment, games, custom]) => {
+  Promise.all(files.map(load)).then(([portal, work, ai, shopping, entertainment, games, custom]) => {
     const customApps = custom.apps || {};
     const pages = portal.layout.pages.map(page => page.slice());
     const customIds = Object.keys(customApps);
@@ -14,7 +14,7 @@
     window.APP_MODES = Object.freeze(portal.modes);
     window.PORTAL_DATA = {
       settings: portal.settings,
-      apps: Object.assign({}, work, shopping, entertainment, games, customApps),
+      apps: Object.assign({}, work, ai, shopping, entertainment, games, customApps),
       folders: portal.folders,
       layout: { ...portal.layout, pages }
     };

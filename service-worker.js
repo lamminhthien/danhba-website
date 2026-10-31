@@ -11,6 +11,7 @@ const SHELL_FILES = [
   './js/data-loader.js',
   './data/portal.json',
   './data/work.json',
+  './data/ai.json',
   './data/shopping.json',
   './data/entertainment.json',
   './data/games.json',

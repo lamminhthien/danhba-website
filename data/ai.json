@@ -1,0 +1,132 @@
+{
+  "gemini": {
+    "name": "Gemini",
+    "url": "https://gemini.google.com",
+    "mode": "ai"
+  },
+  "notebooklm": {
+    "name": "NotebookLM",
+    "url": "https://notebooklm.google.com",
+    "mode": "ai"
+  },
+  "aistudio": {
+    "name": "AI Studio",
+    "url": "https://aistudio.google.com",
+    "mode": "ai"
+  },
+  "copilot": {
+    "name": "Copilot",
+    "url": "https://copilot.microsoft.com",
+    "mode": "ai"
+  },
+  "metaai": {
+    "name": "Meta AI",
+    "url": "https://www.meta.ai",
+    "mode": "ai"
+  },
+  "chatgpt": {
+    "name": "ChatGPT",
+    "url": "https://chatgpt.com",
+    "mode": "ai"
+  },
+  "claude": {
+    "name": "Claude",
+    "url": "https://claude.ai",
+    "mode": "ai"
+  },
+  "perplexity": {
+    "name": "Perplexity",
+    "url": "https://www.perplexity.ai",
+    "mode": "ai"
+  },
+  "grok": {
+    "name": "Grok",
+    "url": "https://grok.com",
+    "mode": "ai"
+  },
+  "deepseek": {
+    "name": "DeepSeek",
+    "url": "https://chat.deepseek.com",
+    "mode": "ai"
+  },
+  "mistral": {
+    "name": "Le Chat",
+    "url": "https://chat.mistral.ai",
+    "mode": "ai"
+  },
+  "huggingface": {
+    "name": "Hugging Face",
+    "url": "https://huggingface.co",
+    "mode": "ai"
+  },
+  "suno": {
+    "name": "Suno",
+    "url": "https://suno.com",
+    "mode": "ai"
+  },
+  "poe": {
+    "name": "Poe",
+    "url": "https://poe.com",
+    "mode": "ai"
+  },
+  "duckai": {
+    "name": "Duck.ai",
+    "url": "https://duck.ai",
+    "mode": "ai"
+  },
+  "characterai": {
+    "name": "Character.AI",
+    "url": "https://character.ai",
+    "mode": "ai"
+  },
+  "gamma": {
+    "name": "Gamma",
+    "url": "https://gamma.app",
+    "mode": "ai"
+  },
+  "leonardo": {
+    "name": "Leonardo AI",
+    "url": "https://leonardo.ai",
+    "mode": "ai"
+  },
+  "elevenlabs": {
+    "name": "ElevenLabs",
+    "url": "https://elevenlabs.io",
+    "mode": "ai"
+  },
+  "qwen": {
+    "name": "Qwen",
+    "url": "https://chat.qwen.ai",
+    "mode": "ai"
+  },
+  "kimi": {
+    "name": "Kimi",
+    "url": "https://www.kimi.com",
+    "mode": "ai"
+  },
+  "doubao": {
+    "name": "Doubao",
+    "url": "https://www.doubao.com",
+    "mode": "ai"
+  },
+  "yuanbao": {
+    "name": "Yuanbao",
+    "url": "https://yuanbao.tencent.com",
+    "mode": "ai"
+  },
+  "zai": {
+    "name": "Z.ai",
+    "url": "https://chat.z.ai",
+    "mode": "ai"
+  },
+  "hailuo": {
+    "name": "Hailuo AI",
+    "url": "https://hailuoai.video",
+    "mode": "ai"
+  },
+  "kling": {
+    "name": "Kling AI",
+    "url": "https://kling.ai",
+    "mode": "ai"
+  }
+}

@@ -3,7 +3,7 @@ const path = require("node:path");
 
 const dataDir = path.join(__dirname, "data");
 const customPath = path.join(dataDir, "custom-links.json");
-const modes = ["work", "shopping", "entertainment", "games"];
+const modes = ["work", "ai", "shopping", "entertainment", "games"];
 
 function fail(message) {
   console.error(message);

@@ -10,8 +10,8 @@ tuyến, cần mở qua HTTPS hoặc `localhost`.
 - `index.html`      khung giao diện
 - `css/style.css`   giao diện toàn màn hình (co giãn theo điện thoại / iPad / desktop)
 - `data/portal.json` cấu hình chung, thư mục và bố cục
-- `data/work.json`, `data/shopping.json`, `data/entertainment.json`,
-  `data/games.json` danh sách ứng dụng theo chế độ
+- `data/work.json`, `data/ai.json`, `data/shopping.json`,
+  `data/entertainment.json`, `data/games.json` danh sách ứng dụng theo chế độ
 - `data/custom-links.json` các website tự thêm bằng `linkmaker.js`
 - `js/data-loader.js` nạp và ghép dữ liệu JSON trước khi mở ứng dụng
 - `linkmaker.js` tạo entry JSON cho website mới
@@ -39,7 +39,7 @@ Chạy lệnh từ thư mục dự án, thay giá trị theo website muốn thê
 node linkmaker.js --id myapp --name "Tên website" --url https://myapp.com --mode work
 ```
 
-`--mode` nhận `work`, `shopping`, `entertainment` hoặc `games`. Lệnh ghi website
+`--mode` nhận `work`, `ai`, `shopping`, `entertainment` hoặc `games`. Lệnh ghi website
 vào `data/custom-links.json`; ứng dụng sẽ tự hiển thị trong chế độ tương ứng và
 trong chế độ “Tất cả”. Có thể thêm `--icon https://...` hoặc `--slug ten-icon`
 để chỉ định icon. Các file nhóm JSON gốc không bị thay đổi.

@@ -2,6 +2,7 @@
   "modes": {
     "ALL": "all",
     "WORK": "work",
+    "AI": "ai",
     "SHOPPING": "shopping",
     "ENTERTAINMENT": "entertainment",
     "GAMES": "games"

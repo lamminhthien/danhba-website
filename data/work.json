@@ -69,21 +69,6 @@
     "url": "https://chat.google.com",
     "mode": "work"
   },
-  "gemini": {
-    "name": "Gemini",
-    "url": "https://gemini.google.com",
-    "mode": "work"
-  },
-  "notebooklm": {
-    "name": "NotebookLM",
-    "url": "https://notebooklm.google.com",
-    "mode": "work"
-  },
-  "aistudio": {
-    "name": "AI Studio",
-    "url": "https://aistudio.google.com",
-    "mode": "work"
-  },
   "earth": {
     "name": "Earth",
     "url": "https://earth.google.com/web/",
@@ -154,11 +139,6 @@
     "url": "https://www.bing.com",
     "mode": "work"
   },
-  "copilot": {
-    "name": "Copilot",
-    "url": "https://copilot.microsoft.com",
-    "mode": "work"
-  },
   "azure": {
     "name": "Azure",
     "url": "https://portal.azure.com",
@@ -172,11 +152,6 @@
   "whatsapp": {
     "name": "WhatsApp",
     "url": "https://web.whatsapp.com",
-    "mode": "work"
-  },
-  "metaai": {
-    "name": "Meta AI",
-    "url": "https://www.meta.ai",
     "mode": "work"
   },
   "linkedin": {
@@ -262,131 +237,6 @@
   "epik": {
     "name": "EPIK",
     "url": "https://epik.snow.me",
-    "mode": "work"
-  },
-  "chatgpt": {
-    "name": "ChatGPT",
-    "url": "https://chatgpt.com",
-    "mode": "work"
-  },
-  "claude": {
-    "name": "Claude",
-    "url": "https://claude.ai",
-    "mode": "work"
-  },
-  "perplexity": {
-    "name": "Perplexity",
-    "url": "https://www.perplexity.ai",
-    "mode": "work"
-  },
-  "grok": {
-    "name": "Grok",
-    "url": "https://grok.com",
-    "mode": "work"
-  },
-  "deepseek": {
-    "name": "DeepSeek",
-    "url": "https://chat.deepseek.com",
-    "mode": "work"
-  },
-  "mistral": {
-    "name": "Le Chat",
-    "url": "https://chat.mistral.ai",
-    "mode": "work"
-  },
-  "midjourney": {
-    "name": "Midjourney",
-    "url": "https://www.midjourney.com",
-    "mode": "work"
-  },
-  "huggingface": {
-    "name": "Hugging Face",
-    "url": "https://huggingface.co",
-    "mode": "work"
-  },
-  "suno": {
-    "name": "Suno",
-    "url": "https://suno.com",
-    "mode": "work"
-  },
-  "poe": {
-    "name": "Poe",
-    "url": "https://poe.com",
-    "mode": "work"
-  },
-  "duckai": {
-    "name": "Duck.ai",
-    "url": "https://duck.ai",
-    "mode": "work"
-  },
-  "characterai": {
-    "name": "Character.AI",
-    "url": "https://character.ai",
-    "mode": "work"
-  },
-  "gamma": {
-    "name": "Gamma",
-    "url": "https://gamma.app",
-    "mode": "work"
-  },
-  "leonardo": {
-    "name": "Leonardo AI",
-    "url": "https://leonardo.ai",
-    "mode": "work"
-  },
-  "elevenlabs": {
-    "name": "ElevenLabs",
-    "url": "https://elevenlabs.io",
-    "mode": "work"
-  },
-  "qwen": {
-    "name": "Qwen",
-    "url": "https://chat.qwen.ai",
-    "mode": "work"
-  },
-  "kimi": {
-    "name": "Kimi",
-    "url": "https://www.kimi.com",
-    "mode": "work"
-  },
-  "doubao": {
-    "name": "Doubao",
-    "url": "https://www.doubao.com",
-    "mode": "work"
-  },
-  "yuanbao": {
-    "name": "Yuanbao",
-    "url": "https://yuanbao.tencent.com",
-    "mode": "work"
-  },
-  "zai": {
-    "name": "Z.ai",
-    "url": "https://chat.z.ai",
-    "mode": "work"
-  },
-  "hailuo": {
-    "name": "Hailuo AI",
-    "url": "https://hailuoai.video",
-    "mode": "work"
-  },
-  "kling": {
-    "name": "Kling AI",
-    "url": "https://kling.ai",
-    "mode": "work"
-  },
-  "aihay": {
-    "name": "AI Hay",
-    "url": "https://ai-hay.vn",
-    "mode": "work"
-  },
-  "zaloai": {
-    "name": "Zalo AI",
-    "url": "https://ai.zalo.solutions",
-    "mode": "work"
-  },
-  "viettelai": {
-    "name": "Viettel AI",
-    "url": "https://viettelai.vn",
     "mode": "work"
   },
   "slack": {
