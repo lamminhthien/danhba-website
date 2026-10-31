@@ -128,5 +128,280 @@
     "name": "Kling AI",
     "url": "https://kling.ai",
     "mode": "ai"
+  },
+  "ideogram": {
+    "name": "Ideogram",
+    "url": "https://ideogram.ai",
+    "mode": "ai"
+  },
+  "adobefirefly": {
+    "name": "Adobe Firefly",
+    "url": "https://firefly.adobe.com",
+    "mode": "ai"
+  },
+  "microsoftdesigner": {
+    "name": "Microsoft Designer",
+    "url": "https://designer.microsoft.com",
+    "mode": "ai"
+  },
+  "krea": {
+    "name": "Krea AI",
+    "url": "https://krea.ai",
+    "mode": "ai"
+  },
+  "playgroundai": {
+    "name": "Playground AI",
+    "url": "https://playground.com",
+    "mode": "ai"
+  },
+  "pixverse": {
+    "name": "PixVerse",
+    "url": "https://pixverse.ai",
+    "mode": "ai"
+  },
+  "freepik": {
+    "name": "Freepik AI",
+    "url": "https://www.freepik.com/ai",
+    "mode": "ai"
+  },
+  "piclumen": {
+    "name": "PicLumen",
+    "url": "https://piclumen.com",
+    "mode": "ai"
+  },
+  "stablediffusion": {
+    "name": "Stable Diffusion",
+    "url": "https://huggingface.co/spaces/stabilityai/stable-diffusion-3-medium",
+    "mode": "ai"
+  },
+  "pika": {
+    "name": "Pika",
+    "url": "https://pika.art",
+    "mode": "ai"
+  },
+  "runway": {
+    "name": "Runway",
+    "url": "https://runwayml.com",
+    "mode": "ai"
+  },
+  "lumadreammachine": {
+    "name": "Luma Dream Machine",
+    "url": "https://lumalabs.ai/dream-machine",
+    "mode": "ai"
+  },
+  "heygen": {
+    "name": "HeyGen",
+    "url": "https://www.heygen.com",
+    "mode": "ai"
+  },
+  "capcut": {
+    "name": "CapCut AI",
+    "url": "https://www.capcut.com",
+    "mode": "ai"
+  },
+  "synthesia": {
+    "name": "Synthesia",
+    "url": "https://www.synthesia.io",
+    "mode": "ai"
+  },
+  "vidu": {
+    "name": "Vidu",
+    "url": "https://www.vidu.com",
+    "mode": "ai"
+  },
+  "udio": {
+    "name": "Udio",
+    "url": "https://www.udio.com",
+    "mode": "ai"
+  },
+  "aiva": {
+    "name": "AIVA",
+    "url": "https://www.aiva.ai",
+    "mode": "ai"
+  },
+  "stableaudio": {
+    "name": "Stable Audio",
+    "url": "https://stableaudio.com",
+    "mode": "ai"
+  },
+  "mubert": {
+    "name": "Mubert",
+    "url": "https://mubert.com",
+    "mode": "ai"
+  },
+  "soundraw": {
+    "name": "Soundraw",
+    "url": "https://soundraw.io",
+    "mode": "ai"
+  },
+  "naturalreader": {
+    "name": "NaturalReader",
+    "url": "https://www.naturalreaders.com",
+    "mode": "ai"
+  },
+  "speechma": {
+    "name": "Speechma",
+    "url": "https://speechma.com",
+    "mode": "ai"
+  },
+  "tome": {
+    "name": "Tome",
+    "url": "https://tome.app",
+    "mode": "ai"
+  },
+  "beautifulai": {
+    "name": "Beautiful.ai",
+    "url": "https://www.beautiful.ai",
+    "mode": "ai"
+  },
+  "slidesai": {
+    "name": "SlidesAI",
+    "url": "https://www.slidesai.io",
+    "mode": "ai"
+  },
+  "presentationsai": {
+    "name": "Presentations.AI",
+    "url": "https://www.presentations.ai",
+    "mode": "ai"
+  },
+  "canva": {
+    "name": "Canva AI",
+    "url": "https://www.canva.com",
+    "mode": "ai"
+  },
+  "decktopus": {
+    "name": "Decktopus",
+    "url": "https://www.decktopus.com",
+    "mode": "ai"
+  },
+  "grammarly": {
+    "name": "Grammarly",
+    "url": "https://www.grammarly.com",
+    "mode": "ai"
+  },
+  "quillbot": {
+    "name": "QuillBot",
+    "url": "https://quillbot.com",
+    "mode": "ai"
+  },
+  "copyai": {
+    "name": "Copy.ai",
+    "url": "https://www.copy.ai",
+    "mode": "ai"
+  },
+  "writesonic": {
+    "name": "Writesonic",
+    "url": "https://writesonic.com",
+    "mode": "ai"
+  },
+  "rytr": {
+    "name": "Rytr",
+    "url": "https://rytr.me",
+    "mode": "ai"
+  },
+  "languagetool": {
+    "name": "LanguageTool",
+    "url": "https://languagetool.org",
+    "mode": "ai"
+  },
+  "githubcopilot": {
+    "name": "GitHub Copilot",
+    "url": "https://github.com/features/copilot",
+    "mode": "ai"
+  },
+  "cursor": {
+    "name": "Cursor",
+    "url": "https://cursor.com",
+    "mode": "ai"
+  },
+  "codeium": {
+    "name": "Codeium",
+    "url": "https://codeium.com",
+    "mode": "ai"
+  },
+  "tabnine": {
+    "name": "Tabnine",
+    "url": "https://www.tabnine.com",
+    "mode": "ai"
+  },
+  "replit": {
+    "name": "Replit AI",
+    "url": "https://replit.com",
+    "mode": "ai"
+  },
+  "v0": {
+    "name": "v0 by Vercel",
+    "url": "https://v0.dev",
+    "mode": "ai"
+  },
+  "bolt": {
+    "name": "Bolt.new",
+    "url": "https://bolt.new",
+    "mode": "ai"
+  },
+  "codegeex": {
+    "name": "CodeGeeX",
+    "url": "https://codegeex.cn",
+    "mode": "ai"
+  },
+  "figma": {
+    "name": "Figma AI",
+    "url": "https://www.figma.com",
+    "mode": "ai"
+  },
+  "looka": {
+    "name": "Looka",
+    "url": "https://looka.com",
+    "mode": "ai"
+  },
+  "removebg": {
+    "name": "Remove.bg",
+    "url": "https://www.remove.bg",
+    "mode": "ai"
+  },
+  "clipdrop": {
+    "name": "Clipdrop",
+    "url": "https://clipdrop.co",
+    "mode": "ai"
+  },
+  "deepl": {
+    "name": "DeepL",
+    "url": "https://www.deepl.com",
+    "mode": "ai"
+  },
+  "otter": {
+    "name": "Otter.ai",
+    "url": "https://otter.ai",
+    "mode": "ai"
+  },
+  "notionai": {
+    "name": "Notion AI",
+    "url": "https://www.notion.so",
+    "mode": "ai"
+  },
+  "whisper": {
+    "name": "Whisper",
+    "url": "https://github.com/openai/whisper",
+    "mode": "ai"
+  },
+  "descript": {
+    "name": "Descript",
+    "url": "https://www.descript.com",
+    "mode": "ai"
+  },
+  "ollama": {
+    "name": "Ollama",
+    "url": "https://ollama.com",
+    "mode": "ai"
+  },
+  "lmstudio": {
+    "name": "LM Studio",
+    "url": "https://lmstudio.ai",
+    "mode": "ai"
+  },
+  "openrouter": {
+    "name": "OpenRouter",
+    "url": "https://openrouter.ai",
+    "mode": "ai"
   }
 }
