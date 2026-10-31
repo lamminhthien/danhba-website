@@ -102,6 +102,9 @@ body{font-family:var(--font);color:var(--ink);background:#000;overflow:hidden;ov
 .item:active .tile{transform:scale(.9);opacity:.85}
 .label{font-size:var(--label-size);line-height:1.15;text-align:center;max-width:calc(var(--tile) + 14px);
   overflow:hidden;text-overflow:ellipsis;white-space:nowrap;text-shadow:0 1px 3px rgba(0,0,0,.55)}
+.availability{padding:2px 5px;border-radius:4px;font-size:9px;line-height:1.1;white-space:nowrap;color:#fff}
+.availability.free{background:#17653d}
+.availability.paid{background:#8b302b}
 
 /* Ô icon – phẳng kiểu iOS 6: không đổ bóng mờ, chỉ một đường viền mảnh */
 .tile{width:var(--tile);height:var(--tile);border-radius:var(--radius);background:#fff;display:grid;place-items:center;
@@ -128,6 +131,8 @@ body{font-family:var(--font);color:var(--ink);background:#000;overflow:hidden;ov
 .dock .tile{width:var(--dock-tile);height:var(--dock-tile)}
 .dock .tile .letter{font-size:calc(var(--dock-tile) * .42)}
 .dock .label{max-width:calc(var(--dock-tile) + 12px)}
+.dock .item:has(.availability){gap:2px;padding:0;transform:translateY(-6px)}
+.dock .availability{padding:1px 4px;font-size:8px}
 .dots{position:absolute;bottom:var(--dots-bottom);left:0;right:0;display:flex;justify-content:center;gap:8px;z-index:10}
 .dots i{width:7px;height:7px;border-radius:50%;background:rgba(255,255,255,.4);transition:background .2s}
 .dots i.on{background:#fff}

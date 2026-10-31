@@ -18,7 +18,7 @@ function parseArgs(args) {
       throw new Error(`Thiếu giá trị hợp lệ cho ${key}`);
     }
     const name = key.slice(2);
-    if (!["id", "name", "url", "mode", "icon", "slug"].includes(name)) {
+    if (!["id", "name", "url", "mode", "icon", "slug", "is-free"].includes(name)) {
       throw new Error(`Tùy chọn không được hỗ trợ: ${key}`);
     }
     if (values[name]) throw new Error(`Tùy chọn bị lặp: ${key}`);
@@ -37,6 +37,9 @@ try {
   }
   if (!modes.includes(values.mode)) {
     throw new Error(`--mode phải là một trong: ${modes.join(", ")}`);
+  }
+  if (values["is-free"] !== undefined && !["true", "false"].includes(values["is-free"])) {
+    throw new Error("--is-free phải là true hoặc false.");
   }
 
   const url = new URL(values.url);
@@ -63,11 +66,12 @@ try {
   if (Object.hasOwn(custom.apps, values.id)) throw new Error(`ID đã tồn tại trong custom-links.json: ${values.id}`);
 
   const app = { name: values.name, url: url.href, mode: values.mode };
+  if (values["is-free"] !== undefined) app.isFree = values["is-free"] === "true";
   if (values.icon) app.icon = values.icon;
   if (values.slug) app.slug = values.slug;
   custom.apps[values.id] = app;
   fs.writeFileSync(customPath, `${JSON.stringify(custom, null, 2)}\n`);
   console.log(`Đã thêm ${values.name} vào data/custom-links.json`);
 } catch (error) {
-  fail(`${error.message}\nDùng: node linkmaker.js --id id --name "Tên" --url https://example.com --mode work [--icon https://...] [--slug ten-icon]`);
+  fail(`${error.message}\nDùng: node linkmaker.js --id id --name "Tên" --url https://example.com --mode work [--is-free true|false] [--icon https://...] [--slug ten-icon]`);
 }

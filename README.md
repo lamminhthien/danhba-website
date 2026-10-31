@@ -43,6 +43,8 @@ node linkmaker.js --id myapp --name "Tên website" --url https://myapp.com --mod
 vào `data/custom-links.json`; ứng dụng sẽ tự hiển thị trong chế độ tương ứng và
 trong chế độ “Tất cả”. Có thể thêm `--icon https://...` hoặc `--slug ten-icon`
 để chỉ định icon. Các file nhóm JSON gốc không bị thay đổi.
+Có thể thêm `--is-free true` hoặc `--is-free false` để hiện nhãn “Miễn phí” hoặc
+“Trả phí” cho link đó; khi bỏ qua, link không hiện nhãn.
 
 Mỗi app trong file nhóm là một object với thuộc tính có tên:
 
@@ -51,13 +53,15 @@ Mỗi app trong file nhóm là một object với thuộc tính có tên:
   "myapp": {
     "name": "Tên website",
     "url": "https://myapp.com",
-    "mode": "work"
+    "mode": "work",
+    "isFree": true
   }
 }
 ```
 
 `icon`, `slug`, `bg` và `fit` là các thuộc tính tùy chọn cùng cấp với `name`,
-`url` và `mode`.
+`url` và `mode`. `isFree` là boolean tùy chọn: `true` nếu có gói dùng miễn phí,
+`false` nếu bắt buộc trả phí.
 
 ## Icon
 Icon thật lấy tự động theo thứ tự `settings.iconProviders` (favicon của Google → DuckDuckGo → Simple Icons).

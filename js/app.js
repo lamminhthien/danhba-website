@@ -101,10 +101,16 @@
   function open(id) { window.open(D.apps[id].url, S.openTarget, "noopener,noreferrer"); }
 
   function appItem(id, eager) {
-    const b = el("button", "item"); b.title = D.apps[id].url;
+    const app = D.apps[id];
+    const b = el("button", "item"); b.title = app.url;
     const t = el("div", "tile"); fillIcon(t, id, eager);
-    const label = el("span", "label"); label.textContent = D.apps[id].name;
+    const label = el("span", "label"); label.textContent = app.name;
     b.append(t, label);
+    if (typeof app.isFree === "boolean") {
+      const availability = el("span", `availability ${app.isFree ? "free" : "paid"}`);
+      availability.textContent = app.isFree ? "Miễn phí" : "Trả phí";
+      b.append(availability);
+    }
     b.onclick = () => { if (!dragged) open(id); };
     return b;
   }
@@ -144,6 +150,9 @@
   function probeItem() {
     const b = el("button", "item");
     b.append(el("div", "tile"), el("span", "label", "Aa"));
+    if (visibleAppIds.some(id => typeof D.apps[id].isFree === "boolean")) {
+      b.append(el("span", "availability", "Miễn phí"));
+    }
     return b;
   }
   function rowsThatFit() {

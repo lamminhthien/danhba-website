@@ -2,371 +2,445 @@
   "youtube": {
     "name": "YouTube",
     "url": "https://www.youtube.com",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": true
   },
   "ytmusic": {
     "name": "YT Music",
     "url": "https://music.youtube.com",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": true
   },
   "gnews": {
     "name": "Google News",
     "url": "https://news.google.com",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": true
   },
   "facebook": {
     "name": "Facebook",
     "url": "https://www.facebook.com",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": true
   },
   "fbwatch": {
     "name": "FB Watch",
     "url": "https://www.facebook.com/watch",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": true
   },
   "fbnews": {
     "name": "FB Tin tức",
     "url": "https://www.facebook.com/news",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": true
   },
   "instagram": {
     "name": "Instagram",
     "url": "https://www.instagram.com",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": true
   },
   "threads": {
     "name": "Threads",
     "url": "https://www.threads.com",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": true
   },
   "tiktok": {
     "name": "TikTok",
     "url": "https://www.tiktok.com",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": true
   },
   "x": {
     "name": "X",
     "url": "https://x.com",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": true
   },
   "reddit": {
     "name": "Reddit",
     "url": "https://www.reddit.com",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": true
   },
   "pinterest": {
     "name": "Pinterest",
     "url": "https://www.pinterest.com",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": true
   },
   "snapchat": {
     "name": "Snapchat",
     "url": "https://www.snapchat.com",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": true
   },
   "tumblr": {
     "name": "Tumblr",
     "url": "https://www.tumblr.com",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": true
   },
   "bluesky": {
     "name": "Bluesky",
     "url": "https://bsky.app",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": true
   },
   "bereal": {
     "name": "BeReal",
     "url": "https://bereal.com",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": true
   },
   "lemon8": {
     "name": "Lemon8",
     "url": "https://www.lemon8-app.com",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": true
   },
   "mastodon": {
     "name": "Mastodon",
     "url": "https://joinmastodon.org",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": true
   },
   "netflix": {
     "name": "Netflix",
     "url": "https://www.netflix.com",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": false
   },
   "spotify": {
     "name": "Spotify",
     "url": "https://open.spotify.com",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": true
   },
   "twitch": {
     "name": "Twitch",
     "url": "https://www.twitch.tv",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": true
   },
   "disney": {
     "name": "Disney+",
     "url": "https://www.disneyplus.com",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": false
   },
   "prime": {
     "name": "Prime Video",
     "url": "https://www.primevideo.com",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": false
   },
   "soundcloud": {
     "name": "SoundCloud",
     "url": "https://soundcloud.com",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": true
   },
   "zingmp3": {
     "name": "Zing MP3",
     "url": "https://zingmp3.vn",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": true
   },
   "bilibili": {
     "name": "Bilibili",
     "url": "https://www.bilibili.com",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": true
   },
   "sctv": {
     "name": "SCTV",
     "url": "https://sctvonline.vn",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": true
   },
   "kplus": {
     "name": "K+",
     "url": "https://www.kplus.vn",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": false
   },
   "hbo": {
     "name": "HBO Max",
     "url": "https://play.max.com",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": false
   },
   "appletv": {
     "name": "Apple TV",
     "url": "https://tv.apple.com",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": false
   },
   "youtubekids": {
     "name": "YouTube Kids",
     "url": "https://www.youtube.com/kids",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": true
   },
   "crunchyroll": {
     "name": "Crunchyroll",
     "url": "https://www.crunchyroll.com",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": false
   },
   "retrocrush": {
     "name": "RetroCrush",
     "url": "https://www.retrocrush.tv",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": true
   },
   "pops": {
     "name": "POPS",
     "url": "https://pops.vn",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": true
   },
   "anilist": {
     "name": "AniList",
     "url": "https://anilist.co",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": true
   },
   "myanimelist": {
     "name": "MyAnimeList",
     "url": "https://myanimelist.net",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": true
   },
   "animenewsnetwork": {
     "name": "Anime News Network",
     "url": "https://www.animenewsnetwork.com",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": true
   },
   "tramanime": {
     "name": "Trạm Anime",
     "url": "https://tramanime.com",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": true
   },
   "mangaplus": {
     "name": "MANGA Plus",
     "url": "https://mangaplus.shueisha.co.jp",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": true
   },
   "viz": {
     "name": "VIZ Manga",
     "url": "https://www.viz.com",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": true
   },
   "webtoon": {
     "name": "WEBTOON",
     "url": "https://www.webtoons.com",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": true
   },
   "tapas": {
     "name": "Tapas",
     "url": "https://tapas.io",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": true
   },
   "comicwalker": {
     "name": "ComicWalker",
     "url": "https://comic-walker.com",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": true
   },
   "locket": {
     "name": "Locket Widget",
     "url": "https://locket.camera",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": true
   },
   "tinder": {
     "name": "Tinder",
     "url": "https://tinder.com",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": true
   },
   "vieon": {
     "name": "VieON",
     "url": "https://vieon.vn",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": true
   },
   "fptplay": {
     "name": "FPT Play",
     "url": "https://fptplay.vn",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": true
   },
   "tv360": {
     "name": "TV360",
     "url": "https://tv360.vn",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": true
   },
   "vtvgo": {
     "name": "VTVgo",
     "url": "https://vtvgo.vn",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": true
   },
   "applemusic": {
     "name": "Apple Music",
     "url": "https://music.apple.com",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": false
   },
   "deezer": {
     "name": "Deezer",
     "url": "https://www.deezer.com",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": true
   },
   "bandcamp": {
     "name": "Bandcamp",
     "url": "https://bandcamp.com",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": true
   },
   "tidal": {
     "name": "TIDAL",
     "url": "https://tidal.com",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": false
   },
   "nhaccuatui": {
     "name": "NhacCuaTui",
     "url": "https://www.nhaccuatui.com",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": true
   },
   "vietnammusicnews": {
     "name": "Vietnam Music News",
     "url": "https://vietnammusicnews.com",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": true
   },
   "kworb": {
     "name": "Kworb Charts",
     "url": "https://kworb.net/youtube/trending/vn.html",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": true
   },
   "genius": {
     "name": "Genius",
     "url": "https://genius.com",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": true
   },
   "lastfm": {
     "name": "Last.fm",
     "url": "https://www.last.fm",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": true
   },
   "weverse": {
     "name": "Weverse",
     "url": "https://weverse.io",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": true
   },
   "vnexpress": {
     "name": "VnExpress",
     "url": "https://vnexpress.net",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": true
   },
   "tuoitre": {
     "name": "Tuổi Trẻ",
     "url": "https://tuoitre.vn",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": true
   },
   "dantri": {
     "name": "Dân trí",
     "url": "https://dantri.com.vn",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": true
   },
   "thanhnien": {
     "name": "Thanh Niên",
     "url": "https://thanhnien.vn",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": true
   },
   "kenh14": {
     "name": "Kênh 14",
     "url": "https://kenh14.vn",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": true
   },
   "tiin": {
     "name": "Tiin",
     "url": "https://tiin.vn",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": true
   },
   "yeah1": {
     "name": "Yeah1",
     "url": "https://yeah1.com",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": true
   },
   "genzviet": {
     "name": "GenZ Việt",
     "url": "https://genz.com.vn",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": true
   },
   "znews": {
     "name": "Znews",
     "url": "https://znews.vn",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": true
   },
   "vtv": {
     "name": "VTV",
     "url": "https://vtv.vn",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": true
   },
   "vietnamnet": {
     "name": "VietnamNet",
     "url": "https://vietnamnet.vn",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": true
   },
   "bbc": {
     "name": "BBC News",
     "url": "https://www.bbc.com/news",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": true
   },
   "bbcvietnamese": {
     "name": "BBC Tiếng Việt",
     "url": "https://www.bbc.com/vietnamese",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": true
   },
   "cnn": {
     "name": "CNN",
     "url": "https://edition.cnn.com",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": true
   },
   "medium": {
     "name": "Medium",
     "url": "https://medium.com",
-    "mode": "entertainment"
+    "mode": "entertainment",
+    "isFree": true
   }
 }
