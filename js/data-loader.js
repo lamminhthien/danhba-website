@@ -1,6 +1,6 @@
 (() => {
   const files = ["portal", "work", "ai", "shopping", "entertainment", "games", "custom-links"];
-  const load = name => fetch(`./data/${name}.json`).then(response => {
+  const load = name => fetch(`./data/${name}.json`, { cache: "no-cache" }).then(response => {
     if (!response.ok) throw new Error(`Could not load data/${name}.json (${response.status})`);
     return response.json();
   });

@@ -1,231 +1,277 @@
 {
   "xboxcloud": {
     "name": "Xbox Cloud",
+    "description": "Chơi game Xbox qua đám mây trên trình duyệt và thiết bị tương thích.",
     "url": "https://www.xbox.com/play",
     "mode": "games"
   },
   "weplay": {
     "name": "WePlay",
+    "description": "Nền tảng trò chơi và tương tác xã hội trực tuyến.",
     "url": "https://weplayapp.com",
     "mode": "games"
   },
   "minecraft": {
     "name": "Minecraft Classic",
+    "description": "Phiên bản Minecraft trên trình duyệt với lối chơi xây dựng khối cơ bản.",
     "url": "https://classic.minecraft.net",
     "mode": "games"
   },
   "krunker": {
     "name": "Krunker",
+    "description": "Game bắn súng góc nhìn thứ nhất chơi trực tiếp trên trình duyệt.",
     "url": "https://krunker.io",
     "mode": "games"
   },
   "slither": {
     "name": "Slither.io",
+    "description": "Điều khiển rắn thu thập thức ăn và cạnh tranh với người chơi khác.",
     "url": "https://slither.io",
     "mode": "games"
   },
   "agar": {
     "name": "Agar.io",
+    "description": "Điều khiển tế bào, ăn các chấm nhỏ và lớn lên trong đấu trường.",
     "url": "https://agar.io",
     "mode": "games"
   },
   "shellshock": {
     "name": "Shell Shockers",
+    "description": "Game bắn súng trực tuyến với các nhân vật hình quả trứng.",
     "url": "https://shellshock.io",
     "mode": "games"
   },
   "skribbl": {
     "name": "Skribbl",
+    "description": "Game đoán từ qua hình vẽ cùng bạn bè hoặc người chơi trực tuyến.",
     "url": "https://skribbl.io",
     "mode": "games"
   },
   "game2048": {
     "name": "2048",
+    "description": "Ghép các ô số giống nhau để tạo ô có giá trị 2048.",
     "url": "https://play2048.co",
     "mode": "games"
   },
   "wordle": {
     "name": "Wordle",
+    "description": "Đoán từ tiếng Anh gồm năm chữ cái trong số lượt giới hạn.",
     "url": "https://www.nytimes.com/games/wordle/index.html",
     "mode": "games"
   },
   "cookie": {
     "name": "Cookie Clicker",
+    "description": "Game nhàn rỗi về việc nhấp và tự động sản xuất bánh quy.",
     "url": "https://orteil.dashnet.org/cookieclicker/",
     "mode": "games"
   },
   "tetris": {
     "name": "Tetris",
+    "description": "Xếp các khối rơi thành hàng ngang để ghi điểm và dọn bàn chơi.",
     "url": "https://tetris.com/play-tetris",
     "mode": "games"
   },
   "alchemy": {
     "name": "Little Alchemy 2",
+    "description": "Kết hợp các nguyên tố để khám phá vật phẩm và khái niệm mới.",
     "url": "https://littlealchemy2.com",
     "mode": "games"
   },
   "geoguessr": {
     "name": "GeoGuessr",
+    "description": "Đoán vị trí địa lý dựa trên hình ảnh đường phố và cảnh quan.",
     "url": "https://www.geoguessr.com",
     "mode": "games"
   },
   "lichess": {
     "name": "Lichess",
+    "description": "Chơi cờ vua trực tuyến, luyện tập và phân tích ván đấu.",
     "url": "https://lichess.org",
     "mode": "games"
   },
   "chesscom": {
     "name": "Chess.com",
+    "description": "Chơi cờ vua, giải câu đố và học chiến thuật trực tuyến.",
     "url": "https://www.chess.com",
     "mode": "games"
   },
   "dino": {
     "name": "Chrome Dino",
+    "description": "Game chạy vượt chướng ngại vật lấy cảm hứng từ Chrome Dino.",
     "url": "https://chromedino.com",
     "mode": "games"
   },
   "geforce": {
     "name": "GeForce NOW",
+    "description": "Phát trực tuyến các trò chơi PC qua dịch vụ chơi game đám mây.",
     "url": "https://play.geforcenow.com",
     "mode": "games"
   },
   "boosteroid": {
     "name": "Boosteroid Cloud",
+    "description": "Chơi các trò chơi PC qua nền tảng điện toán đám mây.",
     "url": "https://boosteroid.com/games",
     "mode": "games"
   },
   "gta5": {
     "name": "GTA V (trang chính thức)",
+    "description": "Trang thông tin chính thức về trò chơi Grand Theft Auto V.",
     "url": "https://www.rockstargames.com/gta-v",
     "mode": "games"
   },
   "tic80": {
     "name": "TIC-80 Play",
+    "description": "Chơi và khám phá game nhỏ được tạo bằng fantasy computer TIC-80.",
     "url": "https://tic80.com/play",
     "mode": "games"
   },
   "pico8bbs": {
     "name": "PICO-8 BBS",
+    "description": "Khám phá trò chơi và dự án cộng đồng dành cho PICO-8.",
     "url": "https://www.lexaloffle.com/bbs/",
     "mode": "games"
   },
   "itchretro": {
     "name": "itch.io Retro HTML5",
+    "description": "Tìm các game HTML5 phong cách retro do cộng đồng itch.io tạo.",
     "url": "https://itch.io/games/html5/tag-retro",
     "mode": "games"
   },
   "itchgameboy": {
     "name": "Game Boy trên itch.io",
+    "description": "Khám phá game trình duyệt lấy cảm hứng từ máy Game Boy.",
     "url": "https://itch.io/games/html5/tag-gameboy",
     "mode": "games"
   },
   "classicube": {
     "name": "ClassiCube Web",
+    "description": "Chơi phiên bản sandbox khối cổ điển trực tiếp trên trình duyệt.",
     "url": "https://classicube.net/server/play/",
     "mode": "games"
   },
   "emulatorjs": {
     "name": "EmulatorJS (nạp game)",
+    "description": "Trình giả lập chạy game tương thích trong trình duyệt.",
     "url": "https://demo.emulatorjs.org/",
     "mode": "games"
   },
   "retroarchweb": {
     "name": "RetroArch Web (nạp game)",
+    "description": "Phiên bản web của RetroArch để chạy nội dung game tương thích.",
     "url": "https://web.libretro.com/",
     "mode": "games"
   },
   "jsdos": {
     "name": "js-dos (DOS trên web)",
+    "description": "Chạy một số trò chơi và phần mềm DOS ngay trong trình duyệt.",
     "url": "https://js-dos.com/overview.html",
     "mode": "games"
   },
   "poki": {
     "name": "Poki",
+    "description": "Chơi nhiều thể loại game miễn phí trực tiếp trên trình duyệt.",
     "url": "https://poki.com",
     "mode": "games"
   },
   "crazygames": {
     "name": "CrazyGames",
+    "description": "Thư viện game trình duyệt với nhiều thể loại và chế độ chơi.",
     "url": "https://www.crazygames.com",
     "mode": "games"
   },
   "y8": {
     "name": "Y8",
+    "description": "Chơi game trực tuyến và khám phá các trò chơi trên web.",
     "url": "https://www.y8.com",
     "mode": "games"
   },
   "miniclip": {
     "name": "Miniclip",
+    "description": "Cổng trò chơi trực tuyến với game thể thao, hành động và giải đố.",
     "url": "https://www.miniclip.com/games/en/",
     "mode": "games"
   },
   "coolmath": {
     "name": "Coolmath Games",
+    "description": "Chơi game giải đố, chiến thuật và rèn luyện tư duy.",
     "url": "https://www.coolmathgames.com",
     "mode": "games"
   },
   "newgrounds": {
     "name": "Newgrounds",
+    "description": "Khám phá game và hoạt ảnh do cộng đồng sáng tạo chia sẻ.",
     "url": "https://www.newgrounds.com/games",
     "mode": "games"
   },
   "kongregate": {
     "name": "Kongregate",
+    "description": "Cổng game trực tuyến với trò chơi từ nhiều nhà phát triển.",
     "url": "https://www.kongregate.com",
     "mode": "games"
   },
   "armorgames": {
     "name": "Armor Games",
+    "description": "Chơi game chiến thuật, phiêu lưu và giải đố trên trình duyệt.",
     "url": "https://armorgames.com",
     "mode": "games"
   },
   "itch": {
     "name": "itch.io Web",
+    "description": "Tìm và chơi game HTML5 độc lập do cộng đồng phát triển.",
     "url": "https://itch.io/games/html5",
     "mode": "games"
   },
   "gamedistribution": {
     "name": "GameDistribution",
+    "description": "Danh mục game web từ nhiều nhà phát triển và nhà phát hành.",
     "url": "https://gamedistribution.com",
     "mode": "games"
   },
   "ruffle": {
     "name": "Ruffle (Flash)",
+    "description": "Trình giả lập Flash trên web để chạy nội dung Flash tương thích.",
     "url": "https://ruffle.rs/demo/",
     "mode": "games"
   },
   "flashpoint": {
     "name": "Flashpoint",
+    "description": "Dự án lưu trữ và bảo tồn game, hoạt ảnh web cổ điển.",
     "url": "https://flashpointproject.github.io/",
     "mode": "games"
   },
   "hexgl": {
     "name": "HexGL",
+    "description": "Game đua tàu tốc độ cao chạy bằng công nghệ web 3D.",
     "url": "https://hexgl.bkcore.com/play/",
     "mode": "games"
   },
   "aquarium": {
     "name": "WebGL Aquarium",
+    "description": "Mô phỏng thủy cung tương tác để trình diễn đồ họa WebGL.",
     "url": "https://webglsamples.org/aquarium/aquarium.html",
     "mode": "games"
   },
   "threejs": {
     "name": "Three.js",
+    "description": "Thư viện JavaScript và các ví dụ tạo đồ họa 3D trên web.",
     "url": "https://threejs.org/examples/",
     "mode": "games"
   },
   "chromeexp": {
     "name": "Chrome Experiments",
+    "description": "Tuyển tập thử nghiệm sáng tạo xây dựng bằng công nghệ web.",
     "url": "https://experiments.withgoogle.com",
     "mode": "games"
   },
   "voxiom": {
     "name": "Voxiom",
+    "description": "Game hành động nhiều người chơi trong thế giới khối voxel.",
     "url": "https://voxiom.io",
     "mode": "games"
   },
   "zombs": {
     "name": "ZOMBS.io",
+    "description": "Game sinh tồn nhiều người chơi với nhiệm vụ xây căn cứ và phòng thủ.",
     "url": "https://zombs.io",
     "mode": "games"
   }

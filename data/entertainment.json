@@ -1,444 +1,518 @@
 {
   "youtube": {
     "name": "YouTube",
+    "description": "Xem, đăng tải và chia sẻ video từ nhà sáng tạo trên toàn thế giới.",
     "url": "https://www.youtube.com",
     "mode": "entertainment",
     "isFree": true
   },
   "ytmusic": {
     "name": "YT Music",
+    "description": "Nghe nhạc, album, playlist và video âm nhạc trực tuyến.",
     "url": "https://music.youtube.com",
     "mode": "entertainment",
     "isFree": true
   },
   "gnews": {
     "name": "Google News",
+    "description": "Tổng hợp tin tức từ nhiều nguồn theo chủ đề bạn quan tâm.",
     "url": "https://news.google.com",
     "mode": "entertainment",
     "isFree": true
   },
   "facebook": {
     "name": "Facebook",
+    "description": "Kết nối bạn bè, chia sẻ bài viết, hình ảnh và video.",
     "url": "https://www.facebook.com",
     "mode": "entertainment",
     "isFree": true
   },
   "fbwatch": {
     "name": "FB Watch",
+    "description": "Khám phá video và chương trình từ các trang trên Facebook.",
     "url": "https://www.facebook.com/watch",
     "mode": "entertainment",
     "isFree": true
   },
   "fbnews": {
     "name": "FB Tin tức",
+    "description": "Theo dõi các bài viết tin tức được chia sẻ trên Facebook.",
     "url": "https://www.facebook.com/news",
     "mode": "entertainment",
     "isFree": true
   },
   "instagram": {
     "name": "Instagram",
+    "description": "Chia sẻ ảnh, video, tin và nội dung từ cộng đồng.",
     "url": "https://www.instagram.com",
     "mode": "entertainment",
     "isFree": true
   },
   "threads": {
     "name": "Threads",
+    "description": "Mạng xã hội chia sẻ bài viết ngắn và tham gia hội thoại.",
     "url": "https://www.threads.com",
     "mode": "entertainment",
     "isFree": true
   },
   "tiktok": {
     "name": "TikTok",
+    "description": "Xem và tạo video ngắn về giải trí, kiến thức và đời sống.",
     "url": "https://www.tiktok.com",
     "mode": "entertainment",
     "isFree": true
   },
   "x": {
     "name": "X",
+    "description": "Theo dõi tin tức và chia sẻ bài đăng, hình ảnh, video.",
     "url": "https://x.com",
     "mode": "entertainment",
     "isFree": true
   },
   "reddit": {
     "name": "Reddit",
+    "description": "Tham gia cộng đồng theo chủ đề để thảo luận và chia sẻ.",
     "url": "https://www.reddit.com",
     "mode": "entertainment",
     "isFree": true
   },
   "pinterest": {
     "name": "Pinterest",
+    "description": "Khám phá và lưu ý tưởng hình ảnh về sở thích, phong cách sống.",
     "url": "https://www.pinterest.com",
     "mode": "entertainment",
     "isFree": true
   },
   "snapchat": {
     "name": "Snapchat",
+    "description": "Chia sẻ ảnh, video và tin nhắn với bạn bè.",
     "url": "https://www.snapchat.com",
     "mode": "entertainment",
     "isFree": true
   },
   "tumblr": {
     "name": "Tumblr",
+    "description": "Nền tảng blog để đăng bài viết, hình ảnh và nội dung sáng tạo.",
     "url": "https://www.tumblr.com",
     "mode": "entertainment",
     "isFree": true
   },
   "bluesky": {
     "name": "Bluesky",
+    "description": "Mạng xã hội để đăng bài, theo dõi chủ đề và trò chuyện.",
     "url": "https://bsky.app",
     "mode": "entertainment",
     "isFree": true
   },
   "bereal": {
     "name": "BeReal",
+    "description": "Chia sẻ khoảnh khắc đời thường với bạn bè qua ảnh.",
     "url": "https://bereal.com",
     "mode": "entertainment",
     "isFree": true
   },
   "lemon8": {
     "name": "Lemon8",
+    "description": "Khám phá nội dung về thời trang, làm đẹp, du lịch và đời sống.",
     "url": "https://www.lemon8-app.com",
     "mode": "entertainment",
     "isFree": true
   },
   "mastodon": {
     "name": "Mastodon",
+    "description": "Mạng xã hội phi tập trung gồm các cộng đồng và máy chủ độc lập.",
     "url": "https://joinmastodon.org",
     "mode": "entertainment",
     "isFree": true
   },
   "netflix": {
     "name": "Netflix",
+    "description": "Xem phim, chương trình truyền hình và nội dung độc quyền.",
     "url": "https://www.netflix.com",
     "mode": "entertainment",
     "isFree": false
   },
   "spotify": {
     "name": "Spotify",
+    "description": "Nghe nhạc, podcast và khám phá playlist trực tuyến.",
     "url": "https://open.spotify.com",
     "mode": "entertainment",
     "isFree": true
   },
   "twitch": {
     "name": "Twitch",
+    "description": "Xem phát trực tiếp về trò chơi, âm nhạc và các chủ đề khác.",
     "url": "https://www.twitch.tv",
     "mode": "entertainment",
     "isFree": true
   },
   "disney": {
     "name": "Disney+",
+    "description": "Xem phim và chương trình từ Disney, Pixar, Marvel và Star Wars.",
     "url": "https://www.disneyplus.com",
     "mode": "entertainment",
     "isFree": false
   },
   "prime": {
     "name": "Prime Video",
+    "description": "Xem phim, chương trình truyền hình và nội dung Prime Video.",
     "url": "https://www.primevideo.com",
     "mode": "entertainment",
     "isFree": false
   },
   "soundcloud": {
     "name": "SoundCloud",
+    "description": "Nghe và chia sẻ nhạc, bản phối và nội dung âm thanh.",
     "url": "https://soundcloud.com",
     "mode": "entertainment",
     "isFree": true
   },
   "zingmp3": {
     "name": "Zing MP3",
+    "description": "Nghe nhạc trực tuyến và khám phá nghệ sĩ, album Việt Nam.",
     "url": "https://zingmp3.vn",
     "mode": "entertainment",
     "isFree": true
   },
   "bilibili": {
     "name": "Bilibili",
+    "description": "Xem video, hoạt hình và nội dung do cộng đồng chia sẻ.",
     "url": "https://www.bilibili.com",
     "mode": "entertainment",
     "isFree": true
   },
   "sctv": {
     "name": "SCTV",
+    "description": "Xem truyền hình, phim và chương trình giải trí trực tuyến.",
     "url": "https://sctvonline.vn",
     "mode": "entertainment",
     "isFree": true
   },
   "kplus": {
     "name": "K+",
+    "description": "Theo dõi truyền hình, phim và các giải thể thao trực tiếp.",
     "url": "https://www.kplus.vn",
     "mode": "entertainment",
     "isFree": false
   },
   "hbo": {
     "name": "HBO Max",
+    "description": "Xem phim và chương trình từ HBO, Warner Bros. và các hãng khác.",
     "url": "https://play.max.com",
     "mode": "entertainment",
     "isFree": false
   },
   "appletv": {
     "name": "Apple TV",
+    "description": "Xem phim, chương trình và nội dung Apple TV+.",
     "url": "https://tv.apple.com",
     "mode": "entertainment",
     "isFree": false
   },
   "youtubekids": {
     "name": "YouTube Kids",
+    "description": "Video và chương trình được tuyển chọn dành cho trẻ em.",
     "url": "https://www.youtube.com/kids",
     "mode": "entertainment",
     "isFree": true
   },
   "crunchyroll": {
     "name": "Crunchyroll",
+    "description": "Xem anime và đọc manga từ nhiều nhà phát hành.",
     "url": "https://www.crunchyroll.com",
     "mode": "entertainment",
     "isFree": false
   },
   "retrocrush": {
     "name": "RetroCrush",
+    "description": "Xem anime kinh điển và hoạt hình Nhật Bản tuyển chọn.",
     "url": "https://www.retrocrush.tv",
     "mode": "entertainment",
     "isFree": true
   },
   "pops": {
     "name": "POPS",
+    "description": "Xem phim, hoạt hình, âm nhạc và nội dung giải trí Việt Nam.",
     "url": "https://pops.vn",
     "mode": "entertainment",
     "isFree": true
   },
   "anilist": {
     "name": "AniList",
+    "description": "Theo dõi danh sách anime, manga và tiến độ xem, đọc.",
     "url": "https://anilist.co",
     "mode": "entertainment",
     "isFree": true
   },
   "myanimelist": {
     "name": "MyAnimeList",
+    "description": "Tra cứu thông tin và quản lý danh sách anime, manga cá nhân.",
     "url": "https://myanimelist.net",
     "mode": "entertainment",
     "isFree": true
   },
   "animenewsnetwork": {
     "name": "Anime News Network",
+    "description": "Tin tức, bài đánh giá và thông tin về anime, manga.",
     "url": "https://www.animenewsnetwork.com",
     "mode": "entertainment",
     "isFree": true
   },
   "tramanime": {
     "name": "Trạm Anime",
+    "description": "Theo dõi nội dung và thông tin về anime dành cho cộng đồng Việt.",
     "url": "https://tramanime.com",
     "mode": "entertainment",
     "isFree": true
   },
   "mangaplus": {
     "name": "MANGA Plus",
+    "description": "Đọc manga chính thức từ các bộ truyện của Shueisha.",
     "url": "https://mangaplus.shueisha.co.jp",
     "mode": "entertainment",
     "isFree": true
   },
   "viz": {
     "name": "VIZ Manga",
+    "description": "Đọc manga và khám phá sách truyện từ VIZ Media.",
     "url": "https://www.viz.com",
     "mode": "entertainment",
     "isFree": true
   },
   "webtoon": {
     "name": "WEBTOON",
+    "description": "Đọc truyện tranh trực tuyến thuộc nhiều thể loại.",
     "url": "https://www.webtoons.com",
     "mode": "entertainment",
     "isFree": true
   },
   "tapas": {
     "name": "Tapas",
+    "description": "Đọc truyện tranh và tiểu thuyết trực tuyến từ cộng đồng sáng tác.",
     "url": "https://tapas.io",
     "mode": "entertainment",
     "isFree": true
   },
   "comicwalker": {
     "name": "ComicWalker",
+    "description": "Đọc manga trực tuyến từ nhà xuất bản Kadokawa.",
     "url": "https://comic-walker.com",
     "mode": "entertainment",
     "isFree": true
   },
   "locket": {
     "name": "Locket Widget",
+    "description": "Chia sẻ ảnh mới chụp với bạn bè qua tiện ích ảnh.",
     "url": "https://locket.camera",
     "mode": "entertainment",
     "isFree": true
   },
   "tinder": {
     "name": "Tinder",
+    "description": "Ứng dụng hẹn hò để khám phá và kết nối với mọi người.",
     "url": "https://tinder.com",
     "mode": "entertainment",
     "isFree": true
   },
   "vieon": {
     "name": "VieON",
+    "description": "Xem phim, chương trình truyền hình và nội dung giải trí Việt.",
     "url": "https://vieon.vn",
     "mode": "entertainment",
     "isFree": true
   },
   "fptplay": {
     "name": "FPT Play",
+    "description": "Xem truyền hình, phim và các chương trình giải trí trực tuyến.",
     "url": "https://fptplay.vn",
     "mode": "entertainment",
     "isFree": true
   },
   "tv360": {
     "name": "TV360",
+    "description": "Xem truyền hình trực tuyến, phim và nội dung theo yêu cầu.",
     "url": "https://tv360.vn",
     "mode": "entertainment",
     "isFree": true
   },
   "vtvgo": {
     "name": "VTVgo",
+    "description": "Xem trực tiếp và theo yêu cầu các kênh, chương trình VTV.",
     "url": "https://vtvgo.vn",
     "mode": "entertainment",
     "isFree": true
   },
   "applemusic": {
     "name": "Apple Music",
+    "description": "Nghe nhạc, album và playlist trong thư viện Apple Music.",
     "url": "https://music.apple.com",
     "mode": "entertainment",
     "isFree": false
   },
   "deezer": {
     "name": "Deezer",
+    "description": "Nghe nhạc và podcast, khám phá playlist theo sở thích.",
     "url": "https://www.deezer.com",
     "mode": "entertainment",
     "isFree": true
   },
   "bandcamp": {
     "name": "Bandcamp",
+    "description": "Khám phá và ủng hộ nghệ sĩ qua nhạc và album độc lập.",
     "url": "https://bandcamp.com",
     "mode": "entertainment",
     "isFree": true
   },
   "tidal": {
     "name": "TIDAL",
+    "description": "Nghe nhạc và video âm nhạc từ thư viện nghệ sĩ quốc tế.",
     "url": "https://tidal.com",
     "mode": "entertainment",
     "isFree": false
   },
   "nhaccuatui": {
     "name": "NhacCuaTui",
+    "description": "Nghe nhạc trực tuyến và khám phá bài hát, album Việt Nam.",
     "url": "https://www.nhaccuatui.com",
     "mode": "entertainment",
     "isFree": true
   },
   "vietnammusicnews": {
     "name": "Vietnam Music News",
+    "description": "Cập nhật tin tức và thông tin về thị trường âm nhạc Việt.",
     "url": "https://vietnammusicnews.com",
     "mode": "entertainment",
     "isFree": true
   },
   "kworb": {
     "name": "Kworb Charts",
+    "description": "Theo dõi bảng xếp hạng và thống kê lượt nghe nhạc.",
     "url": "https://kworb.net/youtube/trending/vn.html",
     "mode": "entertainment",
     "isFree": true
   },
   "genius": {
     "name": "Genius",
+    "description": "Tra cứu lời bài hát, chú giải và thông tin về âm nhạc.",
     "url": "https://genius.com",
     "mode": "entertainment",
     "isFree": true
   },
   "lastfm": {
     "name": "Last.fm",
+    "description": "Theo dõi lịch sử nghe nhạc và khám phá nghệ sĩ tương tự.",
     "url": "https://www.last.fm",
     "mode": "entertainment",
     "isFree": true
   },
   "weverse": {
     "name": "Weverse",
+    "description": "Cộng đồng kết nối nghệ sĩ với người hâm mộ.",
     "url": "https://weverse.io",
     "mode": "entertainment",
     "isFree": true
   },
   "vnexpress": {
     "name": "VnExpress",
+    "description": "Đọc tin tức trong nước, quốc tế và các chuyên mục đời sống.",
     "url": "https://vnexpress.net",
     "mode": "entertainment",
     "isFree": true
   },
   "tuoitre": {
     "name": "Tuổi Trẻ",
+    "description": "Tin tức thời sự, giáo dục, kinh tế và đời sống Việt Nam.",
     "url": "https://tuoitre.vn",
     "mode": "entertainment",
     "isFree": true
   },
   "dantri": {
     "name": "Dân trí",
+    "description": "Cập nhật tin tức trong nước, quốc tế và các lĩnh vực xã hội.",
     "url": "https://dantri.com.vn",
     "mode": "entertainment",
     "isFree": true
   },
   "thanhnien": {
     "name": "Thanh Niên",
+    "description": "Tin tức thời sự, đời sống, văn hóa và thể thao.",
     "url": "https://thanhnien.vn",
     "mode": "entertainment",
     "isFree": true
   },
   "kenh14": {
     "name": "Kênh 14",
+    "description": "Tin tức giải trí, đời sống và xu hướng dành cho giới trẻ.",
     "url": "https://kenh14.vn",
     "mode": "entertainment",
     "isFree": true
   },
   "tiin": {
     "name": "Tiin",
+    "description": "Tin tức giải trí, người nổi tiếng và đời sống giới trẻ.",
     "url": "https://tiin.vn",
     "mode": "entertainment",
     "isFree": true
   },
   "yeah1": {
     "name": "Yeah1",
+    "description": "Tin tức giải trí, chương trình và nội dung dành cho khán giả Việt.",
     "url": "https://yeah1.com",
     "mode": "entertainment",
     "isFree": true
   },
   "genzviet": {
     "name": "GenZ Việt",
+    "description": "Nội dung và tin tức về đời sống, xu hướng của giới trẻ Việt.",
     "url": "https://genz.com.vn",
     "mode": "entertainment",
     "isFree": true
   },
   "znews": {
     "name": "Znews",
+    "description": "Tin tức thời sự, kinh doanh, công nghệ và văn hóa.",
     "url": "https://znews.vn",
     "mode": "entertainment",
     "isFree": true
   },
   "vtv": {
     "name": "VTV",
+    "description": "Thông tin chương trình và tin tức từ Đài Truyền hình Việt Nam.",
     "url": "https://vtv.vn",
     "mode": "entertainment",
     "isFree": true
   },
   "vietnamnet": {
     "name": "VietnamNet",
+    "description": "Tin tức trong nước, quốc tế và các chuyên mục thời sự.",
     "url": "https://vietnamnet.vn",
     "mode": "entertainment",
     "isFree": true
   },
   "bbc": {
     "name": "BBC News",
+    "description": "Tin tức quốc tế và phân tích từ BBC News.",
     "url": "https://www.bbc.com/news",
     "mode": "entertainment",
     "isFree": true
   },
   "bbcvietnamese": {
     "name": "BBC Tiếng Việt",
+    "description": "Tin tức và bài phân tích quốc tế bằng tiếng Việt.",
     "url": "https://www.bbc.com/vietnamese",
     "mode": "entertainment",
     "isFree": true
   },
   "cnn": {
     "name": "CNN",
+    "description": "Tin tức quốc tế, video và phân tích từ CNN.",
     "url": "https://edition.cnn.com",
     "mode": "entertainment",
     "isFree": true
   },
   "medium": {
     "name": "Medium",
+    "description": "Đọc và xuất bản bài viết, câu chuyện từ cộng đồng tác giả.",
     "url": "https://medium.com",
     "mode": "entertainment",
     "isFree": true

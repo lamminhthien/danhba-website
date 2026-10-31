@@ -1,4 +1,4 @@
-const CACHE_NAME = 'web-directory-shell-v7';
+const CACHE_NAME = 'web-directory-shell-v10';
 const SHELL_FILES = [
   './',
   './index.html',
@@ -45,7 +45,7 @@ self.addEventListener('fetch', event => {
 
   if (new URL(request.url).pathname.includes('/data/')) {
     event.respondWith(
-      fetch(request).then(response => {
+      fetch(request, { cache: 'no-cache' }).then(response => {
         if (!response.ok) return response;
         return caches.open(CACHE_NAME)
           .then(cache => cache.put(request, response.clone()))

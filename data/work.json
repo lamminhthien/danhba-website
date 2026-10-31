@@ -1,316 +1,379 @@
 {
   "google": {
     "name": "Google",
+    "description": "Công cụ tìm kiếm giúp tra cứu thông tin, hình ảnh và trang web.",
     "url": "https://www.google.com",
     "mode": "work"
   },
   "gmail": {
     "name": "Gmail",
+    "description": "Dịch vụ email để gửi, nhận và quản lý thư trực tuyến.",
     "url": "https://mail.google.com",
     "mode": "work"
   },
   "drive": {
     "name": "Drive",
+    "description": "Lưu trữ, đồng bộ và chia sẻ tệp trên đám mây.",
     "url": "https://drive.google.com",
     "mode": "work"
   },
   "docs": {
     "name": "Docs",
+    "description": "Soạn thảo và cộng tác trên tài liệu trực tuyến.",
     "url": "https://docs.google.com/document/u/0/",
     "mode": "work"
   },
   "sheets": {
     "name": "Sheets",
+    "description": "Tạo bảng tính, xử lý dữ liệu và cộng tác trực tuyến.",
     "url": "https://docs.google.com/spreadsheets/u/0/",
     "mode": "work"
   },
   "slides": {
     "name": "Slides",
+    "description": "Tạo và trình chiếu bài thuyết trình trực tuyến.",
     "url": "https://docs.google.com/presentation/u/0/",
     "mode": "work"
   },
   "forms": {
     "name": "Forms",
+    "description": "Tạo biểu mẫu, khảo sát và thu thập câu trả lời.",
     "url": "https://docs.google.com/forms/u/0/",
     "mode": "work"
   },
   "calendar": {
     "name": "Lịch",
+    "description": "Lên lịch sự kiện, đặt lời nhắc và chia sẻ lịch.",
     "url": "https://calendar.google.com",
     "mode": "work"
   },
   "meet": {
     "name": "Meet",
+    "description": "Họp trực tuyến bằng video và chia sẻ màn hình.",
     "url": "https://meet.google.com",
     "mode": "work"
   },
   "maps": {
     "name": "Maps",
+    "description": "Tìm địa điểm, xem bản đồ và chỉ đường.",
     "url": "https://maps.google.com",
     "mode": "work"
   },
   "photos": {
     "name": "Ảnh",
+    "description": "Lưu trữ, sắp xếp và chia sẻ ảnh, video.",
     "url": "https://photos.google.com",
     "mode": "work"
   },
   "translate": {
     "name": "Dịch",
+    "description": "Dịch văn bản, tài liệu và trang web giữa nhiều ngôn ngữ.",
     "url": "https://translate.google.com",
     "mode": "work"
   },
   "keep": {
     "name": "Keep",
+    "description": "Ghi chú nhanh, tạo danh sách và đặt lời nhắc.",
     "url": "https://keep.google.com",
     "mode": "work"
   },
   "gchat": {
     "name": "Chat",
+    "description": "Nhắn tin và cộng tác trong các cuộc trò chuyện nhóm.",
     "url": "https://chat.google.com",
     "mode": "work"
   },
   "earth": {
     "name": "Earth",
+    "description": "Khám phá Trái Đất qua bản đồ và hình ảnh vệ tinh 3D.",
     "url": "https://earth.google.com/web/",
     "mode": "work"
   },
   "scholar": {
     "name": "Scholar",
+    "description": "Tìm kiếm bài báo khoa học, luận văn và tài liệu học thuật.",
     "url": "https://scholar.google.com",
     "mode": "work"
   },
   "playstore": {
     "name": "Play",
+    "description": "Khám phá ứng dụng, trò chơi và nội dung số trên Google Play.",
     "url": "https://play.google.com",
     "mode": "work"
   },
   "analytics": {
     "name": "Analytics",
+    "description": "Theo dõi lưu lượng truy cập và hành vi người dùng trên website.",
     "url": "https://analytics.google.com",
     "mode": "work"
   },
   "m365": {
     "name": "Microsoft 365",
+    "description": "Truy cập các ứng dụng văn phòng và dịch vụ Microsoft 365.",
     "url": "https://www.office.com",
     "mode": "work"
   },
   "outlook": {
     "name": "Outlook",
+    "description": "Quản lý email, lịch và danh bạ trong một nơi.",
     "url": "https://outlook.live.com/mail/",
     "mode": "work"
   },
   "word": {
     "name": "Word",
+    "description": "Soạn thảo và chia sẻ tài liệu văn bản trực tuyến.",
     "url": "https://www.office.com/launch/word",
     "mode": "work"
   },
   "excel": {
     "name": "Excel",
+    "description": "Tạo bảng tính, công thức và biểu đồ để phân tích dữ liệu.",
     "url": "https://www.office.com/launch/excel",
     "mode": "work"
   },
   "powerpoint": {
     "name": "PowerPoint",
+    "description": "Tạo slide và trình chiếu bài thuyết trình.",
     "url": "https://www.office.com/launch/powerpoint",
     "mode": "work"
   },
   "onenote": {
     "name": "OneNote",
+    "description": "Ghi chú và sắp xếp thông tin trong sổ tay kỹ thuật số.",
     "url": "https://www.onenote.com",
     "mode": "work"
   },
   "onedrive": {
     "name": "OneDrive",
+    "description": "Lưu trữ, đồng bộ và chia sẻ tệp trên đám mây.",
     "url": "https://onedrive.live.com",
     "mode": "work"
   },
   "teams": {
     "name": "Teams",
+    "description": "Nhắn tin, họp video và cộng tác trong nhóm làm việc.",
     "url": "https://teams.microsoft.com",
     "mode": "work"
   },
   "todo": {
     "name": "To Do",
+    "description": "Tạo danh sách việc cần làm và theo dõi công việc hằng ngày.",
     "url": "https://to-do.live.com",
     "mode": "work"
   },
   "bing": {
     "name": "Bing",
+    "description": "Tìm kiếm web, hình ảnh và tin tức bằng công cụ của Microsoft.",
     "url": "https://www.bing.com",
     "mode": "work"
   },
   "azure": {
     "name": "Azure",
+    "description": "Cổng quản lý dịch vụ điện toán đám mây Microsoft Azure.",
     "url": "https://portal.azure.com",
     "mode": "work"
   },
   "messenger": {
     "name": "Messenger",
+    "description": "Nhắn tin, gọi thoại và gọi video với bạn bè.",
     "url": "https://www.messenger.com",
     "mode": "work"
   },
   "whatsapp": {
     "name": "WhatsApp",
+    "description": "Nhắn tin và gọi điện cá nhân hoặc theo nhóm.",
     "url": "https://web.whatsapp.com",
     "mode": "work"
   },
   "linkedin": {
     "name": "LinkedIn",
+    "description": "Mạng xã hội nghề nghiệp để kết nối và tìm cơ hội việc làm.",
     "url": "https://www.linkedin.com",
     "mode": "work"
   },
   "telegram": {
     "name": "Telegram",
+    "description": "Nhắn tin, gọi thoại và tham gia các kênh, nhóm cộng đồng.",
     "url": "https://web.telegram.org",
     "mode": "work"
   },
   "discord": {
     "name": "Discord",
+    "description": "Trò chuyện bằng văn bản, thoại và video trong cộng đồng.",
     "url": "https://discord.com/app",
     "mode": "work"
   },
   "zalo": {
     "name": "Zalo",
+    "description": "Nhắn tin, gọi điện và chia sẻ nội dung với người dùng Zalo.",
     "url": "https://chat.zalo.me",
     "mode": "work"
   },
   "capcut": {
     "name": "CapCut",
+    "description": "Chỉnh sửa video và tạo nội dung ngắn với các công cụ sáng tạo.",
     "url": "https://www.capcut.com",
     "mode": "work"
   },
   "meitu": {
     "name": "Meitu",
+    "description": "Chỉnh sửa ảnh chân dung và làm đẹp ảnh trực tuyến.",
     "url": "https://www.meituxiuxiu.com",
     "mode": "work"
   },
   "hypic": {
     "name": "Hypic",
+    "description": "Chỉnh sửa ảnh và áp dụng hiệu ứng, bộ lọc sáng tạo.",
     "url": "https://hypic.capcut.com",
     "mode": "work"
   },
   "bandlab": {
     "name": "BandLab",
+    "description": "Sáng tác, thu âm và phối nhạc trực tuyến cùng cộng đồng.",
     "url": "https://www.bandlab.com",
     "mode": "work"
   },
   "wink": {
     "name": "Wink",
+    "description": "Chỉnh sửa video chân dung và áp dụng hiệu ứng làm đẹp.",
     "url": "https://wink.ai",
     "mode": "work"
   },
   "picsart": {
     "name": "Picsart",
+    "description": "Chỉnh sửa ảnh, thiết kế đồ họa và tạo nội dung trực quan.",
     "url": "https://picsart.com",
     "mode": "work"
   },
   "camscanner": {
     "name": "CamScanner",
+    "description": "Quét tài liệu bằng camera và lưu thành tệp PDF.",
     "url": "https://www.camscanner.com",
     "mode": "work"
   },
   "duolingo": {
     "name": "Duolingo",
+    "description": "Học ngoại ngữ qua các bài học ngắn và hoạt động tương tác.",
     "url": "https://www.duolingo.com",
     "mode": "work"
   },
   "remini": {
     "name": "Remini",
+    "description": "Cải thiện độ rõ nét và phục hồi ảnh bằng công cụ xử lý ảnh.",
     "url": "https://remini.ai",
     "mode": "work"
   },
   "dazz": {
     "name": "Dazz Cam",
+    "description": "Chụp và chỉnh ảnh với hiệu ứng máy ảnh phim cổ điển.",
     "url": "https://dazz.cam",
     "mode": "work"
   },
   "b612": {
     "name": "B612",
+    "description": "Chụp ảnh selfie và video với bộ lọc, hiệu ứng làm đẹp.",
     "url": "https://b612.snow.me",
     "mode": "work"
   },
   "snapedit": {
     "name": "SnapEdit",
+    "description": "Xóa vật thể, chỉnh nền và cải thiện ảnh trực tuyến.",
     "url": "https://snapedit.app",
     "mode": "work"
   },
   "epik": {
     "name": "EPIK",
+    "description": "Chỉnh sửa ảnh với công cụ làm đẹp, bộ lọc và mẫu thiết kế.",
     "url": "https://epik.snow.me",
     "mode": "work"
   },
   "slack": {
     "name": "Slack",
+    "description": "Nhắn tin nhóm và tổ chức trao đổi công việc theo kênh.",
     "url": "https://app.slack.com",
     "mode": "work"
   },
   "notion": {
     "name": "Notion",
+    "description": "Ghi chú, quản lý dự án và xây dựng không gian làm việc nhóm.",
     "url": "https://www.notion.so",
     "mode": "work"
   },
   "trello": {
     "name": "Trello",
+    "description": "Quản lý công việc bằng bảng, danh sách và thẻ nhiệm vụ.",
     "url": "https://trello.com",
     "mode": "work"
   },
   "asana": {
     "name": "Asana",
+    "description": "Lập kế hoạch dự án, giao việc và theo dõi tiến độ nhóm.",
     "url": "https://app.asana.com",
     "mode": "work"
   },
   "jira": {
     "name": "Jira",
+    "description": "Theo dõi lỗi, nhiệm vụ và quy trình phát triển phần mềm.",
     "url": "https://www.atlassian.com/software/jira",
     "mode": "work"
   },
   "figma": {
     "name": "Figma",
+    "description": "Thiết kế giao diện và cộng tác trực tuyến trên cùng một tệp.",
     "url": "https://www.figma.com",
     "mode": "work"
   },
   "canva": {
     "name": "Canva",
+    "description": "Thiết kế hình ảnh, bài thuyết trình và tài liệu trực tuyến.",
     "url": "https://www.canva.com",
     "mode": "work"
   },
   "zoom": {
     "name": "Zoom",
+    "description": "Họp video, tổ chức hội thảo và chia sẻ màn hình trực tuyến.",
     "url": "https://app.zoom.us",
     "mode": "work"
   },
   "dropbox": {
     "name": "Dropbox",
+    "description": "Lưu trữ, đồng bộ và chia sẻ tệp trên đám mây.",
     "url": "https://www.dropbox.com",
     "mode": "work"
   },
   "linear": {
     "name": "Linear",
+    "description": "Quản lý vấn đề, kế hoạch sản phẩm và công việc phát triển.",
     "url": "https://linear.app",
     "mode": "work"
   },
   "miro": {
     "name": "Miro",
+    "description": "Bảng trắng trực tuyến để lên ý tưởng và cộng tác nhóm.",
     "url": "https://miro.com",
     "mode": "work"
   },
   "airtable": {
     "name": "Airtable",
+    "description": "Tổ chức dữ liệu và quy trình làm việc bằng bảng linh hoạt.",
     "url": "https://airtable.com",
     "mode": "work"
   },
   "calendly": {
     "name": "Calendly",
+    "description": "Chia sẻ lịch trống và tự động đặt lịch hẹn.",
     "url": "https://calendly.com",
     "mode": "work"
   },
   "grammarly": {
     "name": "Grammarly",
+    "description": "Kiểm tra ngữ pháp và cải thiện cách viết tiếng Anh.",
     "url": "https://app.grammarly.com",
     "mode": "work"
   },
   "github": {
     "name": "GitHub",
+    "description": "Lưu trữ mã nguồn, quản lý phiên bản và cộng tác phát triển.",
     "url": "https://github.com",
     "mode": "work",
     "slug": "github",
@@ -318,51 +381,61 @@
   },
   "gitlab": {
     "name": "GitLab",
+    "description": "Quản lý mã nguồn và quy trình phát triển phần mềm nhóm.",
     "url": "https://gitlab.com",
     "mode": "work"
   },
   "vscode": {
     "name": "VS Code",
+    "description": "Trình soạn thảo mã trực tuyến chạy trong trình duyệt.",
     "url": "https://vscode.dev",
     "mode": "work"
   },
   "codepen": {
     "name": "CodePen",
+    "description": "Viết, thử nghiệm và chia sẻ các bản demo HTML, CSS, JavaScript.",
     "url": "https://codepen.io",
     "mode": "work"
   },
   "replit": {
     "name": "Replit",
+    "description": "Lập trình, chạy và chia sẻ ứng dụng trong môi trường trực tuyến.",
     "url": "https://replit.com",
     "mode": "work"
   },
   "stackblitz": {
     "name": "StackBlitz",
+    "description": "Tạo và chạy dự án web trực tiếp trên trình duyệt.",
     "url": "https://stackblitz.com",
     "mode": "work"
   },
   "vercel": {
     "name": "Vercel",
+    "description": "Triển khai và lưu trữ ứng dụng web, đặc biệt là dự án frontend.",
     "url": "https://vercel.com",
     "mode": "work"
   },
   "cloudflare": {
     "name": "Cloudflare",
+    "description": "Quản lý dịch vụ mạng, bảo mật và hạ tầng cho website.",
     "url": "https://dash.cloudflare.com",
     "mode": "work"
   },
   "stackoverflow": {
     "name": "Stack Overflow",
+    "description": "Cộng đồng hỏi đáp về lập trình và phát triển phần mềm.",
     "url": "https://stackoverflow.com",
     "mode": "work"
   },
   "mdn": {
     "name": "MDN",
+    "description": "Tài liệu tham khảo về công nghệ web như HTML, CSS và JavaScript.",
     "url": "https://developer.mozilla.org",
     "mode": "work"
   },
   "postman": {
     "name": "Postman",
+    "description": "Thiết kế, gửi thử và quản lý yêu cầu API.",
     "url": "https://web.postman.co",
     "mode": "work"
   }

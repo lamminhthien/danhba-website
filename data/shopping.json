@@ -1,286 +1,343 @@
 {
   "fbmarket": {
     "name": "Marketplace",
+    "description": "Mua bán hàng hóa trực tiếp với người dùng trong khu vực.",
     "url": "https://www.facebook.com/marketplace",
     "mode": "shopping"
   },
   "guardian": {
     "name": "Guardian",
+    "description": "Mua sắm mỹ phẩm, sản phẩm chăm sóc cá nhân và sức khỏe.",
     "url": "https://www.guardian.com.vn",
     "mode": "shopping"
   },
   "shopee": {
     "name": "Shopee",
+    "description": "Sàn thương mại điện tử với nhiều ngành hàng và cửa hàng.",
     "url": "https://shopee.vn",
     "mode": "shopping"
   },
   "lazada": {
     "name": "Lazada",
+    "description": "Mua sắm trực tuyến với sản phẩm từ nhiều nhà bán hàng.",
     "url": "https://www.lazada.vn",
     "mode": "shopping"
   },
   "tiki": {
     "name": "Tiki",
+    "description": "Sàn mua sắm trực tuyến với sách, điện tử và hàng tiêu dùng.",
     "url": "https://tiki.vn",
     "mode": "shopping"
   },
   "amazon": {
     "name": "Amazon",
+    "description": "Sàn thương mại điện tử quốc tế với danh mục sản phẩm đa dạng.",
     "url": "https://www.amazon.com",
     "mode": "shopping"
   },
   "sendo": {
     "name": "Sendo",
+    "description": "Sàn thương mại điện tử kết nối người mua và nhà bán tại Việt Nam.",
     "url": "https://www.sendo.vn",
     "mode": "shopping"
   },
   "aliexpress": {
     "name": "AliExpress",
+    "description": "Mua hàng trực tuyến từ các nhà bán trên thị trường quốc tế.",
     "url": "https://www.aliexpress.com",
     "mode": "shopping"
   },
   "ebay": {
     "name": "eBay",
+    "description": "Nền tảng mua bán trực tuyến với hàng mới, hàng cũ và đấu giá.",
     "url": "https://www.ebay.com",
     "mode": "shopping"
   },
   "etsy": {
     "name": "Etsy",
+    "description": "Chợ trực tuyến dành cho đồ thủ công, thiết kế và sản phẩm độc đáo.",
     "url": "https://www.etsy.com",
     "mode": "shopping"
   },
   "temu": {
     "name": "Temu",
+    "description": "Sàn mua sắm trực tuyến với nhiều mặt hàng tiêu dùng.",
     "url": "https://www.temu.com",
     "mode": "shopping"
   },
   "taobao": {
     "name": "Taobao",
+    "description": "Sàn thương mại điện tử Trung Quốc với nhiều cửa hàng và sản phẩm.",
     "url": "https://www.taobao.com",
     "mode": "shopping"
   },
   "dienmayxanh": {
     "name": "Điện máy Xanh",
+    "description": "Mua sắm điện thoại, điện máy và thiết bị gia dụng tại Việt Nam.",
     "url": "https://www.dienmayxanh.com",
     "mode": "shopping"
   },
   "thegioididong": {
     "name": "Thế Giới Di Động",
+    "description": "Tìm mua điện thoại, máy tính bảng và phụ kiện công nghệ.",
     "url": "https://www.thegioididong.com",
     "mode": "shopping"
   },
   "fptshop": {
     "name": "FPT Shop",
+    "description": "Cửa hàng trực tuyến về điện thoại, máy tính và thiết bị công nghệ.",
     "url": "https://fptshop.com.vn",
     "mode": "shopping"
   },
   "cellphones": {
     "name": "CellphoneS",
+    "description": "Mua điện thoại, máy tính, phụ kiện và thiết bị công nghệ.",
     "url": "https://cellphones.com.vn",
     "mode": "shopping"
   },
   "hoanghamobile": {
     "name": "Hoàng Hà Mobile",
+    "description": "Bán điện thoại, thiết bị công nghệ và phụ kiện điện tử.",
     "url": "https://hoanghamobile.com",
     "mode": "shopping"
   },
   "nguyenkim": {
     "name": "Nguyễn Kim",
+    "description": "Mua sắm điện máy, điện tử và đồ gia dụng.",
     "url": "https://www.nguyenkim.com",
     "mode": "shopping"
   },
   "mediamart": {
     "name": "MediaMart",
+    "description": "Cửa hàng điện máy trực tuyến với thiết bị gia đình và công nghệ.",
     "url": "https://mediamart.vn",
     "mode": "shopping"
   },
   "phongvu": {
     "name": "Phong Vũ",
+    "description": "Mua máy tính, linh kiện và thiết bị công nghệ.",
     "url": "https://phongvu.vn",
     "mode": "shopping"
   },
   "gearvn": {
     "name": "GearVN",
+    "description": "Cửa hàng máy tính, linh kiện và thiết bị dành cho game thủ.",
     "url": "https://gearvn.com",
     "mode": "shopping"
   },
   "anphatpc": {
     "name": "An Phát PC",
+    "description": "Mua máy tính, linh kiện và thiết bị văn phòng, gaming.",
     "url": "https://www.anphatpc.com.vn",
     "mode": "shopping"
   },
   "applestore": {
     "name": "Apple Store",
+    "description": "Cửa hàng chính thức của Apple tại Việt Nam.",
     "url": "https://www.apple.com/vn/shop",
     "mode": "shopping"
   },
   "samsungshop": {
     "name": "Samsung Shop",
+    "description": "Cửa hàng Samsung với điện thoại, thiết bị và phụ kiện.",
     "url": "https://www.samsung.com/vn",
     "mode": "shopping"
   },
   "xiaomishop": {
     "name": "Xiaomi Store",
+    "description": "Cửa hàng sản phẩm Xiaomi gồm điện thoại và thiết bị thông minh.",
     "url": "https://www.mi.com/vn",
     "mode": "shopping"
   },
   "uniqlo": {
     "name": "UNIQLO",
+    "description": "Mua sắm quần áo và phụ kiện thời trang của UNIQLO.",
     "url": "https://www.uniqlo.com/vn/vi/",
     "mode": "shopping"
   },
   "hm": {
     "name": "H&M",
+    "description": "Cửa hàng thời trang với quần áo, giày dép và phụ kiện.",
     "url": "https://www2.hm.com/vi_vn/index.html",
     "mode": "shopping"
   },
   "zara": {
     "name": "Zara",
+    "description": "Khám phá và mua sắm thời trang Zara cho nhiều đối tượng.",
     "url": "https://www.zara.com/vn/",
     "mode": "shopping"
   },
   "decathlon": {
     "name": "Decathlon",
+    "description": "Mua dụng cụ, trang phục và phụ kiện cho các môn thể thao.",
     "url": "https://www.decathlon.vn",
     "mode": "shopping"
   },
   "canifa": {
     "name": "Canifa",
+    "description": "Thời trang gia đình với quần áo và phụ kiện hằng ngày.",
     "url": "https://canifa.com",
     "mode": "shopping"
   },
   "coolmate": {
     "name": "Coolmate",
+    "description": "Mua quần áo và sản phẩm chăm sóc cá nhân dành cho nam.",
     "url": "https://www.coolmate.me",
     "mode": "shopping"
   },
   "ikea": {
     "name": "IKEA",
+    "description": "Khám phá đồ nội thất, vật dụng gia đình và ý tưởng bài trí.",
     "url": "https://www.ikea.com",
     "mode": "shopping"
   },
   "jysk": {
     "name": "JYSK",
+    "description": "Mua nội thất, chăn ga và đồ dùng trang trí nhà cửa.",
     "url": "https://jysk.vn",
     "mode": "shopping"
   },
   "locknlock": {
     "name": "LocknLock",
+    "description": "Đồ gia dụng, hộp bảo quản thực phẩm và dụng cụ nhà bếp.",
     "url": "https://www.locknlock.vn",
     "mode": "shopping"
   },
   "hasaki": {
     "name": "Hasaki",
+    "description": "Mua mỹ phẩm, sản phẩm chăm sóc da và làm đẹp.",
     "url": "https://hasaki.vn",
     "mode": "shopping"
   },
   "watsons": {
     "name": "Watsons",
+    "description": "Cửa hàng mỹ phẩm, chăm sóc cá nhân và sản phẩm sức khỏe.",
     "url": "https://www.watsons.vn",
     "mode": "shopping"
   },
   "concung": {
     "name": "Con Cưng",
+    "description": "Mua sắm sản phẩm cho mẹ, em bé và trẻ nhỏ.",
     "url": "https://concung.com",
     "mode": "shopping"
   },
   "longchau": {
     "name": "Nhà thuốc Long Châu",
+    "description": "Tra cứu và mua thuốc, sản phẩm chăm sóc sức khỏe.",
     "url": "https://nhathuoclongchau.com.vn",
     "mode": "shopping"
   },
   "pharmacity": {
     "name": "Pharmacity",
+    "description": "Nhà thuốc trực tuyến với thuốc và sản phẩm chăm sóc sức khỏe.",
     "url": "https://www.pharmacity.vn",
     "mode": "shopping"
   },
   "ankhang": {
     "name": "Nhà thuốc An Khang",
+    "description": "Tìm mua thuốc và các sản phẩm chăm sóc sức khỏe.",
     "url": "https://www.nhathuocankhang.com",
     "mode": "shopping"
   },
   "bachhoaxanh": {
     "name": "Bách Hóa Xanh",
+    "description": "Mua thực phẩm tươi, hàng tiêu dùng và nhu yếu phẩm.",
     "url": "https://www.bachhoaxanh.com",
     "mode": "shopping"
   },
   "winmart": {
     "name": "WinMart",
+    "description": "Mua thực phẩm, hàng tiêu dùng và sản phẩm gia đình.",
     "url": "https://winmart.vn",
     "mode": "shopping"
   },
   "cooponline": {
     "name": "Co.op Online",
+    "description": "Đặt mua thực phẩm và hàng hóa từ hệ thống Co.opmart.",
     "url": "https://cooponline.vn",
     "mode": "shopping"
   },
   "aeoneshop": {
     "name": "AEONESHOP",
+    "description": "Mua sắm trực tuyến các mặt hàng từ AEON Việt Nam.",
     "url": "https://aeoneshop.com",
     "mode": "shopping"
   },
   "lottemart": {
     "name": "LOTTE Mart",
+    "description": "Đặt mua thực phẩm và hàng tiêu dùng từ LOTTE Mart.",
     "url": "https://www.lottemart.vn",
     "mode": "shopping"
   },
   "grabfood": {
     "name": "GrabFood",
+    "description": "Đặt món ăn và đồ uống giao tận nơi.",
     "url": "https://www.grab.com/vn/food/",
     "mode": "shopping"
   },
   "shopeefood": {
     "name": "ShopeeFood",
+    "description": "Tìm nhà hàng và đặt đồ ăn, thức uống trực tuyến.",
     "url": "https://shopeefood.vn",
     "mode": "shopping"
   },
   "befood": {
     "name": "beFood",
+    "description": "Đặt món từ nhà hàng và quán ăn qua dịch vụ giao đồ ăn.",
     "url": "https://be.com.vn/food/",
     "mode": "shopping"
   },
   "fahasa": {
     "name": "Fahasa",
+    "description": "Mua sách, văn phòng phẩm và quà tặng trực tuyến.",
     "url": "https://www.fahasa.com",
     "mode": "shopping"
   },
   "vinabook": {
     "name": "Vinabook",
+    "description": "Cửa hàng sách trực tuyến với nhiều thể loại và nhà xuất bản.",
     "url": "https://www.vinabook.com",
     "mode": "shopping"
   },
   "chotot": {
     "name": "Chợ Tốt",
+    "description": "Đăng tin và tìm mua bán đồ cũ, nhà đất, xe cộ và dịch vụ.",
     "url": "https://www.chotot.com",
     "mode": "shopping"
   },
   "booking": {
     "name": "Booking.com",
+    "description": "Tìm và đặt khách sạn, chỗ nghỉ và dịch vụ du lịch.",
     "url": "https://www.booking.com",
     "mode": "shopping"
   },
   "agoda": {
     "name": "Agoda",
+    "description": "Tìm nơi lưu trú và đặt phòng cho chuyến đi.",
     "url": "https://www.agoda.com",
     "mode": "shopping"
   },
   "traveloka": {
     "name": "Traveloka",
+    "description": "Đặt vé máy bay, khách sạn và dịch vụ du lịch.",
     "url": "https://www.traveloka.com/vi-vn",
     "mode": "shopping"
   },
   "klook": {
     "name": "Klook",
+    "description": "Đặt vé tham quan, hoạt động và dịch vụ cho chuyến du lịch.",
     "url": "https://www.klook.com/vi/",
     "mode": "shopping"
   },
   "vietnamairlines": {
     "name": "Vietnam Airlines",
+    "description": "Tra cứu chuyến bay và đặt vé của Vietnam Airlines.",
     "url": "https://www.vietnamairlines.com",
     "mode": "shopping"
   },
   "vietjet": {
     "name": "Vietjet Air",
+    "description": "Tìm chuyến bay và đặt vé trực tuyến với Vietjet Air.",
     "url": "https://www.vietjetair.com",
     "mode": "shopping"
   }

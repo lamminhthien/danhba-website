@@ -102,7 +102,7 @@
 
   function appItem(id, eager) {
     const app = D.apps[id];
-    const b = el("button", "item"); b.title = app.url;
+    const b = el("button", "item"); b.title = app.description ? `${app.name}: ${app.description}` : app.url;
     const t = el("div", "tile"); fillIcon(t, id, eager);
     const label = el("span", "label"); label.textContent = app.name;
     b.append(t, label);
@@ -111,7 +111,29 @@
       availability.textContent = app.isFree ? "Miễn phí" : "Trả phí";
       b.append(availability);
     }
-    b.onclick = () => { if (!dragged) open(id); };
+    let holdTimer = 0, longPressed = false, startX = 0, startY = 0;
+    b.addEventListener("pointerdown", e => {
+      if (e.pointerType !== "touch" || !app.description) return;
+      longPressed = false;
+      startX = e.clientX; startY = e.clientY;
+      holdTimer = setTimeout(() => {
+        longPressed = true;
+        say(`${app.name}: ${app.description}`);
+      }, 550);
+    });
+    b.addEventListener("pointermove", e => {
+      if (holdTimer && Math.hypot(e.clientX - startX, e.clientY - startY) > 10) {
+        clearTimeout(holdTimer); holdTimer = 0;
+      }
+    });
+    const clearHold = () => { clearTimeout(holdTimer); holdTimer = 0; };
+    b.addEventListener("pointerup", clearHold);
+    b.addEventListener("pointercancel", clearHold);
+    b.addEventListener("contextmenu", e => { if (longPressed) e.preventDefault(); });
+    b.onclick = () => {
+      if (longPressed) { longPressed = false; return; }
+      if (!dragged) open(id);
+    };
     return b;
   }
   function folderItem(fid) {

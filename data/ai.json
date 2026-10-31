@@ -1,406 +1,487 @@
 {
   "gemini": {
     "name": "Gemini",
+    "description": "Trợ lý AI của Google để trò chuyện, viết nội dung và hỗ trợ công việc.",
     "url": "https://gemini.google.com",
     "mode": "ai"
   },
   "notebooklm": {
     "name": "NotebookLM",
+    "description": "Trợ lý nghiên cứu giúp hỏi đáp và tổng hợp từ tài liệu bạn cung cấp.",
     "url": "https://notebooklm.google.com",
     "mode": "ai"
   },
   "aistudio": {
     "name": "AI Studio",
+    "description": "Không gian thử nghiệm và xây dựng ứng dụng với các mô hình Gemini.",
     "url": "https://aistudio.google.com",
     "mode": "ai"
   },
   "copilot": {
     "name": "Copilot",
+    "description": "Trợ lý AI của Microsoft hỗ trợ hỏi đáp, viết và sáng tạo nội dung.",
     "url": "https://copilot.microsoft.com",
     "mode": "ai"
   },
   "metaai": {
     "name": "Meta AI",
+    "description": "Trợ lý AI của Meta để trò chuyện, tìm thông tin và tạo hình ảnh.",
     "url": "https://www.meta.ai",
     "mode": "ai"
   },
   "chatgpt": {
     "name": "ChatGPT",
+    "description": "Trợ lý AI đa năng giúp giải đáp, viết, học tập và xử lý nhiều tác vụ.",
     "url": "https://chatgpt.com",
     "mode": "ai"
   },
   "claude": {
     "name": "Claude",
+    "description": "Trợ lý AI hỗ trợ phân tích, viết lách, lập trình và xử lý tài liệu.",
     "url": "https://claude.ai",
     "mode": "ai"
   },
   "perplexity": {
     "name": "Perplexity",
+    "description": "Công cụ tìm kiếm AI trả lời câu hỏi kèm nguồn tham khảo.",
     "url": "https://www.perplexity.ai",
     "mode": "ai"
   },
   "grok": {
     "name": "Grok",
+    "description": "Trợ lý AI của xAI để trò chuyện, tìm hiểu chủ đề và tạo nội dung.",
     "url": "https://grok.com",
     "mode": "ai"
   },
   "deepseek": {
     "name": "DeepSeek",
+    "description": "Trợ lý AI hỗ trợ hỏi đáp, suy luận, viết nội dung và lập trình.",
     "url": "https://chat.deepseek.com",
     "mode": "ai"
   },
   "mistral": {
     "name": "Le Chat",
+    "description": "Trợ lý AI của Mistral để trò chuyện, nghiên cứu và làm việc với nội dung.",
     "url": "https://chat.mistral.ai",
     "mode": "ai"
   },
   "huggingface": {
     "name": "Hugging Face",
+    "description": "Cộng đồng chia sẻ mô hình, bộ dữ liệu và ứng dụng AI mã nguồn mở.",
     "url": "https://huggingface.co",
     "mode": "ai"
   },
   "suno": {
     "name": "Suno",
+    "description": "Tạo bài hát và nhạc từ mô tả hoặc lời bài hát bằng AI.",
     "url": "https://suno.com",
     "mode": "ai"
   },
   "poe": {
     "name": "Poe",
+    "description": "Nền tảng trò chuyện với nhiều mô hình AI và bot do cộng đồng tạo.",
     "url": "https://poe.com",
     "mode": "ai"
   },
   "duckai": {
     "name": "Duck.ai",
+    "description": "Trò chuyện với các mô hình AI qua giao diện tập trung vào quyền riêng tư.",
     "url": "https://duck.ai",
     "mode": "ai"
   },
   "characterai": {
     "name": "Character.AI",
+    "description": "Trò chuyện và nhập vai cùng các nhân vật AI do người dùng tạo.",
     "url": "https://character.ai",
     "mode": "ai"
   },
   "gamma": {
     "name": "Gamma",
+    "description": "Tạo bài thuyết trình, tài liệu và trang web từ ý tưởng bằng AI.",
     "url": "https://gamma.app",
     "mode": "ai"
   },
   "leonardo": {
     "name": "Leonardo AI",
+    "description": "Tạo và chỉnh sửa hình ảnh, minh họa và tài sản đồ họa bằng AI.",
     "url": "https://leonardo.ai",
     "mode": "ai"
   },
   "elevenlabs": {
     "name": "ElevenLabs",
+    "description": "Tạo giọng nói, lồng tiếng và âm thanh tổng hợp bằng AI.",
     "url": "https://elevenlabs.io",
     "mode": "ai"
   },
   "qwen": {
     "name": "Qwen",
+    "description": "Trợ lý AI của Alibaba hỗ trợ trò chuyện, viết và lập trình.",
     "url": "https://chat.qwen.ai",
     "mode": "ai"
   },
   "kimi": {
     "name": "Kimi",
+    "description": "Trợ lý AI hỗ trợ tìm kiếm, trò chuyện và xử lý tài liệu dài.",
     "url": "https://www.kimi.com",
     "mode": "ai"
   },
   "doubao": {
     "name": "Doubao",
+    "description": "Trợ lý AI của ByteDance hỗ trợ hỏi đáp, viết và sáng tạo nội dung.",
     "url": "https://www.doubao.com",
     "mode": "ai"
   },
   "yuanbao": {
     "name": "Yuanbao",
+    "description": "Trợ lý AI của Tencent để trò chuyện, tìm kiếm và hỗ trợ công việc.",
     "url": "https://yuanbao.tencent.com",
     "mode": "ai"
   },
   "zai": {
     "name": "Z.ai",
+    "description": "Trợ lý AI của Zhipu hỗ trợ trò chuyện, phân tích và lập trình.",
     "url": "https://chat.z.ai",
     "mode": "ai"
   },
   "hailuo": {
     "name": "Hailuo AI",
+    "description": "Tạo video từ văn bản hoặc hình ảnh bằng mô hình AI.",
     "url": "https://hailuoai.video",
     "mode": "ai"
   },
   "kling": {
     "name": "Kling AI",
+    "description": "Tạo video và hình ảnh từ câu lệnh hoặc ảnh tham chiếu.",
     "url": "https://kling.ai",
     "mode": "ai"
   },
   "ideogram": {
     "name": "Ideogram",
+    "description": "Tạo hình ảnh bằng AI, nổi bật với khả năng thể hiện chữ trong ảnh.",
     "url": "https://ideogram.ai",
     "mode": "ai"
   },
   "adobefirefly": {
     "name": "Adobe Firefly",
+    "description": "Bộ công cụ AI của Adobe để tạo và chỉnh sửa hình ảnh, hiệu ứng.",
     "url": "https://firefly.adobe.com",
     "mode": "ai"
   },
   "microsoftdesigner": {
     "name": "Microsoft Designer",
+    "description": "Thiết kế hình ảnh và nội dung trực quan với sự hỗ trợ của AI.",
     "url": "https://designer.microsoft.com",
     "mode": "ai"
   },
   "krea": {
     "name": "Krea AI",
+    "description": "Tạo và chỉnh sửa hình ảnh, video bằng các công cụ AI trực quan.",
     "url": "https://krea.ai",
     "mode": "ai"
   },
   "playgroundai": {
     "name": "Playground AI",
+    "description": "Tạo và chỉnh sửa hình ảnh bằng AI cho thiết kế và sáng tạo.",
     "url": "https://playground.com",
     "mode": "ai"
   },
   "pixverse": {
     "name": "PixVerse",
+    "description": "Tạo video AI từ văn bản, hình ảnh và các mẫu có sẵn.",
     "url": "https://pixverse.ai",
     "mode": "ai"
   },
   "freepik": {
     "name": "Freepik AI",
+    "description": "Tạo hình ảnh và nội dung thiết kế bằng AI trong thư viện Freepik.",
     "url": "https://www.freepik.com/ai",
     "mode": "ai"
   },
   "piclumen": {
     "name": "PicLumen",
+    "description": "Tạo hình ảnh bằng AI với nhiều phong cách và công cụ chỉnh sửa.",
     "url": "https://piclumen.com",
     "mode": "ai"
   },
   "stablediffusion": {
     "name": "Stable Diffusion",
+    "description": "Dùng mô hình Stable Diffusion để tạo hình ảnh từ mô tả văn bản.",
     "url": "https://huggingface.co/spaces/stabilityai/stable-diffusion-3-medium",
     "mode": "ai"
   },
   "pika": {
     "name": "Pika",
+    "description": "Tạo và biên tập video bằng AI từ văn bản hoặc hình ảnh.",
     "url": "https://pika.art",
     "mode": "ai"
   },
   "runway": {
     "name": "Runway",
+    "description": "Bộ công cụ sáng tạo video và hình ảnh với các mô hình AI tạo sinh.",
     "url": "https://runwayml.com",
     "mode": "ai"
   },
   "lumadreammachine": {
     "name": "Luma Dream Machine",
+    "description": "Tạo video và cảnh chuyển động từ văn bản hoặc hình ảnh.",
     "url": "https://lumalabs.ai/dream-machine",
     "mode": "ai"
   },
   "heygen": {
     "name": "HeyGen",
+    "description": "Tạo video thuyết trình với người dẫn ảo và lồng tiếng AI.",
     "url": "https://www.heygen.com",
     "mode": "ai"
   },
   "capcut": {
     "name": "CapCut AI",
+    "description": "Công cụ chỉnh sửa video của CapCut với tính năng AI tích hợp.",
     "url": "https://www.capcut.com",
     "mode": "ai"
   },
   "synthesia": {
     "name": "Synthesia",
+    "description": "Tạo video đào tạo và thuyết trình với người dẫn ảo AI.",
     "url": "https://www.synthesia.io",
     "mode": "ai"
   },
   "vidu": {
     "name": "Vidu",
+    "description": "Tạo video AI từ mô tả văn bản hoặc hình ảnh tham chiếu.",
     "url": "https://www.vidu.com",
     "mode": "ai"
   },
   "udio": {
     "name": "Udio",
+    "description": "Sáng tác và tạo nhạc từ mô tả phong cách hoặc lời bài hát.",
     "url": "https://www.udio.com",
     "mode": "ai"
   },
   "aiva": {
     "name": "AIVA",
+    "description": "Sáng tác nhạc nền và bản nhạc theo phong cách bạn chọn.",
     "url": "https://www.aiva.ai",
     "mode": "ai"
   },
   "stableaudio": {
     "name": "Stable Audio",
+    "description": "Tạo nhạc và hiệu ứng âm thanh từ mô tả bằng AI.",
     "url": "https://stableaudio.com",
     "mode": "ai"
   },
   "mubert": {
     "name": "Mubert",
+    "description": "Tạo nhạc nền và âm thanh phù hợp với nội dung hoặc tâm trạng.",
     "url": "https://mubert.com",
     "mode": "ai"
   },
   "soundraw": {
     "name": "Soundraw",
+    "description": "Tạo và tùy chỉnh nhạc nền không lời bằng AI.",
     "url": "https://soundraw.io",
     "mode": "ai"
   },
   "naturalreader": {
     "name": "NaturalReader",
+    "description": "Chuyển văn bản và tài liệu thành giọng đọc tự nhiên.",
     "url": "https://www.naturalreaders.com",
     "mode": "ai"
   },
   "speechma": {
     "name": "Speechma",
+    "description": "Chuyển văn bản thành giọng nói với nhiều giọng đọc và ngôn ngữ.",
     "url": "https://speechma.com",
     "mode": "ai"
   },
   "tome": {
     "name": "Tome",
+    "description": "Tạo câu chuyện, tài liệu và bài thuyết trình bằng AI.",
     "url": "https://tome.app",
     "mode": "ai"
   },
   "beautifulai": {
     "name": "Beautiful.ai",
+    "description": "Tạo bài thuyết trình với bố cục được tự động căn chỉnh.",
     "url": "https://www.beautiful.ai",
     "mode": "ai"
   },
   "slidesai": {
     "name": "SlidesAI",
+    "description": "Tạo dàn ý và slide thuyết trình từ văn bản hoặc chủ đề.",
     "url": "https://www.slidesai.io",
     "mode": "ai"
   },
   "presentationsai": {
     "name": "Presentations.AI",
+    "description": "Tạo và thiết kế bài thuyết trình từ nội dung bằng AI.",
     "url": "https://www.presentations.ai",
     "mode": "ai"
   },
   "canva": {
     "name": "Canva AI",
+    "description": "Thiết kế hình ảnh, tài liệu và nội dung với các công cụ AI của Canva.",
     "url": "https://www.canva.com",
     "mode": "ai"
   },
   "decktopus": {
     "name": "Decktopus",
+    "description": "Tạo bài thuyết trình và dàn slide trực tuyến bằng AI.",
     "url": "https://www.decktopus.com",
     "mode": "ai"
   },
   "grammarly": {
     "name": "Grammarly",
+    "description": "Hỗ trợ kiểm tra ngữ pháp, chính tả và cải thiện văn phong tiếng Anh.",
     "url": "https://www.grammarly.com",
     "mode": "ai"
   },
   "quillbot": {
     "name": "QuillBot",
+    "description": "Công cụ diễn đạt lại, tóm tắt và kiểm tra văn bản bằng AI.",
     "url": "https://quillbot.com",
     "mode": "ai"
   },
   "copyai": {
     "name": "Copy.ai",
+    "description": "Tạo nội dung tiếp thị và văn bản kinh doanh với trợ lý AI.",
     "url": "https://www.copy.ai",
     "mode": "ai"
   },
   "writesonic": {
     "name": "Writesonic",
+    "description": "Hỗ trợ viết nội dung, bài viết và văn bản tiếp thị bằng AI.",
     "url": "https://writesonic.com",
     "mode": "ai"
   },
   "rytr": {
     "name": "Rytr",
+    "description": "Trợ lý viết giúp tạo nội dung ngắn theo mục đích và giọng văn.",
     "url": "https://rytr.me",
     "mode": "ai"
   },
   "languagetool": {
     "name": "LanguageTool",
+    "description": "Kiểm tra chính tả, ngữ pháp và phong cách viết đa ngôn ngữ.",
     "url": "https://languagetool.org",
     "mode": "ai"
   },
   "githubcopilot": {
     "name": "GitHub Copilot",
+    "description": "Trợ lý lập trình AI giúp gợi ý mã và hỗ trợ phát triển phần mềm.",
     "url": "https://github.com/features/copilot",
     "mode": "ai"
   },
   "cursor": {
     "name": "Cursor",
+    "description": "Trình soạn thảo mã tích hợp AI để hỏi đáp và chỉnh sửa dự án.",
     "url": "https://cursor.com",
     "mode": "ai"
   },
   "codeium": {
     "name": "Codeium",
+    "description": "Trợ lý lập trình AI cung cấp gợi ý mã và hỗ trợ viết code.",
     "url": "https://codeium.com",
     "mode": "ai"
   },
   "tabnine": {
     "name": "Tabnine",
+    "description": "Trợ lý lập trình AI hỗ trợ hoàn thành mã và phát triển phần mềm.",
     "url": "https://www.tabnine.com",
     "mode": "ai"
   },
   "replit": {
     "name": "Replit AI",
+    "description": "Môi trường lập trình trực tuyến có AI hỗ trợ tạo và chạy ứng dụng.",
     "url": "https://replit.com",
     "mode": "ai"
   },
   "v0": {
     "name": "v0 by Vercel",
+    "description": "Tạo giao diện web và mã frontend từ mô tả bằng AI.",
     "url": "https://v0.dev",
     "mode": "ai"
   },
   "bolt": {
     "name": "Bolt.new",
+    "description": "Tạo và chạy ứng dụng web trực tiếp trên trình duyệt bằng câu lệnh.",
     "url": "https://bolt.new",
     "mode": "ai"
   },
   "codegeex": {
     "name": "CodeGeeX",
+    "description": "Trợ lý lập trình đa ngôn ngữ hỗ trợ sinh và giải thích mã.",
     "url": "https://codegeex.cn",
     "mode": "ai"
   },
   "figma": {
     "name": "Figma AI",
+    "description": "Thiết kế giao diện và cộng tác trực tuyến với tính năng AI của Figma.",
     "url": "https://www.figma.com",
     "mode": "ai"
   },
   "looka": {
     "name": "Looka",
+    "description": "Tạo logo và bộ nhận diện thương hiệu từ lựa chọn thiết kế của bạn.",
     "url": "https://looka.com",
     "mode": "ai"
   },
   "removebg": {
     "name": "Remove.bg",
+    "description": "Tự động xóa nền khỏi ảnh và tạo ảnh nền trong suốt.",
     "url": "https://www.remove.bg",
     "mode": "ai"
   },
   "clipdrop": {
     "name": "Clipdrop",
+    "description": "Bộ công cụ AI để xóa nền, chỉnh sửa và tạo hình ảnh.",
     "url": "https://clipdrop.co",
     "mode": "ai"
   },
   "deepl": {
     "name": "DeepL",
+    "description": "Dịch văn bản và tài liệu giữa nhiều ngôn ngữ bằng AI.",
     "url": "https://www.deepl.com",
     "mode": "ai"
   },
   "otter": {
     "name": "Otter.ai",
+    "description": "Ghi âm, chuyển lời nói thành văn bản và tóm tắt cuộc họp.",
     "url": "https://otter.ai",
     "mode": "ai"
   },
   "notionai": {
     "name": "Notion AI",
+    "description": "Trợ lý AI tích hợp trong Notion để viết, tóm tắt và tìm thông tin.",
     "url": "https://www.notion.so",
     "mode": "ai"
   },
   "whisper": {
     "name": "Whisper",
+    "description": "Mô hình nhận dạng giọng nói để chuyển âm thanh thành văn bản.",
     "url": "https://github.com/openai/whisper",
     "mode": "ai"
   },
   "descript": {
     "name": "Descript",
+    "description": "Biên tập âm thanh và video bằng cách chỉnh sửa bản chép lời.",
     "url": "https://www.descript.com",
     "mode": "ai"
   },
   "ollama": {
     "name": "Ollama",
+    "description": "Tải xuống và chạy các mô hình ngôn ngữ lớn trên máy tính cá nhân.",
     "url": "https://ollama.com",
     "mode": "ai"
   },
   "lmstudio": {
     "name": "LM Studio",
+    "description": "Ứng dụng tìm, tải và chạy mô hình ngôn ngữ cục bộ trên máy tính.",
     "url": "https://lmstudio.ai",
     "mode": "ai"
   },
   "openrouter": {
     "name": "OpenRouter",
+    "description": "Một API giúp truy cập và so sánh nhiều mô hình AI khác nhau.",
     "url": "https://openrouter.ai",
     "mode": "ai"
   }

@@ -172,7 +172,7 @@ body{font-family:var(--font);color:var(--ink);background:#000;overflow:hidden;ov
   width:min(36%,360px);height:5px;border-radius:3px;background:#fff;opacity:.85;z-index:40;cursor:pointer}
 .toast{position:absolute;bottom:calc(var(--dots-bottom) + 26px);left:50%;transform:translateX(-50%);
   background:rgba(30,30,34,.85);padding:8px 14px;border-radius:14px;font-size:13px;opacity:0;
-  transition:opacity .3s;z-index:50;pointer-events:none;white-space:nowrap}
+  transition:opacity .3s;z-index:50;pointer-events:none;max-width:calc(100% - 32px);text-align:center;line-height:1.35}
 .toast.show{opacity:1}
 
 /* iPad / tablet: nhiều cột hơn, icon lớn hơn */
