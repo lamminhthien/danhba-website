@@ -46,11 +46,14 @@ body{font-family:var(--font);color:var(--ink);background:#000;overflow:hidden;ov
 .battery i{display:block;height:100%;width:78%;background:#fff;border-radius:2px}
 
 .mode-change{position:absolute;top:calc(var(--status-h) + var(--safe-top) + 2px);left:50%;transform:translateX(-50%);
-#historyBtn{left:auto;right:12px;transform:none;}
   display:flex;align-items:center;gap:10px;padding:8px 12px;border:1px solid rgba(255,255,255,.16);border-radius:10px;
   background:rgba(24,24,28,.9);color:#fff;font:inherit;font-size:12px;z-index:16;cursor:pointer;white-space:nowrap}
-.mode-change span:first-child{font-weight:700}
-.mode-change span:last-child{color:rgba(255,255,255,.68)}
+#historyBtn{left:auto;right:max(12px,var(--safe-right));transform:none;padding:6px 10px}
+#historyBtn .mode-icon{width:24px;height:24px;border-radius:8px;background:rgba(255,255,255,.1);color:#fff}
+#historyBtn .mode-icon svg{width:14px;height:14px}
+#modeChange span:first-child{font-weight:700}
+#modeChange span:last-child{color:rgba(255,255,255,.68)}
+#historyBtn span:last-child{font-weight:600}
 .mode-change:focus-visible,.mode-option:focus-visible{outline:2px solid #fff;outline-offset:3px}
 .mode-picker{position:absolute;inset:0;z-index:35;display:none;align-items:center;justify-content:center;
   padding:calc(var(--safe-top) + 24px) max(20px,var(--safe-right)) calc(var(--safe-bottom) + 24px) max(20px,var(--safe-left));
@@ -209,6 +212,11 @@ body{font-family:var(--font);color:var(--ink);background:#000;overflow:hidden;ov
 /* Màn hình thấp (điện thoại nằm ngang) */
 @media (max-height:560px){
   :root{--gap-y:14px;--status-h:38px;--tile:clamp(44px,11vh,58px);--dock-tile:clamp(44px,10vh,58px);--label-size:11px}
+}
+
+/* Màn hình hẹp: canh nút đổi chế độ sang trái để không chồng lên nút Lịch sử */
+@media (max-width:420px){
+  #modeChange{left:max(12px,var(--safe-left));transform:none}
 }
 
 @media (max-width:560px){
