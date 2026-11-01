@@ -3,6 +3,8 @@
   const $ = (s, r = document) => r.querySelector(s);
   const el = (tag, cls, html) => { const e = document.createElement(tag); if (cls) e.className = cls; if (html != null) e.innerHTML = html; return e; };
   const root = document.documentElement;
+  const HISTORY_KEY = "portal.history";
+  const HISTORY_LIMIT = 100;
 
   /* ================= 1. Thông báo nhỏ ================= */
   const toast = $("#toast");
@@ -98,7 +100,17 @@
   }
 
   /* ================= 3. Thành phần ================= */
-  function open(id) { window.open(D.apps[id].url, S.openTarget, "noopener,noreferrer"); }
+  function logVisit(id) {
+    const app = D.apps[id];
+    if (!app) return;
+    let history = [];
+    try { history = JSON.parse(localStorage.getItem(HISTORY_KEY) || "[]"); } catch (e) { history = []; }
+    history = history.filter(h => h.id !== id);
+    history.unshift({ id, name: app.name, url: app.url, time: Date.now() });
+    if (history.length > HISTORY_LIMIT) history.length = HISTORY_LIMIT;
+    try { localStorage.setItem(HISTORY_KEY, JSON.stringify(history)); } catch (e) {}
+  }
+  function open(id) { logVisit(id); window.open(D.apps[id].url, S.openTarget, "noopener,noreferrer"); }
 
   function appItem(id, eager) {
     const app = D.apps[id];
@@ -352,7 +364,31 @@
   });
   $("#searchBtn").onclick = openSpot;
 
-  function closeAll() { fv.classList.remove("open"); spot.classList.remove("open"); q.blur(); }
+  function closeAll() { fv.classList.remove("open"); spot.classList.remove("open"); historyView.classList.remove("open"); q.blur(); }
+
+  const historyView = $("#historyView");
+  const historyList = $(".history-list", historyView);
+  function renderHistory() {
+    let history = [];
+    try { history = JSON.parse(localStorage.getItem(HISTORY_KEY) || "[]"); } catch (e) { history = []; }
+    historyList.replaceChildren(...history.map(entry => {
+      const b = el("button", "history-entry");
+      const tile = el("div", "history-tile"); tile.textContent = entry.name[0].toUpperCase(); tile.style.background = `hsl(${hue(entry.name)} 55% 45%)`;
+      const info = el("div", "history-info");
+      const name = el("div", "history-name"); name.textContent = entry.name;
+      const url = el("div", "history-url"); url.textContent = entry.url;
+      const time = el("div", "history-time"); time.textContent = new Date(entry.time).toLocaleString("vi-VN", { dateStyle: "short", timeStyle: "short" });
+      info.append(name, url, time);
+      b.append(tile, info);
+      b.onclick = () => { closeAll(); window.open(entry.url, S.openTarget, "noopener,noreferrer"); };
+      return b;
+    }));
+    if (!history.length) historyList.append(el("p", "hint", "Chưa có trang web nào được truy cập."));
+  }
+  function openHistory() { closeAll(); renderHistory(); historyView.classList.add("open"); }
+  $("#clearHistory").onclick = e => { e.stopPropagation(); localStorage.removeItem(HISTORY_KEY); renderHistory(); say("Đã xoá lịch sử"); };
+  historyView.addEventListener("click", e => { if (!e.target.closest(".history-list")) closeAll(); });
+  $("#historyBtn").onclick = openHistory;
   $("#homeBar").onclick = () => { closeAll(); go(0); };
   document.addEventListener("keydown", e => {
     if (modePicker.classList.contains("open")) return;

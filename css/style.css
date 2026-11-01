@@ -166,6 +166,22 @@ body{font-family:var(--font);color:var(--ink);background:#000;overflow:hidden;ov
   display:grid;grid-template-columns:repeat(var(--cols),minmax(0,1fr));gap:var(--gap-y) 0;align-content:start;
   scrollbar-width:none}
 .folder-grid::-webkit-scrollbar{display:none}
+.history-view{position:absolute;inset:0;z-index:25;background:rgba(8,8,10,.78);display:none;flex-direction:column;align-items:center;padding:calc(var(--status-h) + var(--safe-top) + 40px) var(--page-pad) 0}
+.history-view.open{display:flex;animation:pop .22s ease-out}
+.history-view h2{font-weight:600;font-size:clamp(20px,3vmin,26px);margin-bottom:18px;text-shadow:0 1px 4px rgba(0,0,0,.5)}
+.history-list{width:100%;max-width:720px;max-height:calc(100dvh - var(--status-h) - var(--dock-top) - 160px);overflow:auto;border-radius:34px;background:var(--glass-strong);border:1px solid rgba(255,255,255,.1);padding:clamp(16px,3vh,28px) clamp(8px,2vw,20px);scrollbar-width:none}
+.history-list::-webkit-scrollbar{display:none}
+.history-entry{display:flex;align-items:center;gap:14px;padding:12px 0;border-bottom:1px solid rgba(255,255,255,.08);cursor:pointer}
+.history-entry:active{opacity:.7}
+.history-entry:last-child{border-bottom:none}
+.history-tile{width:44px;height:44px;border-radius:14px;display:grid;place-items:center;flex-shrink:0}
+.history-tile .letter{font-weight:700;font-size:18px;color:#fff}
+.history-info{flex:1;min-width:0}
+.history-name{font-weight:600;font-size:14px;line-height:1.2;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.history-url{font-size:12px;color:rgba(255,255,255,.65);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.history-time{font-size:11px;color:rgba(255,255,255,.5);white-space:nowrap}
+.clear-history{margin-top:18px;padding:8px 16px;border:1px solid rgba(255,255,255,.18);border-radius:10px;background:rgba(255,255,255,.07);color:#fff;font:inherit;font-size:13px;cursor:pointer}
+.clear-history:hover{background:rgba(255,255,255,.12)}
 @keyframes pop{from{opacity:0;transform:scale(.92)}to{opacity:1;transform:none}}
 
 .home-bar{position:absolute;bottom:max(6px,var(--safe-bottom));left:50%;transform:translateX(-50%);

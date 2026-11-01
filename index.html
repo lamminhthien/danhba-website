@@ -32,6 +32,10 @@
     <button class="mode-change" id="modeChange" type="button" aria-haspopup="dialog" aria-controls="modePicker">
       <span id="modeLabel">Tất cả</span><span>Đổi chế độ</span>
     </button>
+    <button class="mode-change" id="historyBtn" type="button" aria-haspopup="dialog" aria-controls="historyView">
+      <span class="mode-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5zm14 2v14H5V7h12m0 0h-2 2z"/></svg></span>
+      <span>Lịch sử</span>
+    </button>
 
     <section class="mode-picker open" id="modePicker" role="dialog" aria-modal="true" aria-labelledby="modeTitle">
       <div class="mode-picker-content">
@@ -81,6 +85,7 @@
     <nav class="dock" id="dock"></nav>
 
     <div class="folder-view" id="folderView"><h2></h2><div class="folder-grid"></div></div>
+    <div class="history-view" id="historyView"><h2>Lịch sử truy cập</h2><div class="history-list"></div><button class="clear-history" id="clearHistory">Xoá toàn bộ</button></div>
     <div class="spot" id="spot">
       <input id="q" type="search" placeholder="Tìm ứng dụng hoặc game…" autocomplete="off">
       <div class="results" id="results"></div>
