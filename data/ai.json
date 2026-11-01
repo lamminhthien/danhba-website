@@ -484,5 +484,11 @@
     "description": "Một API giúp truy cập và so sánh nhiều mô hình AI khác nhau.",
     "url": "https://openrouter.ai",
     "mode": "ai"
+  },
+  "iteracompute": {
+    "name": "IteraCompute",
+    "description": "Nền tảng AI IteraCompute.",
+    "url": "https://iteracompute.com",
+    "mode": "ai"
   }
 }
