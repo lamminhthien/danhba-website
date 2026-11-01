@@ -490,5 +490,23 @@
     "description": "Nền tảng AI IteraCompute.",
     "url": "https://iteracompute.com",
     "mode": "ai"
+  },
+  "kilocode": {
+    "name": "Kilo Code",
+    "description": "Trợ lý lập trình AI mở rộng cho VS Code và CLI.",
+    "url": "https://kilocode.ai",
+    "mode": "ai"
+  },
+  "orcarouter": {
+    "name": "OrcaRouter",
+    "description": "Bộ định tuyến AI và công cụ hỗ trợ lập trình Orca.",
+    "url": "https://www.orcarouter.com",
+    "mode": "ai"
+  },
+  "nvidianim": {
+    "name": "NVIDIA NIM",
+    "description": "API mô hình AI miễn phí từ NVIDIA NIM.",
+    "url": "https://build.nvidia.com",
+    "mode": "ai"
   }
 }

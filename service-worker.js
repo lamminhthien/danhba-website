@@ -1,4 +1,4 @@
-const CACHE_NAME = 'web-directory-shell-v10';
+const CACHE_NAME = 'web-directory-shell-v12';
 const SHELL_FILES = [
   './',
   './index.html',
